@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8ebe576787fa311041c11f483cbb3598" label="Domain Accounting" max_length="40" name="x_snc_domain_man_0_domain_accounting" type="collection">
+        <element label="Table" max_length="32" name="table" reference="sys_db_object" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Table Name" max_length="40" name="table_name" type="string"/>
+        <index name="index">
+            <element name="table"/>
+        </index>
+    </element>
+</database>
