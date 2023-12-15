@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="ignore_baseline=true" db_object_id="a664cb2c87c7791041c11f483cbb35c9" extends="cmdb_qb_result_base" label="Insight - Non-cloud VM Instances-Query Results" max_length="40" name="x_snc_domain_man_0_u_cmdb_qb_result_183f91845af03ed63b454ef0db1aa983ba1c7f74" type="collection"/>
-</database>

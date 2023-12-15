@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_baseline=true" db_object_id="3545d3b28743f510a3a80f68cebb35b5" extends="cmdb_qb_result_base" label="Insight - Cloud Service Accounts-Query Results" max_length="40" name="x_snc_domain_man_0_u_cmdb_qb_result_b48191d91c1290a139becd6e25116a1c17f62859" type="collection"/>
+</database>

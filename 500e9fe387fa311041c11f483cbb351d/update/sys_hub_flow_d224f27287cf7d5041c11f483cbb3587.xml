@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=9175000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sched_domain_record_audit</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>c1e43a3687cf7d5041c11f483cbb3503</master_snapshot>
+        <name>SCHED- Domain Record Audit</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>55e43a3687cf7d5041c11f483cbb3546</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:35:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d224f27287cf7d5041c11f483cbb3587</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>SCHED- Domain Record Audit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_hub_flow_d224f27287cf7d5041c11f483cbb3587</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:08:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2023-12-15 13:38:31</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55e43a3687cf7d5041c11f483cbb3546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:38:31</sys_updated_on>
+        <time>1970-01-01 09:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:55e43a3687cf7d5041c11f483cbb3546^sys_idNOT IN1de43a3687cf7d5041c11f483cbb3546"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <can_iterate>false</can_iterate>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:55e43a3687cf7d5041c11f483cbb3546</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2023-12-15 13:38:32</run_start>
+        <run_time>1970-01-01 09:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('55e43a3687cf7d5041c11f483cbb3546');]]></script>
+        <source_filter/>
+        <source_table/>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:32</sys_created_on>
+        <sys_id>1de43a3687cf7d5041c11f483cbb3546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:38:32</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">55e43a3687cf7d5041c11f483cbb3546</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d224f27287cf7d5041c11f483cbb3587^sys_idNOT IN36d4763687cf7d5041c11f483cbb3590"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="SCHED- Domain Record Audit">d224f27287cf7d5041c11f483cbb3587</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:21</sys_created_on>
+        <sys_id>36d4763687cf7d5041c11f483cbb3590</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:08:17</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36d4763687cf7d5041c11f483cbb3590"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>36d4763687cf7d5041c11f483cbb3590</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:21</sys_created_on>
+        <sys_id>bed4763687cf7d5041c11f483cbb3591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:38:21</sys_updated_on>
+        <value>1970-01-01 01:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=36d4763687cf7d5041c11f483cbb3590"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d224f27287cf7d5041c11f483cbb3587^sys_idNOT IN2224f27287cf7d5041c11f483cbb3588"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d224f27287cf7d5041c11f483cbb3587</id>
+        <name>SCHED- Domain Record Audit</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:35:19</sys_created_on>
+        <sys_id>2224f27287cf7d5041c11f483cbb3588</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:35:19</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2224f27287cf7d5041c11f483cbb3588"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d224f27287cf7d5041c11f483cbb3587^sys_idNOT IN36d4763687cf7d5041c11f483cbb35e6,b15c87f687c7bd5041c11f483cbb3502,f15c47f687c7bd5041c11f483cbb35f2"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Batch1</comment>
+        <display_text/>
+        <flow display_value="SCHED- Domain Record Audit">d224f27287cf7d5041c11f483cbb3587</flow>
+        <inputs/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="PROC-Map Domains to Tables">cdd232fe878f7d5041c11f483cbb3526</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:22</sys_created_on>
+        <sys_id>36d4763687cf7d5041c11f483cbb35e6</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:08:17</sys_updated_on>
+        <ui_id>8955dc29-8ea4-488c-91d6-878acbe7a02d</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36d4763687cf7d5041c11f483cbb35e6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>36d4763687cf7d5041c11f483cbb35e6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:22</sys_created_on>
+        <sys_id>43d4763687cf7d5041c11f483cbb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:38:22</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">fed4763687cf7d5041c11f483cbb35e6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>36d4763687cf7d5041c11f483cbb35e6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:19:21</sys_created_on>
+        <sys_id>8afb43b687c7bd5041c11f483cbb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:19:21</sys_updated_on>
+        <value>batch1</value>
+        <variable display_value="Batch">56db0b3687c7bd5041c11f483cbb35fb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cdd232fe878f7d5041c11f483cbb3526^id=36d4763687cf7d5041c11f483cbb35e6"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_36d4763687cf7d5041c11f483cbb35e6^id=36d4763687cf7d5041c11f483cbb35e6"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=36d4763687cf7d5041c11f483cbb35e6^sys_idNOT INfed4763687cf7d5041c11f483cbb35e6"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">36d4763687cf7d5041c11f483cbb35e6</model>
+        <model_id>36d4763687cf7d5041c11f483cbb35e6</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_36d4763687cf7d5041c11f483cbb35e6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:22</sys_created_on>
+        <sys_id>fed4763687cf7d5041c11f483cbb35e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:38:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=36d4763687cf7d5041c11f483cbb35e6"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Batch3</comment>
+        <display_text/>
+        <flow display_value="SCHED- Domain Record Audit">d224f27287cf7d5041c11f483cbb3587</flow>
+        <inputs/>
+        <order>3</order>
+        <parent_ui_id/>
+        <subflow display_value="PROC-Map Domains to Tables">cdd232fe878f7d5041c11f483cbb3526</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:20:58</sys_created_on>
+        <sys_id>b15c87f687c7bd5041c11f483cbb3502</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:08:17</sys_updated_on>
+        <ui_id>90182778-adee-4c82-8217-61970824b91d</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b15c87f687c7bd5041c11f483cbb3502"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>b15c87f687c7bd5041c11f483cbb3502</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:20:58</sys_created_on>
+        <sys_id>4a5c87f687c7bd5041c11f483cbb3528</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:20:58</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">7d5c87f687c7bd5041c11f483cbb3502</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>b15c87f687c7bd5041c11f483cbb3502</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:20:58</sys_created_on>
+        <sys_id>8e5c87f687c7bd5041c11f483cbb3527</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:20:58</sys_updated_on>
+        <value>Batch3</value>
+        <variable display_value="Batch">56db0b3687c7bd5041c11f483cbb35fb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cdd232fe878f7d5041c11f483cbb3526^id=b15c87f687c7bd5041c11f483cbb3502"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_b15c87f687c7bd5041c11f483cbb3502^id=b15c87f687c7bd5041c11f483cbb3502"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=b15c87f687c7bd5041c11f483cbb3502^sys_idNOT IN7d5c87f687c7bd5041c11f483cbb3502"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">b15c87f687c7bd5041c11f483cbb3502</model>
+        <model_id>b15c87f687c7bd5041c11f483cbb3502</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_b15c87f687c7bd5041c11f483cbb3502</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:20:58</sys_created_on>
+        <sys_id>7d5c87f687c7bd5041c11f483cbb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:20:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b15c87f687c7bd5041c11f483cbb3502"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Batch2</comment>
+        <display_text/>
+        <flow display_value="SCHED- Domain Record Audit">d224f27287cf7d5041c11f483cbb3587</flow>
+        <inputs/>
+        <order>2</order>
+        <parent_ui_id/>
+        <subflow display_value="PROC-Map Domains to Tables">cdd232fe878f7d5041c11f483cbb3526</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:20:58</sys_created_on>
+        <sys_id>f15c47f687c7bd5041c11f483cbb35f2</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:08:17</sys_updated_on>
+        <ui_id>8605463d-2560-4303-a7aa-c9aac7e61078</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f15c47f687c7bd5041c11f483cbb35f2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>f15c47f687c7bd5041c11f483cbb35f2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:20:58</sys_created_on>
+        <sys_id>7d5c87f687c7bd5041c11f483cbb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:20:58</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">f15c47f687c7bd5041c11f483cbb35f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>f15c47f687c7bd5041c11f483cbb35f2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:20:58</sys_created_on>
+        <sys_id>b95c87f687c7bd5041c11f483cbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:20:58</sys_updated_on>
+        <value>batch2</value>
+        <variable display_value="Batch">56db0b3687c7bd5041c11f483cbb35fb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cdd232fe878f7d5041c11f483cbb3526^id=f15c47f687c7bd5041c11f483cbb35f2"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_f15c47f687c7bd5041c11f483cbb35f2^id=f15c47f687c7bd5041c11f483cbb35f2"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=f15c47f687c7bd5041c11f483cbb35f2^sys_idNOT INf15c47f687c7bd5041c11f483cbb35f3"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">f15c47f687c7bd5041c11f483cbb35f2</model>
+        <model_id>f15c47f687c7bd5041c11f483cbb35f2</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_f15c47f687c7bd5041c11f483cbb35f2</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:20:58</sys_created_on>
+        <sys_id>f15c47f687c7bd5041c11f483cbb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:20:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f15c47f687c7bd5041c11f483cbb35f2"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d224f27287cf7d5041c11f483cbb3587"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sched_domain_record_audit</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>SCHED- Domain Record Audit</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="SCHED- Domain Record Audit">d224f27287cf7d5041c11f483cbb3587</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c1e43a3687cf7d5041c11f483cbb3503</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:08:16</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c1e43a3687cf7d5041c11f483cbb3503^sys_idNOT IN55e43a3687cf7d5041c11f483cbb3507"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="SCHED- Domain Record Audit">c1e43a3687cf7d5041c11f483cbb3503</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:31</sys_created_on>
+        <sys_id>55e43a3687cf7d5041c11f483cbb3507</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:08:17</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=55e43a3687cf7d5041c11f483cbb3507"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>55e43a3687cf7d5041c11f483cbb3507</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:31</sys_created_on>
+        <sys_id>51e43a3687cf7d5041c11f483cbb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:38:31</sys_updated_on>
+        <value>1970-01-01 01:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=55e43a3687cf7d5041c11f483cbb3507"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c1e43a3687cf7d5041c11f483cbb3503^sys_idNOT IN41e43a3687cf7d5041c11f483cbb3504"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c1e43a3687cf7d5041c11f483cbb3503</id>
+        <name>SCHED- Domain Record Audit</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:31</sys_created_on>
+        <sys_id>41e43a3687cf7d5041c11f483cbb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:38:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=41e43a3687cf7d5041c11f483cbb3504"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c1e43a3687cf7d5041c11f483cbb3503^sys_idNOT IN198c8ff687c7bd5041c11f483cbb357e,1d8c8ff687c7bd5041c11f483cbb359a,55e43a3687cf7d5041c11f483cbb3525"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Batch2</comment>
+        <display_text/>
+        <flow display_value="SCHED- Domain Record Audit">c1e43a3687cf7d5041c11f483cbb3503</flow>
+        <inputs/>
+        <order>2</order>
+        <parent_ui_id/>
+        <subflow display_value="PROC-Map Domains to Tables">cdd232fe878f7d5041c11f483cbb3526</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:21:44</sys_created_on>
+        <sys_id>198c8ff687c7bd5041c11f483cbb357e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:08:16</sys_updated_on>
+        <ui_id>8605463d-2560-4303-a7aa-c9aac7e61078</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=198c8ff687c7bd5041c11f483cbb357e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>198c8ff687c7bd5041c11f483cbb357e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:21:44</sys_created_on>
+        <sys_id>118c8ff687c7bd5041c11f483cbb358e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:21:44</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">198c8ff687c7bd5041c11f483cbb357f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>198c8ff687c7bd5041c11f483cbb357e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:21:44</sys_created_on>
+        <sys_id>5d8c8ff687c7bd5041c11f483cbb358c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:21:44</sys_updated_on>
+        <value>batch2</value>
+        <variable display_value="Batch">56db0b3687c7bd5041c11f483cbb35fb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cdd232fe878f7d5041c11f483cbb3526^id=198c8ff687c7bd5041c11f483cbb357e"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_198c8ff687c7bd5041c11f483cbb357e^id=198c8ff687c7bd5041c11f483cbb357e"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=198c8ff687c7bd5041c11f483cbb357e^sys_idNOT IN198c8ff687c7bd5041c11f483cbb357f"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">198c8ff687c7bd5041c11f483cbb357e</model>
+        <model_id>198c8ff687c7bd5041c11f483cbb357e</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_198c8ff687c7bd5041c11f483cbb357e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:21:44</sys_created_on>
+        <sys_id>198c8ff687c7bd5041c11f483cbb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:21:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=198c8ff687c7bd5041c11f483cbb357e"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Batch3</comment>
+        <display_text/>
+        <flow display_value="SCHED- Domain Record Audit">c1e43a3687cf7d5041c11f483cbb3503</flow>
+        <inputs/>
+        <order>3</order>
+        <parent_ui_id/>
+        <subflow display_value="PROC-Map Domains to Tables">cdd232fe878f7d5041c11f483cbb3526</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:21:44</sys_created_on>
+        <sys_id>1d8c8ff687c7bd5041c11f483cbb359a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:08:16</sys_updated_on>
+        <ui_id>90182778-adee-4c82-8217-61970824b91d</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1d8c8ff687c7bd5041c11f483cbb359a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>1d8c8ff687c7bd5041c11f483cbb359a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:21:45</sys_created_on>
+        <sys_id>558c8ff687c7bd5041c11f483cbb35a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:21:45</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">d58c8ff687c7bd5041c11f483cbb359b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>1d8c8ff687c7bd5041c11f483cbb359a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:21:45</sys_created_on>
+        <sys_id>998c8ff687c7bd5041c11f483cbb35a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:21:45</sys_updated_on>
+        <value>Batch3</value>
+        <variable display_value="Batch">56db0b3687c7bd5041c11f483cbb35fb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cdd232fe878f7d5041c11f483cbb3526^id=1d8c8ff687c7bd5041c11f483cbb359a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_1d8c8ff687c7bd5041c11f483cbb359a^id=1d8c8ff687c7bd5041c11f483cbb359a"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=1d8c8ff687c7bd5041c11f483cbb359a^sys_idNOT INd58c8ff687c7bd5041c11f483cbb359b"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">1d8c8ff687c7bd5041c11f483cbb359a</model>
+        <model_id>1d8c8ff687c7bd5041c11f483cbb359a</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_1d8c8ff687c7bd5041c11f483cbb359a</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:21:44</sys_created_on>
+        <sys_id>d58c8ff687c7bd5041c11f483cbb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:21:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1d8c8ff687c7bd5041c11f483cbb359a"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Batch1</comment>
+        <display_text/>
+        <flow display_value="SCHED- Domain Record Audit">c1e43a3687cf7d5041c11f483cbb3503</flow>
+        <inputs/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="PROC-Map Domains to Tables">cdd232fe878f7d5041c11f483cbb3526</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:31</sys_created_on>
+        <sys_id>55e43a3687cf7d5041c11f483cbb3525</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:08:16</sys_updated_on>
+        <ui_id>8955dc29-8ea4-488c-91d6-878acbe7a02d</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=55e43a3687cf7d5041c11f483cbb3525"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>55e43a3687cf7d5041c11f483cbb3525</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:31</sys_created_on>
+        <sys_id>91e43a3687cf7d5041c11f483cbb3531</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:38:31</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">11e43a3687cf7d5041c11f483cbb3526</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>55e43a3687cf7d5041c11f483cbb3525</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 15:19:30</sys_created_on>
+        <sys_id>ac0ccbb687c7bd5041c11f483cbb3548</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 15:19:30</sys_updated_on>
+        <value>batch1</value>
+        <variable display_value="Batch">56db0b3687c7bd5041c11f483cbb35fb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_cdd232fe878f7d5041c11f483cbb3526^id=55e43a3687cf7d5041c11f483cbb3525"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_55e43a3687cf7d5041c11f483cbb3525^id=55e43a3687cf7d5041c11f483cbb3525"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=55e43a3687cf7d5041c11f483cbb3525^sys_idNOT IN11e43a3687cf7d5041c11f483cbb3526"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">55e43a3687cf7d5041c11f483cbb3525</model>
+        <model_id>55e43a3687cf7d5041c11f483cbb3525</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_55e43a3687cf7d5041c11f483cbb3525</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:31</sys_created_on>
+        <sys_id>11e43a3687cf7d5041c11f483cbb3526</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:38:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=55e43a3687cf7d5041c11f483cbb3525"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c1e43a3687cf7d5041c11f483cbb3503"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>d224f27287cf7d5041c11f483cbb3587</sys_id>
+        <latest_snapshot>c1e43a3687cf7d5041c11f483cbb3503</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d224f27287cf7d5041c11f483cbb3587^sys_idNOT IN99e43a3687cf7d5041c11f483cbb3548"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>d224f27287cf7d5041c11f483cbb3587</plan_id>
+        <snapshot>c1e43a3687cf7d5041c11f483cbb3503</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 13:38:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>99e43a3687cf7d5041c11f483cbb3548</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 13:38:32</sys_updated_on>
+        <trigger display_value="">55e43a3687cf7d5041c11f483cbb3546</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d224f27287cf7d5041c11f483cbb3587"/>
+</record_update>

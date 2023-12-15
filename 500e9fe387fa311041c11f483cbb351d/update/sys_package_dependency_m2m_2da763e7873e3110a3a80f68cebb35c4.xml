@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Configuration Management (CMDB)" source="com.snc.cmdb">938c1adb4703011071459f78536d43a0</dependency>
+        <min_version>1.1</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-05 15:00:02</sys_created_on>
+        <sys_id>2da763e7873e3110a3a80f68cebb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-05 15:00:02</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

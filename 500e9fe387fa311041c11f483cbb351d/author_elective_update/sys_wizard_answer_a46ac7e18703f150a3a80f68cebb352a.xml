@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Insight - Non-cloud Storage Volume-Query Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Insight - Non-cloud Storage Volume-Query Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">be5dd6174743011071459f78536d4358</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 18:00:00</sys_created_on>
+        <sys_id>a46ac7e18703f150a3a80f68cebb352a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight - Non-cloud Storage Volume-Query Results</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_wizard_answer_a46ac7e18703f150a3a80f68cebb352a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 18:00:00</sys_updated_on>
+        <table/>
+        <target_url>x_snc_domain_man_0_u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>tblevinse2eitomdsdemo</instance_name>
+        <name>sys_wizard_answer_a46ac7e18703f150a3a80f68cebb352a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Insight - Non-cloud Storage Volume-Query Results</answer><button_label/><dependent_value/><element/><name>Insight - Non-cloud Storage Volume-Query Results</name><next_question/><order>100</order><payload_name/><question display_value="Query Builder Results" name="Query Builder Results">be5dd6174743011071459f78536d4358</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 18:00:00</sys_created_on><sys_id>a46ac7e18703f150a3a80f68cebb352a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Insight - Non-cloud Storage Volume-Query Results</sys_name><sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package><sys_policy/><sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope><sys_update_name>sys_wizard_answer_a46ac7e18703f150a3a80f68cebb352a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 18:00:00</sys_updated_on><table/><target_url>x_snc_domain_man_0_u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1981950644</payload_hash>
+        <record_name>Insight - Non-cloud Storage Volume-Query Results</record_name>
+        <reverted_from/>
+        <source>b51e366c8787791041c11f483cbb35c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 18:00:01</sys_created_on>
+        <sys_id>246ac7e18703f150a3a80f68cebb352d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5a0931040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 18:00:01</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>e46ac7e12003f150798cfbe09c59882c</update_guid>
+        <update_guid_history>e46ac7e12003f150798cfbe09c59882c:-1981950644</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 11:53:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>187640a71cbc4611a0bed74713ab12f1</sys_id>
+        <sys_metadata>a46ac7e18703f150a3a80f68cebb352a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight - Non-cloud Storage Volume-Query Results</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent display_value="Query Builder Results">be5dd6174743011071459f78536d4358</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_a46ac7e18703f150a3a80f68cebb352a</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_a46ac7e18703f150a3a80f68cebb352a">246ac7e18703f150a3a80f68cebb352d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 11:53:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

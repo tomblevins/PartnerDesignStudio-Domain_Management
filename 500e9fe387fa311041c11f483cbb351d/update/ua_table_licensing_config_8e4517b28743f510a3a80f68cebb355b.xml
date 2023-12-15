@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_snc_domain_man_0_u_cmdb_qb_result_b48191d91c1290a139becd6e25116a1c17f62859</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 16:00:01</sys_created_on>
+        <sys_id>8e4517b28743f510a3a80f68cebb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_domain_man_0_u_cmdb_qb_result_b48191d91c1290a139becd6e25116a1c17f62859</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>ua_table_licensing_config_8e4517b28743f510a3a80f68cebb355b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:00:01</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

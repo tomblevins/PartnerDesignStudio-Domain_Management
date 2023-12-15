@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8ebe576787fa311041c11f483cbb3598" label="Domain Accounting" max_length="40" name="x_snc_domain_man_0_domain_accounting" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="batch1" label="Batch" max_length="40" name="batch" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Batch1" sequence="0" value="batch1"/>
+                <element inactive_on_update="false" label="Batch2" sequence="1" value="batch2"/>
+                <element inactive_on_update="false" label="Batch3" sequence="2" value="batch3"/>
+                <element inactive_on_update="false" label="Batch4" sequence="3" value="batch4"/>
+                <element inactive_on_update="false" label="Batch5" sequence="4" value="batch5"/>
+            </choice>
+        </element>
         <element label="Table" max_length="32" name="table" reference="sys_db_object" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Table Name" max_length="40" name="table_name" type="string"/>
         <index name="index">
