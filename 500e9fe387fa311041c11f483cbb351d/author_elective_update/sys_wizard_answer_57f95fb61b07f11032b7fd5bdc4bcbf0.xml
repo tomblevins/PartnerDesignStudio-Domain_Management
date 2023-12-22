@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Insight - Cloud Service Accounts-Query Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Insight - Cloud Service Accounts-Query Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">4a70eb24db420010edbfe88913961985</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-12-15 16:20:35</sys_created_on>
+        <sys_id>57f95fb61b07f11032b7fd5bdc4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight - Cloud Service Accounts-Query Results</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_wizard_answer_57f95fb61b07f11032b7fd5bdc4bcbf0</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:20:35</sys_updated_on>
+        <table/>
+        <target_url>x_snc_domain_man_0_u_cmdb_qb_result_b48191d91c1290a139becd6e25116a1c17f62859.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>0889ce20db06311038f11729139619ad</instance_id>
+        <instance_name>rsmexttesttemp2</instance_name>
+        <name>sys_wizard_answer_57f95fb61b07f11032b7fd5bdc4bcbf0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Insight - Cloud Service Accounts-Query Results</answer><button_label/><dependent_value/><element/><name>Insight - Cloud Service Accounts-Query Results</name><next_question/><order>100</order><payload_name/><question display_value="Query Builder Results" name="Query Builder Results">4a70eb24db420010edbfe88913961985</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>tom.blevins</sys_created_by><sys_created_on>2023-12-15 16:20:35</sys_created_on><sys_id>57f95fb61b07f11032b7fd5bdc4bcbf0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Insight - Cloud Service Accounts-Query Results</sys_name><sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package><sys_policy/><sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope><sys_update_name>sys_wizard_answer_57f95fb61b07f11032b7fd5bdc4bcbf0</sys_update_name><sys_updated_by>tom.blevins</sys_updated_by><sys_updated_on>2023-12-15 16:20:35</sys_updated_on><table/><target_url>x_snc_domain_man_0_u_cmdb_qb_result_b48191d91c1290a139becd6e25116a1c17f62859.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-133986324</payload_hash>
+        <record_name>Insight - Cloud Service Accounts-Query Results</record_name>
+        <reverted_from/>
+        <source>613fa2401b213110e0cd724edc4bcbf7</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-09-23 10:36:13</sys_created_on>
+        <sys_id>de5cd7fa1b07f11032b7fd5bdc4bcb7f</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18ac19c7d480000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>9e5cd7fa2007f1102612bd1b095be47f</update_guid>
+        <update_guid_history>9e5cd7fa2007f1102612bd1b095be47f:-133986324</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2023-12-15 16:30:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>68c9339a723741d58bcbb84f9487cd91</sys_id>
+        <sys_metadata>57f95fb61b07f11032b7fd5bdc4bcbf0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight - Cloud Service Accounts-Query Results</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent display_value="Query Builder Results">4a70eb24db420010edbfe88913961985</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_57f95fb61b07f11032b7fd5bdc4bcbf0</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_57f95fb61b07f11032b7fd5bdc4bcbf0">de5cd7fa1b07f11032b7fd5bdc4bcb7f</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2023-12-15 16:30:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
