@@ -9,6 +9,7 @@
                 <element inactive_on_update="false" label="Batch5" sequence="4" value="batch5"/>
             </choice>
         </element>
+        <element label="Delete Flag" max_length="40" name="delete_flag" type="boolean"/>
         <element label="Table" max_length="32" name="table" reference="sys_db_object" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Table Name" max_length="40" name="table_name" type="string"/>
         <index name="index">
