@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-19 15:00:31</sys_created_on>
+        <sys_id>4bff77d787adc690a3a80f68cebb35ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_ex_sp_get_support</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_scope_privilege_4bff77d787adc690a3a80f68cebb35ed</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-19 15:00:31</sys_updated_on>
+        <target_name>sn_ex_sp_get_support</target_name>
+        <target_scope display_value="Employee Center">4249e63a28d54d61bb6fbf61fd86cccb</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>
