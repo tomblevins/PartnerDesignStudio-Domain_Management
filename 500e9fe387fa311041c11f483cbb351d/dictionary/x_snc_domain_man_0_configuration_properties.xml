@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="c05e2b6f877e311041c11f483cbb3569" label="Configuration Properties" max_length="40" name="x_snc_domain_man_0_configuration_properties" type="collection">
+    <element db_object_id="c05e2b6f877e311041c11f483cbb3569" label="Configuration Properties" max_length="40" name="x_snc_domain_man_0_configuration_properties" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="description" max_length="40" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="value" max_length="40" name="value" type="string"/>

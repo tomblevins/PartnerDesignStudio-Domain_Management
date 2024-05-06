@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="8ebe576787fa311041c11f483cbb3598" label="Domain Accounting" max_length="40" name="x_snc_domain_man_0_domain_accounting" type="collection">
+    <element db_object_id="8ebe576787fa311041c11f483cbb3598" label="Table Domain Accounting" max_length="40" name="x_snc_domain_man_0_domain_accounting" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" default="batch1" label="Batch" max_length="40" name="batch" type="string">
             <choice>
                 <element inactive_on_update="false" label="Batch1" sequence="0" value="batch1"/>

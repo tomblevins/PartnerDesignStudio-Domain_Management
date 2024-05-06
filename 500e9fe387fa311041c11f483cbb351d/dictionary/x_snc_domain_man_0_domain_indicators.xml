@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="1cb2f313872dc690a3a80f68cebb3502" label="Domain Indicators" max_length="40" name="x_snc_domain_man_0_domain_indicators" type="collection">
+    <element db_object_id="1cb2f313872dc690a3a80f68cebb3502" label="Domain Indicators" max_length="40" name="x_snc_domain_man_0_domain_indicators" text_index="true" type="collection">
         <element label="Delete Flag" max_length="40" name="delete_flag" type="boolean"/>
         <element label="Domain" max_length="32" name="domain" reference="domain" type="reference"/>
         <element label="Domain String" max_length="500" name="domain_string" type="string"/>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Domain Management</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>clone.user</sys_created_by>
+        <sys_created_on>2024-04-16 18:17:23</sys_created_on>
+        <sys_id>d5401d22eb610a9031c8f17fcad0cd87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Management</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_app_config_d5401d22eb610a9031c8f17fcad0cd87</sys_update_name>
+        <sys_updated_by>clone.user</sys_updated_by>
+        <sys_updated_on>2024-04-16 18:17:23</sys_updated_on>
+    </sys_ux_app_config>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>tblevinse2eitomdsdemo</instance_name>
+        <name>sys_ux_app_config_d5401d22eb610a9031c8f17fcad0cd87</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Domain Management</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>clone.user</sys_created_by>
+        <sys_created_on>2024-04-16 18:17:23</sys_created_on>
+        <sys_id>d5401d22eb610a9031c8f17fcad0cd87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Management</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_app_config_d5401d22eb610a9031c8f17fcad0cd87</sys_update_name>
+        <sys_updated_by>clone.user</sys_updated_by>
+        <sys_updated_on>2024-04-16 18:17:23</sys_updated_on>
+    </sys_ux_app_config>
+</record_update>]]></payload>
+        <payload_hash>-1906382226</payload_hash>
+        <record_name>Domain Management</record_name>
+        <reverted_from/>
+        <source>58e073d787e9c690a3a80f68cebb3538</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 13:57:13</sys_created_on>
+        <sys_id>3771bbdb87e9c690a3a80f68cebb35f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef6a5a1fe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 13:57:13</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>ff71bbdbdbe9c690256e7504e83a13f6</update_guid>
+        <update_guid_history>ff71bbdbdbe9c690256e7504e83a13f6:0,bffd6f9b2ba9c6907122708be1d8506f:-1987177688,bd262f175e69c6908bbe321fcac80ecc:-1906382226</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clone.user</sys_created_by>
+        <sys_created_on>2024-05-03 10:31:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>c339792da31b4d109d787c88be2d7781</sys_id>
+        <sys_metadata>d5401d22eb610a9031c8f17fcad0cd87</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Management</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_d5401d22eb610a9031c8f17fcad0cd87</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_d5401d22eb610a9031c8f17fcad0cd87">3771bbdb87e9c690a3a80f68cebb35f7</sys_update_version>
+        <sys_updated_by>clone.user</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:31:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
