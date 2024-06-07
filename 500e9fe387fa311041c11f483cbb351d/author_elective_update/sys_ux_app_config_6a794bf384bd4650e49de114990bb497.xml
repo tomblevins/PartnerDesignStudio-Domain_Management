@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Domain Data Management App Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 10:35:03</sys_created_on>
+        <sys_id>6a794bf384bd4650e49de114990bb497</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Data Management App Config</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_app_config_6a794bf384bd4650e49de114990bb497</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:35:03</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="DELETE" query="documentkey=6a794bf384bd4650e49de114990bb497"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>tblevinse2eitomdsdemo</instance_name>
+        <name>sys_ux_app_config_6a794bf384bd4650e49de114990bb497</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Domain Data Management App Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 10:35:03</sys_created_on>
+        <sys_id>6a794bf384bd4650e49de114990bb497</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Data Management App Config</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_app_config_6a794bf384bd4650e49de114990bb497</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:35:03</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a794bf384bd4650e49de114990bb497"/>
+</record_update>]]></payload>
+        <payload_hash>827501192</payload_hash>
+        <record_name>Domain Data Management App Config</record_name>
+        <reverted_from/>
+        <source>98c56d9087ea4a5041c11f483cbb359d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 13:09:58</sys_created_on>
+        <sys_id>6d466d9487ea4a5041c11f483cbb35bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fc478c0300000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 13:09:58</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>2d466d94f5ea4a5009766baccd7e41bc</update_guid>
+        <update_guid_history>2d466d94f5ea4a5009766baccd7e41bc:827501192</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 12:06:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>2f3f42d308404b3e96c4f560cdfddac4</sys_id>
+        <sys_metadata>6a794bf384bd4650e49de114990bb497</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Data Management App Config</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_6a794bf384bd4650e49de114990bb497</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_6a794bf384bd4650e49de114990bb497">6d466d9487ea4a5041c11f483cbb35bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 12:06:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

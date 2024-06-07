@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>sys_id of your Archive Domain</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_domain_man_0.archiveDomain</name>
+        <read_roles/>
+        <suffix>archiveDomain</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 12:22:36</sys_created_on>
+        <sys_id>4de7aeba876a829041c11f483cbb35de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_domain_man_0.archiveDomain</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_properties_4de7aeba876a829041c11f483cbb35de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 12:22:36</sys_updated_on>
+        <type>string</type>
+        <value>96bf5672876a829041c11f483cbb3555</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=4de7aeba876a829041c11f483cbb35de"/>
+</record_update>

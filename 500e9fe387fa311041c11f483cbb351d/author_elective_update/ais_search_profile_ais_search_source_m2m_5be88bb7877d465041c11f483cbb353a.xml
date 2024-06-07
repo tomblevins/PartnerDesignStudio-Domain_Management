@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="DELETE">
+        <profile display_value="domain-management Search Profile">89e8cb772b7d4650fc010274bed2d31b</profile>
+        <search_source display_value="Configuration Properties">d3e88bb7877d465041c11f483cbb3538</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 10:32:38</sys_created_on>
+        <sys_id>5be88bb7877d465041c11f483cbb353a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>domain-management Search Profile.Configuration Properties</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_5be88bb7877d465041c11f483cbb353a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:32:38</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>tblevinse2eitomdsdemo</instance_name>
+        <name>ais_search_profile_ais_search_source_m2m_5be88bb7877d465041c11f483cbb353a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="domain-management Search Profile">89e8cb772b7d4650fc010274bed2d31b</profile>
+        <search_source display_value="Configuration Properties">d3e88bb7877d465041c11f483cbb3538</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 10:32:38</sys_created_on>
+        <sys_id>5be88bb7877d465041c11f483cbb353a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>domain-management Search Profile.Configuration Properties</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_5be88bb7877d465041c11f483cbb353a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:32:38</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>]]></payload>
+        <payload_hash>-1571118859</payload_hash>
+        <record_name>domain-management Search Profile.Configuration Properties</record_name>
+        <reverted_from/>
+        <source>98c56d9087ea4a5041c11f483cbb359d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 13:07:57</sys_created_on>
+        <sys_id>7bc5a1d087ea4a5041c11f483cbb3544</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fc476e3eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 13:07:57</sys_updated_on>
+        <type>AI Search Search Profile Search Source M</type>
+        <update_guid>3bc5a1d0b5ea4a509b83679283960944</update_guid>
+        <update_guid_history>3bc5a1d0b5ea4a509b83679283960944:-1571118859</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="domain-management Search Profile.Configuration Properties">16e766cf87624210a3a80f68cebb3591</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 07:00:02</sys_created_on>
+        <sys_db_object display_value="" name="ais_search_profile_ais_search_source_m2m">ais_search_profile_ais_search_source_m2m</sys_db_object>
+        <sys_id>a839ef6e8cd64a40b2fc14af7d07e110</sys_id>
+        <sys_metadata>5be88bb7877d465041c11f483cbb353a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>domain-management Search Profile.Configuration Properties</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_5be88bb7877d465041c11f483cbb353a</sys_update_name>
+        <sys_update_version display_value="ais_search_profile_ais_search_source_m2m_5be88bb7877d465041c11f483cbb353a">7bc5a1d087ea4a5041c11f483cbb3544</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 07:00:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

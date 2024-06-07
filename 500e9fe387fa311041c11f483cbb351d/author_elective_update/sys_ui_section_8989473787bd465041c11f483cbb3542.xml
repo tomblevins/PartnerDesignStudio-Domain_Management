@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="8989473787bd465041c11f483cbb3542" sys_domain="global" table="x_snc_domain_man_0_domain_indicators" version="3" view="workspace-domain-data-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>domain</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_id>4589473787bd465041c11f483cbb3544</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="6a794bf36cbd465008564d5979b8c774">8989473787bd465041c11f483cbb3542</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>domain_string</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_id>0189473787bd465041c11f483cbb3545</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="6a794bf36cbd465008564d5979b8c774">8989473787bd465041c11f483cbb3542</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>delete_flag</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_id>8589473787bd465041c11f483cbb3545</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="6a794bf36cbd465008564d5979b8c774">8989473787bd465041c11f483cbb3542</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>record_count</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_id>0d89473787bd465041c11f483cbb3545</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="6a794bf36cbd465008564d5979b8c774">8989473787bd465041c11f483cbb3542</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tables</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_id>4d894b3787bd465041c11f483cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="6a794bf36cbd465008564d5979b8c774">8989473787bd465041c11f483cbb3542</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8989473787bd465041c11f483cbb3542</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_domain_man_0_domain_indicators</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+            <sys_update_name>sys_ui_section_8989473787bd465041c11f483cbb3542</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Domain Data Management 0" name="workspace-domain-data-management-0">6a794bf36cbd465008564d5979b8c774</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>tblevinse2eitomdsdemo</instance_name>
+        <name>sys_ui_section_8989473787bd465041c11f483cbb3542</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8989473787bd465041c11f483cbb3542" sys_domain="global" table="x_snc_domain_man_0_domain_indicators" version="3" view="workspace-domain-data-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>domain</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_id>4589473787bd465041c11f483cbb3544</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="6a794bf36cbd465008564d5979b8c774">8989473787bd465041c11f483cbb3542</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>domain_string</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_id>0189473787bd465041c11f483cbb3545</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="6a794bf36cbd465008564d5979b8c774">8989473787bd465041c11f483cbb3542</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>delete_flag</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_id>8589473787bd465041c11f483cbb3545</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="6a794bf36cbd465008564d5979b8c774">8989473787bd465041c11f483cbb3542</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>record_count</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_id>0d89473787bd465041c11f483cbb3545</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="6a794bf36cbd465008564d5979b8c774">8989473787bd465041c11f483cbb3542</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tables</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_id>4d894b3787bd465041c11f483cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="6a794bf36cbd465008564d5979b8c774">8989473787bd465041c11f483cbb3542</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-03 10:35:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8989473787bd465041c11f483cbb3542</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_domain_man_0_domain_indicators</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+            <sys_update_name>sys_ui_section_8989473787bd465041c11f483cbb3542</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-03 10:35:12</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Domain Data Management 0" name="workspace-domain-data-management-0">6a794bf36cbd465008564d5979b8c774</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>1424340662</payload_hash>
+        <record_name>Domain Indicators</record_name>
+        <reverted_from/>
+        <source>822e6b8787a64210a3a80f68cebb3581</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 12:08:59</sys_created_on>
+        <sys_id>ff9ee34b87a64210a3a80f68cebb35f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ff29a237f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 12:08:59</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>bb9ee34bc8a64210024fef0e5430f5f0</update_guid>
+        <update_guid_history>bb9ee34bc8a64210024fef0e5430f5f0:0,4fe4e2f68d6a82901b4f867184f4bfec:1668877278,95466d94d6ea4a504dea0fd547349a62:1424340662</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 12:27:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>01b2c0ea30dd41c08d6567b3c353e210</sys_id>
+        <sys_metadata>8989473787bd465041c11f483cbb3542</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_domain_man_0_domain_indicators</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent display_value="Domain Indicators">1cb2f313872dc690a3a80f68cebb3502</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_ui_section_8989473787bd465041c11f483cbb3542</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_8989473787bd465041c11f483cbb3542">ff9ee34b87a64210a3a80f68cebb35f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 12:27:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

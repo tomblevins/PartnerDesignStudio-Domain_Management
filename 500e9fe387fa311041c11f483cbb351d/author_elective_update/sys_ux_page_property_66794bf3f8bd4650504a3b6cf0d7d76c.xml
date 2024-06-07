@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>actionConfigId</name>
+        <page display_value="Domain Data Management">a6794bf3c5bd4650835ce97ca5cba097</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 10:35:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66794bf3f8bd4650504a3b6cf0d7d76c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actionConfigId</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_page_property_66794bf3f8bd4650504a3b6cf0d7d76c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:35:02</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_domain_man_0.a6794bf3c5bd4650835ce97ca5cba097.root.actionConfigId</unique_name>
+        <value>df28e3db0f1210107d20409dc4767ee0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=66794bf3f8bd4650504a3b6cf0d7d76c"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>tblevinse2eitomdsdemo</instance_name>
+        <name>sys_ux_page_property_66794bf3f8bd4650504a3b6cf0d7d76c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>actionConfigId</name>
+        <page display_value="Domain Data Management">a6794bf3c5bd4650835ce97ca5cba097</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 10:35:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66794bf3f8bd4650504a3b6cf0d7d76c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actionConfigId</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_page_property_66794bf3f8bd4650504a3b6cf0d7d76c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:35:02</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_domain_man_0.a6794bf3c5bd4650835ce97ca5cba097.root.actionConfigId</unique_name>
+        <value>df28e3db0f1210107d20409dc4767ee0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=66794bf3f8bd4650504a3b6cf0d7d76c"/>
+</record_update>]]></payload>
+        <payload_hash>1217512243</payload_hash>
+        <record_name>actionConfigId</record_name>
+        <reverted_from/>
+        <source>98c56d9087ea4a5041c11f483cbb359d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 13:10:04</sys_created_on>
+        <sys_id>ba4621d487ea4a5041c11f483cbb3552</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fc478d6fc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 13:10:04</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>7a4621d483ea4a5059ea82f15831de52</update_guid>
+        <update_guid_history>7a4621d483ea4a5059ea82f15831de52:1217512243</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 12:06:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>247b5e48c87843fe94fe90b9bf6d87a4</sys_id>
+        <sys_metadata>66794bf3f8bd4650504a3b6cf0d7d76c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actionConfigId</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_66794bf3f8bd4650504a3b6cf0d7d76c</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_66794bf3f8bd4650504a3b6cf0d7d76c">ba4621d487ea4a5041c11f483cbb3552</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 12:06:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9dac6b0787a64210a3a80f68cebb35fb" sys_domain="global" table="x_snc_domain_man_0_domain_accounting" version="3" view="workspace-domain-management-1">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_domain_man_0_domain_accounting</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-07 12:00:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9dac6b0787a64210a3a80f68cebb35fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_domain_man_0_domain_accounting</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+            <sys_update_name>sys_ui_section_9dac6b0787a64210a3a80f68cebb35fb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-07 12:00:20</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Domain Management 1" name="workspace-domain-management-1">299c2b0777a642107cbd9741621d8e44</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

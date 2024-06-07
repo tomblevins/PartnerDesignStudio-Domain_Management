@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="DELETE">
+        <active>true</active>
+        <ais_search_source display_value="Configuration Properties">d3e88bb7877d465041c11f483cbb3538</ais_search_source>
+        <label>Configuration Properties</label>
+        <name>Configuration Properties</name>
+        <order>400</order>
+        <search_context_config display_value="Domain Data Management AI Search Configuration">ee794bf3a3bd46505eac2b37f89e8a74</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 10:35:09</sys_created_on>
+        <sys_id>c089c33787bd465041c11f483cbb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configuration Properties</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_search_filter_c089c33787bd465041c11f483cbb35ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:35:09</sys_updated_on>
+    </sys_search_filter>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>tblevinse2eitomdsdemo</instance_name>
+        <name>sys_search_filter_c089c33787bd465041c11f483cbb35ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Configuration Properties">d3e88bb7877d465041c11f483cbb3538</ais_search_source>
+        <label>Configuration Properties</label>
+        <name>Configuration Properties</name>
+        <order>400</order>
+        <search_context_config display_value="Domain Data Management AI Search Configuration">ee794bf3a3bd46505eac2b37f89e8a74</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 10:35:09</sys_created_on>
+        <sys_id>c089c33787bd465041c11f483cbb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configuration Properties</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_search_filter_c089c33787bd465041c11f483cbb35ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:35:09</sys_updated_on>
+    </sys_search_filter>
+</record_update>]]></payload>
+        <payload_hash>104499025</payload_hash>
+        <record_name>Configuration Properties</record_name>
+        <reverted_from/>
+        <source>98c56d9087ea4a5041c11f483cbb359d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 13:09:54</sys_created_on>
+        <sys_id>1c462d9487ea4a5041c11f483cbb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fc478ada60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 13:09:54</sys_updated_on>
+        <type>Navigation Tab</type>
+        <update_guid>d8462d94bbea4a5065d1f9a83a85cf02</update_guid>
+        <update_guid_history>d8462d94bbea4a5065d1f9a83a85cf02:104499025</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 07:00:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_search_filter">sys_search_filter</sys_db_object>
+        <sys_id>326b0f13664b4a329f50a80eff366011</sys_id>
+        <sys_metadata>c089c33787bd465041c11f483cbb35ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configuration Properties</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_search_filter_c089c33787bd465041c11f483cbb35ec</sys_update_name>
+        <sys_update_version display_value="sys_search_filter_c089c33787bd465041c11f483cbb35ec">1c462d9487ea4a5041c11f483cbb3502</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 07:00:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

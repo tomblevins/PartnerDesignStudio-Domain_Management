@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary/>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="domain-management Search Profile">719c2b0778a642101a4467fef4056a4e</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 12:00:15</sys_created_on>
+        <sys_id>b79cab0787a64210a3a80f68cebb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.domain-management Search Profile</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_b79cab0787a64210a3a80f68cebb354a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 12:00:15</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

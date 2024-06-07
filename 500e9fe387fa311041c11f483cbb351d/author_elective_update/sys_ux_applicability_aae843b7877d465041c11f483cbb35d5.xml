@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="DELETE">
+        <active>true</active>
+        <api_name>x_snc_domain_man_0.Audience for app domain-management</api_name>
+        <description/>
+        <name>Audience for app domain-management</name>
+        <role_names/>
+        <roles>efbed76787fa311041c11f483cbb35d9,cc033b9b87e9c690a3a80f68cebb3531,e7bed76787fa311041c11f483cbb35f0</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 10:32:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aae843b7877d465041c11f483cbb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app domain-management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_applicability_aae843b7877d465041c11f483cbb35d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:32:34</sys_updated_on>
+    </sys_ux_applicability>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>tblevinse2eitomdsdemo</instance_name>
+        <name>sys_ux_applicability_aae843b7877d465041c11f483cbb35d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_domain_man_0.Audience for app domain-management</api_name>
+        <description/>
+        <name>Audience for app domain-management</name>
+        <role_names/>
+        <roles>efbed76787fa311041c11f483cbb35d9,cc033b9b87e9c690a3a80f68cebb3531,e7bed76787fa311041c11f483cbb35f0</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 10:32:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aae843b7877d465041c11f483cbb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app domain-management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_applicability_aae843b7877d465041c11f483cbb35d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 10:32:34</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>]]></payload>
+        <payload_hash>-1819909663</payload_hash>
+        <record_name>Audience for app domain-management</record_name>
+        <reverted_from/>
+        <source>98c56d9087ea4a5041c11f483cbb359d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 13:09:59</sys_created_on>
+        <sys_id>6546ad9487ea4a5041c11f483cbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fc478c3380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 13:09:59</sys_updated_on>
+        <type>Audience</type>
+        <update_guid>2546ad945fea4a50439be248966a3300</update_guid>
+        <update_guid_history>2546ad945fea4a50439be248966a3300:-1819909663</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 12:07:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability">sys_ux_applicability</sys_db_object>
+        <sys_id>97c260c5f9c74c89a54a63d056533321</sys_id>
+        <sys_metadata>aae843b7877d465041c11f483cbb35d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app domain-management</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_aae843b7877d465041c11f483cbb35d5</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_aae843b7877d465041c11f483cbb35d5">6546ad9487ea4a5041c11f483cbb3500</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 12:07:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
