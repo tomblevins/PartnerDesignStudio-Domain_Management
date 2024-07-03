@@ -96,7 +96,7 @@
             <element>batch</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Batch5</label>
+            <label>Exempt</label>
             <language>en</language>
             <name>x_snc_domain_man_0_domain_accounting</name>
             <sequence>4</sequence>
@@ -105,10 +105,10 @@
             <sys_created_on>2023-12-15 15:05:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-15 15:05:34</sys_updated_on>
-            <value>batch5</value>
+            <sys_updated_on>2024-07-03 11:39:17</sys_updated_on>
+            <value>exempt</value>
         </sys_choice>
     </sys_choice>
 </record_update>
