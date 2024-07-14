@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Domain Indicators">a39c6b0787a64210a3a80f68cebb3591</category>
-        <columns>domain_string,domain.type,tables,record_count,delete_flag</columns>
+        <category display_value="Domain Management Tasks">3dfcef0787a64210a3a80f68cebb3587</category>
+        <columns>number,sys_class_name,short_description,priority,state,assigned_to,</columns>
         <condition/>
         <configuration display_value="Domain Management_menu_config">9b9c6b0787a64210a3a80f68cebb358e</configuration>
         <group_by_column/>
@@ -51,25 +51,25 @@
         <highlight_content_pattern/>
         <list_attributes/>
         <max_characters>4000</max_characters>
-        <order>200</order>
+        <order>100</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-07 12:00:13</sys_created_on>
+        <sys_created_on>2024-07-03 13:50:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>679c6b0787a64210a3a80f68cebb3594</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>b73fb92b1b87ca10c0c654ee034bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name>sys_ux_list_679c6b0787a64210a3a80f68cebb3594</sys_update_name>
+        <sys_update_name>sys_ux_list_b73fb92b1b87ca10c0c654ee034bcbec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 13:41:25</sys_updated_on>
-        <table>x_snc_domain_man_0_domain_indicators</table>
+        <sys_updated_on>2024-07-03 13:50:44</sys_updated_on>
+        <table>x_snc_domain_man_0_domain_management_task</table>
         <title>All</title>
         <view/>
         <word_wrap>false</word_wrap>

@@ -2,8 +2,8 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">ed9c2b0763a64210716b46e0700e4646</canvas>
         <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
-        <component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":""}</component_props>
-        <h>3</h>
+        <component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","selectedElements":[]}</component_props>
+        <h>4</h>
         <name/>
         <stored_component/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
@@ -12,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6d9c2b071ea64210d8e4929a84928145</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -20,9 +20,9 @@
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>par_dashboard_widget_6d9c2b071ea64210d8e4929a84928145</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-07 12:00:07</sys_updated_on>
+        <sys_updated_on>2024-07-03 14:03:58</sys_updated_on>
         <visualization/>
-        <w>47</w>
+        <w>36</w>
         <widget_props/>
         <x>0</x>
         <y>0</y>

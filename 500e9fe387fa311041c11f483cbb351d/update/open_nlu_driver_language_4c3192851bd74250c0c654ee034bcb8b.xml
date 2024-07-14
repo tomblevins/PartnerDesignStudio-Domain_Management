@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="open_nlu_driver_language">
+    <open_nlu_driver_language action="INSERT_OR_UPDATE">
+        <code>pb</code>
+        <dialog_acts_supported>false</dialog_acts_supported>
+        <driver display_value="">64c023c17300330021a044764df6a70e</driver>
+        <driver_codes>pb</driver_codes>
+        <language>Brazilian Portuguese</language>
+        <sys_class_name>open_nlu_driver_language</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-08 07:00:01</sys_created_on>
+        <sys_id>4c3192851bd74250c0c654ee034bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Brazilian Portuguese</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>open_nlu_driver_language_4c3192851bd74250c0c654ee034bcb8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-08 07:00:01</sys_updated_on>
+    </open_nlu_driver_language>
+</record_update>
