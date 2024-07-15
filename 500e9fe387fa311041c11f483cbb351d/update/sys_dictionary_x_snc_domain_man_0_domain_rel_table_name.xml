@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="domain_string" table="x_snc_domain_man_0_domain_indicators">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="name" table="x_snc_domain_man_0_domain_rel_table">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Domain String</column_label>
+        <column_label>Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>domain_string</element>
+        <element>name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -34,8 +34,8 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>500</max_length>
-        <name>x_snc_domain_man_0_domain_indicators</name>
+        <max_length>40</max_length>
+        <name>x_snc_domain_man_0_domain_rel_table</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-19 14:06:33</sys_created_on>
-        <sys_name>Domain String</sys_name>
+        <sys_created_on>2024-07-14 14:35:03</sys_created_on>
+        <sys_name>Name</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_domain_man_0_domain_indicators_domain_string</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_domain_man_0_domain_rel_table_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-14 17:35:39</sys_updated_on>
+        <sys_updated_on>2024-07-14 14:35:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
