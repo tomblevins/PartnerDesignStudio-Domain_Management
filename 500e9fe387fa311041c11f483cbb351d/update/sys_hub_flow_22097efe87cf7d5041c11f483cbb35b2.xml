@@ -4,16 +4,20 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3569000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=19177138000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>brcalculate_table_to_domain_record_count</internal_name>
-        <label_cache>[{"name":"342fdb3a-e80d-49ba-8506-0558caa8d26a.record_count","label":"3 - Get Record Count By Domain➛Record Count","reference_display":"Record Count","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22948d19-b870-4ddf-bbaa-4d67242c7869"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record","reference":"x_snc_domain_man_0_domain_rel_table","reference_display":"Domain to Table Relationships","type":"reference","base_type":"reference","attributes":{}},{"name":"2fab9bf7-fd7c-46d8-b3ac-5e5bb05c6658.Record.name","label":"2 - Look Up Record➛Table Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"},{"name":"bc3553a3-7b84-4208-bcd9-9504f892adb9.Record","label":"1 - Look Up Record➛Domain Record","reference":"domain","reference_display":"Domain","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.table.sys_id","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record➛Table➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_db_object","column_name":"sys_id"},{"name":"Created or Updated_1.current.domain.sys_id","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record➛Domain➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"domain","column_name":"sys_id"}]</label_cache>
+        <label_cache>[{"name":"342fdb3a-e80d-49ba-8506-0558caa8d26a.record_count","label":"3 - Get Record Count By Domain➛Record Count","reference_display":"Record Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22948d19-b870-4ddf-bbaa-4d67242c7869"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record","reference":"x_snc_domain_man_0_domain_rel_table","reference_display":"Domain to Table Relationships","type":"reference","base_type":"reference","attributes":{}},{"name":"2fab9bf7-fd7c-46d8-b3ac-5e5bb05c6658.Record.name","label":"2 - Look Up Record➛Table Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"},{"name":"bc3553a3-7b84-4208-bcd9-9504f892adb9.Record","label":"1 - Look Up Record➛Domain Record","reference":"domain","reference_display":"Domain","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.table.sys_id","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record➛Table➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_db_object","column_name":"sys_id"},{"name":"Created or Updated_1.current.domain.sys_id","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record➛Domain➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"domain","column_name":"sys_id"}]</label_cache>
         <master_snapshot>0c0af2b28703bd5041c11f483cbb3579</master_snapshot>
-        <name>BR-Calculate Table to Domain Record Count</name>
+        <name>BR - Calculate Table to Domain Record Count</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -24,21 +28,22 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 13:56:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>22097efe87cf7d5041c11f483cbb35b2</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>BR-Calculate Table to Domain Record Count</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>BR - Calculate Table to Domain Record Count</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_flow_22097efe87cf7d5041c11f483cbb35b2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:12</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:41</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=22097efe87cf7d5041c11f483cbb35b2"/>
@@ -75,28 +80,28 @@
         <identifier>22097efe87cf7d5041c11f483cbb35b2</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-15 14:56:11</sys_created_on>
-        <sys_id>87a60f3e87c3bd5041c11f483cbb35e3</sys_id>
+        <sys_created_on>2024-07-24 13:55:40</sys_created_on>
+        <sys_id>78c94ada1b2f8690c0c654ee034bcb49</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:11</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:40</sys_updated_on>
         <trigger display_value="">600a36b28703bd5041c11f483cbb358c</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=22097efe87cf7d5041c11f483cbb35b2^sys_idNOT IN87a60f3e87c3bd5041c11f483cbb35e3"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=22097efe87cf7d5041c11f483cbb35b2^sys_idNOT IN78c94ada1b2f8690c0c654ee034bcb49"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=22097efe87cf7d5041c11f483cbb35b2^sys_idNOT INd2f932b28703bd5041c11f483cbb3550"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="BR-Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</flow>
+        <flow display_value="BR - Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>d2f932b28703bd5041c11f483cbb3550</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:12</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:40</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -147,6 +152,29 @@
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6e097efe87cf7d5041c11f483cbb35b2"/>
     <sys_hub_flow_input action="delete_multiple" query="model=22097efe87cf7d5041c11f483cbb35b2^sys_idNOT IN52f932b28703bd5041c11f483cbb3522,5af932b28703bd5041c11f483cbb351d,5ef932b28703bd5041c11f483cbb354a"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">c316f3ac87c30210a3a80f68cebb3552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -187,7 +215,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="BR-Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</model>
+        <model display_value="BR - Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</model>
         <model_id>22097efe87cf7d5041c11f483cbb35b2</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_22097efe87cf7d5041c11f483cbb35b2</name>
@@ -271,7 +299,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="BR-Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</model>
+        <model display_value="BR - Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</model>
         <model_id>22097efe87cf7d5041c11f483cbb35b2</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_22097efe87cf7d5041c11f483cbb35b2</name>
@@ -294,14 +322,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>5af932b28703bd5041c11f483cbb351d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:12</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -355,7 +383,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="BR-Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</model>
+        <model display_value="BR - Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</model>
         <model_id>22097efe87cf7d5041c11f483cbb35b2</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_22097efe87cf7d5041c11f483cbb35b2</name>
@@ -378,14 +406,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>5ef932b28703bd5041c11f483cbb354a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:12</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -410,17 +438,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="BR-Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</flow>
+        <flow display_value="BR - Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>16f932b28703bd5041c11f483cbb3598</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:57:25</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:08:34</sys_updated_on>
         <ui_id>bc3553a3-7b84-4208-bcd9-9504f892adb9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=16f932b28703bd5041c11f483cbb3598"/>
@@ -473,17 +502,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="BR-Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</flow>
+        <flow display_value="BR - Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>22f932b28703bd5041c11f483cbb35b1</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:57:25</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:08:34</sys_updated_on>
         <ui_id>b1e0093c-9b02-4d24-907a-38367a346fb1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=22f932b28703bd5041c11f483cbb35b1"/>
@@ -548,17 +578,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="BR-Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</flow>
+        <flow display_value="BR - Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>26f932b28703bd5041c11f483cbb35ab</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:57:25</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:08:34</sys_updated_on>
         <ui_id>342fdb3a-e80d-49ba-8506-0558caa8d26a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=26f932b28703bd5041c11f483cbb35ab"/>
@@ -597,17 +628,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="BR-Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</flow>
+        <flow display_value="BR - Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>eaf932b28703bd5041c11f483cbb35a2</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:57:25</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:08:34</sys_updated_on>
         <ui_id>2fab9bf7-fd7c-46d8-b3ac-5e5bb05c6658</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eaf932b28703bd5041c11f483cbb35a2"/>
@@ -735,18 +767,20 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>brcalculate_table_to_domain_record_count</internal_name>
-        <label_cache>[{"name":"342fdb3a-e80d-49ba-8506-0558caa8d26a.record_count","label":"3 - Get Record Count By Domain➛Record Count","reference_display":"Record Count","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22948d19-b870-4ddf-bbaa-4d67242c7869"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record","reference":"x_snc_domain_man_0_domain_rel_table","reference_display":"Domain to Table Relationships","type":"reference","base_type":"reference","attributes":{}},{"name":"2fab9bf7-fd7c-46d8-b3ac-5e5bb05c6658.Record.name","label":"2 - Look Up Record➛Table Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"},{"name":"bc3553a3-7b84-4208-bcd9-9504f892adb9.Record","label":"1 - Look Up Record➛Domain Record","reference":"domain","reference_display":"Domain","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.table.sys_id","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record➛Table➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_db_object","column_name":"sys_id"},{"name":"Created or Updated_1.current.domain.sys_id","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record➛Domain➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"domain","column_name":"sys_id"}]</label_cache>
+        <label_cache>[{"name":"342fdb3a-e80d-49ba-8506-0558caa8d26a.record_count","label":"3 - Get Record Count By Domain➛Record Count","reference_display":"Record Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22948d19-b870-4ddf-bbaa-4d67242c7869"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record","reference":"x_snc_domain_man_0_domain_rel_table","reference_display":"Domain to Table Relationships","type":"reference","base_type":"reference","attributes":{}},{"name":"2fab9bf7-fd7c-46d8-b3ac-5e5bb05c6658.Record.name","label":"2 - Look Up Record➛Table Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"},{"name":"bc3553a3-7b84-4208-bcd9-9504f892adb9.Record","label":"1 - Look Up Record➛Domain Record","reference":"domain","reference_display":"Domain","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.table.sys_id","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record➛Table➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_db_object","column_name":"sys_id"},{"name":"Created or Updated_1.current.domain.sys_id","label":"Trigger - Record Created or Updated➛Domain to Table Relationships Record➛Domain➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"domain","column_name":"sys_id"}]</label_cache>
         <master>true</master>
-        <name>BR-Calculate Table to Domain Record Count</name>
+        <name>BR - Calculate Table to Domain Record Count</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="BR-Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</parent_flow>
+        <parent_flow display_value="BR - Calculate Table to Domain Record Count">22097efe87cf7d5041c11f483cbb35b2</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <run_with_roles/>
@@ -758,7 +792,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0c0af2b28703bd5041c11f483cbb3579</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -766,7 +800,7 @@
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:10</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:39</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=0c0af2b28703bd5041c11f483cbb3579"/>
@@ -775,16 +809,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="BR-Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</flow>
+        <flow display_value="BR - Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:51</sys_created_on>
         <sys_id>100a36b28703bd5041c11f483cbb3508</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:12</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:40</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -875,7 +909,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="BR-Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</model>
+        <model display_value="BR - Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</model>
         <model_id>0c0af2b28703bd5041c11f483cbb3579</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_0c0af2b28703bd5041c11f483cbb3579</name>
@@ -898,14 +932,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:50</sys_created_on>
         <sys_id>000af2b28703bd5041c11f483cbb357c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:10</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -919,6 +953,29 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=000af2b28703bd5041c11f483cbb357c"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">c316f3ac87c30210a3a80f68cebb3552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -959,7 +1016,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="BR-Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</model>
+        <model display_value="BR - Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</model>
         <model_id>0c0af2b28703bd5041c11f483cbb3579</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_0c0af2b28703bd5041c11f483cbb3579</name>
@@ -1043,7 +1100,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="BR-Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</model>
+        <model display_value="BR - Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</model>
         <model_id>0c0af2b28703bd5041c11f483cbb3579</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_0c0af2b28703bd5041c11f483cbb3579</name>
@@ -1066,14 +1123,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:50</sys_created_on>
         <sys_id>980af2b28703bd5041c11f483cbb35b9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:10</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1098,17 +1155,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="BR-Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</flow>
+        <flow display_value="BR - Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:51</sys_created_on>
         <sys_id>100af2b28703bd5041c11f483cbb35f2</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:10</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:39</sys_updated_on>
         <ui_id>2fab9bf7-fd7c-46d8-b3ac-5e5bb05c6658</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=100af2b28703bd5041c11f483cbb35f2"/>
@@ -1161,17 +1219,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="BR-Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</flow>
+        <flow display_value="BR - Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:51</sys_created_on>
         <sys_id>5c0af2b28703bd5041c11f483cbb35e8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:10</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:39</sys_updated_on>
         <ui_id>bc3553a3-7b84-4208-bcd9-9504f892adb9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5c0af2b28703bd5041c11f483cbb35e8"/>
@@ -1224,17 +1283,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="BR-Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</flow>
+        <flow display_value="BR - Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:51</sys_created_on>
         <sys_id>940af2b28703bd5041c11f483cbb35fe</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:10</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:39</sys_updated_on>
         <ui_id>342fdb3a-e80d-49ba-8506-0558caa8d26a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=940af2b28703bd5041c11f483cbb35fe"/>
@@ -1273,17 +1333,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="BR-Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</flow>
+        <flow display_value="BR - Calculate Table to Domain Record Count">0c0af2b28703bd5041c11f483cbb3579</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:51</sys_created_on>
         <sys_id>d00a36b28703bd5041c11f483cbb3506</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:10</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:39</sys_updated_on>
         <ui_id>b1e0093c-9b02-4d24-907a-38367a346fb1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d00a36b28703bd5041c11f483cbb3506"/>
@@ -1420,24 +1481,24 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>22097efe87cf7d5041c11f483cbb35b2</sys_id>
         <latest_snapshot>0c0af2b28703bd5041c11f483cbb3579</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1a-10-30-2023_11-09-2023_1854.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=22097efe87cf7d5041c11f483cbb35b2^sys_idNOT IN640a36b28703bd5041c11f483cbb358e"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"640a36b28703bd5041c11f483cbb358e","name":"plan","plan_signature":null}}</plan>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"640a36b28703bd5041c11f483cbb358e","name":"plan","plan_signature":null}}</plan>
         <plan_id>22097efe87cf7d5041c11f483cbb35b2</plan_id>
-        <snapshot>05f68f7e87c3bd5041c11f483cbb35b2</snapshot>
+        <snapshot>75bccede1b2f8690c0c654ee034bcb26</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>640a36b28703bd5041c11f483cbb358e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 14:56:11</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:40</sys_updated_on>
         <trigger display_value="">600a36b28703bd5041c11f483cbb358c</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=22097efe87cf7d5041c11f483cbb35b2"/>

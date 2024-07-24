@@ -4,16 +4,20 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=861006000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=20039819000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>procdiscover_tables_with_sys_domain</internal_name>
-        <label_cache>[{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record.sys_id","label":"7 - Create Record➛Domain Accounting Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_domain_man_0_domain_accounting","column_name":"sys_id"},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.table_name","label":"7 - Create Record➛Domain Accounting Table","reference":"x_snc_domain_man_0_domain_accounting","reference_display":"Domain Accounting","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"db4cdc64-7ee9-4025-a4f3-989365e93f1e.Record","label":"6 - Look Up Record➛Table Record","reference":"sys_db_object","reference_display":"Table","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b4b36bd-0bd6-4b5e-9732-5673a2ffe472.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b4b36bd-0bd6-4b5e-9732-5673a2ffe472.Records","label":"1 - Look Up Records➛Dictionary Entry Records","reference":"sys_dictionary","reference_display":"Dictionary Entry","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f622d045-42d0-4953-8f65-e5448e4ed488.item.name","label":"3 - For Each➛Dictionary Entry Record➛Table","reference":"","reference_display":"Table","type":"table_name","base_type":"table_name","parent_table_name":"sys_dictionary","column_name":"name"},{"name":"f622d045-42d0-4953-8f65-e5448e4ed488.item","label":"3 - For Each➛Dictionary Entry Record","reference":"sys_dictionary","reference_display":"Dictionary Entry","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7b0b81e2-7daa-422d-b531-917e4233196e.Count","label":"4 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"db4cdc64-7ee9-4025-a4f3-989365e93f1e.Record.name","label":"6 - Look Up Record➛Table Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record","label":"7 - Create Record➛Domain Accounting Record","reference":"x_snc_domain_man_0_domain_accounting","reference_display":"Domain Accounting","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record.table.name","label":"7 - Create Record➛Domain Accounting Record➛Table➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"}]</label_cache>
+        <label_cache>[{"name":"db4cdc64-7ee9-4025-a4f3-989365e93f1e.Record.sys_name","label":"6 - Look Up Record➛Table Record➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"sys_name","usedInstances":{"70ca968c-a158-4466-a1ab-9fdfac15c328":["table_name"]}},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record.sys_id","label":"7 - Create Record➛Table Domain Accounting Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_domain_man_0_domain_accounting","column_name":"sys_id"},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.table_name","label":"7 - Create Record➛Table Domain Accounting Table","reference":"x_snc_domain_man_0_domain_accounting","reference_display":"Table Domain Accounting","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"db4cdc64-7ee9-4025-a4f3-989365e93f1e.Record","label":"6 - Look Up Record➛Table Record","reference":"sys_db_object","reference_display":"Table","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b4b36bd-0bd6-4b5e-9732-5673a2ffe472.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b4b36bd-0bd6-4b5e-9732-5673a2ffe472.Records","label":"1 - Look Up Records➛Dictionary Entry Records","reference":"sys_dictionary","reference_display":"Dictionary Entry","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f622d045-42d0-4953-8f65-e5448e4ed488.item.name","label":"3 - For Each➛Dictionary Entry Record➛Table","reference":"","reference_display":"Table","type":"table_name","base_type":"table_name","parent_table_name":"sys_dictionary","column_name":"name"},{"name":"f622d045-42d0-4953-8f65-e5448e4ed488.item","label":"3 - For Each➛Dictionary Entry Record","reference":"sys_dictionary","reference_display":"Dictionary Entry","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7b0b81e2-7daa-422d-b531-917e4233196e.Count","label":"4 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"db4cdc64-7ee9-4025-a4f3-989365e93f1e.Record.name","label":"6 - Look Up Record➛Table Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name","usedInstances":{"70ca968c-a158-4466-a1ab-9fdfac15c328":["table_name"]}},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record","label":"7 - Create Record➛Table Domain Accounting Record","reference":"x_snc_domain_man_0_domain_accounting","reference_display":"Table Domain Accounting","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record.table.name","label":"7 - Create Record➛Table Domain Accounting Record➛Table➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"}]</label_cache>
         <master_snapshot>d794baf287cf7d5041c11f483cbb3591</master_snapshot>
-        <name>PROC-Discover Tables with Sys_Domain</name>
+        <name>PROC - Discover Tables with Sys_Domain</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -24,21 +28,22 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 14:27:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6020672b87fa311041c11f483cbb3595</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>PROC-Discover Tables with Sys_Domain</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>PROC - Discover Tables with Sys_Domain</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_flow_6020672b87fa311041c11f483cbb3595</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:20</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:14</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=6020672b87fa311041c11f483cbb3595"/>
@@ -70,17 +75,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>6f22c629-89cf-4aa0-b691-d6f0e7042b71</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 14:47:27</sys_created_on>
         <sys_id>29c4ef23873e311041c11f483cbb35fe</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:38:49</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:14</sys_updated_on>
         <ui_id>70ca968c-a158-4466-a1ab-9fdfac15c328</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=29c4ef23873e311041c11f483cbb35fe"/>
@@ -133,17 +139,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>f622d045-42d0-4953-8f65-e5448e4ed488</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 14:40:53</sys_created_on>
         <sys_id>9d43a3af87fa311041c11f483cbb355d</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:38:49</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:14</sys_updated_on>
         <ui_id>7b0b81e2-7daa-422d-b531-917e4233196e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9d43a3af87fa311041c11f483cbb355d"/>
@@ -195,17 +202,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 14:40:52</sys_created_on>
         <sys_id>c143a3af87fa311041c11f483cbb3500</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:38:49</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:14</sys_updated_on>
         <ui_id>8b4b36bd-0bd6-4b5e-9732-5673a2ffe472</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c143a3af87fa311041c11f483cbb3500"/>
@@ -276,17 +284,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>6f22c629-89cf-4aa0-b691-d6f0e7042b71</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 14:47:27</sys_created_on>
         <sys_id>e1c4ef23873e311041c11f483cbb35f7</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:38:49</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:14</sys_updated_on>
         <ui_id>db4cdc64-7ee9-4025-a4f3-989365e93f1e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e1c4ef23873e311041c11f483cbb35f7"/>
@@ -335,16 +344,17 @@
     <sys_hub_flow_logic action="delete_multiple" query="flow=6020672b87fa311041c11f483cbb3595^sys_idNOT IN5d43a3af87fa311041c11f483cbb3505,d143a3af87fa311041c11f483cbb3560,dd43a3af87fa311041c11f483cbb3554"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">1143a3af87fa311041c11f483cbb3505</block>
+        <block display_value="">c219429a1b2f8690c0c654ee034bcbc7</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -356,10 +366,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 14:40:53</sys_created_on>
         <sys_id>5d43a3af87fa311041c11f483cbb3505</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:19</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:14</sys_updated_on>
         <ui_id>028d5837-0fb1-40d6-85d0-3e9f67e37ef3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -382,16 +392,17 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=5d43a3af87fa311041c11f483cbb3505"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">1d43a3af87fa311041c11f483cbb355f</block>
+        <block display_value="">ce19429a1b2f8690c0c654ee034bcbd2</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -403,10 +414,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 14:40:53</sys_created_on>
         <sys_id>d143a3af87fa311041c11f483cbb3560</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:19</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:14</sys_updated_on>
         <ui_id>6f22c629-89cf-4aa0-b691-d6f0e7042b71</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -429,16 +440,17 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=d143a3af87fa311041c11f483cbb3560"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">1943a3af87fa311041c11f483cbb3554</block>
+        <block display_value="">c619429a1b2f8690c0c654ee034bcbcc</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -450,10 +462,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 14:40:53</sys_created_on>
         <sys_id>dd43a3af87fa311041c11f483cbb3554</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:19</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:14</sys_updated_on>
         <ui_id>f622d045-42d0-4953-8f65-e5448e4ed488</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -486,18 +498,20 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>procdiscover_tables_with_sys_domain</internal_name>
-        <label_cache>[{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record.sys_id","label":"7 - Create Record➛Domain Accounting Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_domain_man_0_domain_accounting","column_name":"sys_id"},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.table_name","label":"7 - Create Record➛Domain Accounting Table","reference":"x_snc_domain_man_0_domain_accounting","reference_display":"Domain Accounting","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"db4cdc64-7ee9-4025-a4f3-989365e93f1e.Record","label":"6 - Look Up Record➛Table Record","reference":"sys_db_object","reference_display":"Table","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b4b36bd-0bd6-4b5e-9732-5673a2ffe472.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b4b36bd-0bd6-4b5e-9732-5673a2ffe472.Records","label":"1 - Look Up Records➛Dictionary Entry Records","reference":"sys_dictionary","reference_display":"Dictionary Entry","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f622d045-42d0-4953-8f65-e5448e4ed488.item.name","label":"3 - For Each➛Dictionary Entry Record➛Table","reference":"","reference_display":"Table","type":"table_name","base_type":"table_name","parent_table_name":"sys_dictionary","column_name":"name"},{"name":"f622d045-42d0-4953-8f65-e5448e4ed488.item","label":"3 - For Each➛Dictionary Entry Record","reference":"sys_dictionary","reference_display":"Dictionary Entry","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7b0b81e2-7daa-422d-b531-917e4233196e.Count","label":"4 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"db4cdc64-7ee9-4025-a4f3-989365e93f1e.Record.name","label":"6 - Look Up Record➛Table Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record","label":"7 - Create Record➛Domain Accounting Record","reference":"x_snc_domain_man_0_domain_accounting","reference_display":"Domain Accounting","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record.table.name","label":"7 - Create Record➛Domain Accounting Record➛Table➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"}]</label_cache>
+        <label_cache>[{"name":"db4cdc64-7ee9-4025-a4f3-989365e93f1e.Record.sys_name","label":"6 - Look Up Record➛Table Record➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"sys_name","usedInstances":{"70ca968c-a158-4466-a1ab-9fdfac15c328":["table_name"]}},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record.sys_id","label":"7 - Create Record➛Table Domain Accounting Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_domain_man_0_domain_accounting","column_name":"sys_id"},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.table_name","label":"7 - Create Record➛Table Domain Accounting Table","reference":"x_snc_domain_man_0_domain_accounting","reference_display":"Table Domain Accounting","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"db4cdc64-7ee9-4025-a4f3-989365e93f1e.Record","label":"6 - Look Up Record➛Table Record","reference":"sys_db_object","reference_display":"Table","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b4b36bd-0bd6-4b5e-9732-5673a2ffe472.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b4b36bd-0bd6-4b5e-9732-5673a2ffe472.Records","label":"1 - Look Up Records➛Dictionary Entry Records","reference":"sys_dictionary","reference_display":"Dictionary Entry","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f622d045-42d0-4953-8f65-e5448e4ed488.item.name","label":"3 - For Each➛Dictionary Entry Record➛Table","reference":"","reference_display":"Table","type":"table_name","base_type":"table_name","parent_table_name":"sys_dictionary","column_name":"name"},{"name":"f622d045-42d0-4953-8f65-e5448e4ed488.item","label":"3 - For Each➛Dictionary Entry Record","reference":"sys_dictionary","reference_display":"Dictionary Entry","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7b0b81e2-7daa-422d-b531-917e4233196e.Count","label":"4 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"db4cdc64-7ee9-4025-a4f3-989365e93f1e.Record.name","label":"6 - Look Up Record➛Table Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name","usedInstances":{"70ca968c-a158-4466-a1ab-9fdfac15c328":["table_name"]}},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record","label":"7 - Create Record➛Table Domain Accounting Record","reference":"x_snc_domain_man_0_domain_accounting","reference_display":"Table Domain Accounting","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"70ca968c-a158-4466-a1ab-9fdfac15c328.record.table.name","label":"7 - Create Record➛Table Domain Accounting Record➛Table➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"}]</label_cache>
         <master>true</master>
-        <name>PROC-Discover Tables with Sys_Domain</name>
+        <name>PROC - Discover Tables with Sys_Domain</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="PROC-Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</parent_flow>
+        <parent_flow display_value="PROC - Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -509,7 +523,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d794baf287cf7d5041c11f483cbb3591</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -517,7 +531,7 @@
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:18</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:12</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=d794baf287cf7d5041c11f483cbb3591"/>
@@ -549,17 +563,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>f622d045-42d0-4953-8f65-e5448e4ed488</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 13:37:18</sys_created_on>
         <sys_id>2394baf287cf7d5041c11f483cbb35bc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:18</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:12</sys_updated_on>
         <ui_id>7b0b81e2-7daa-422d-b531-917e4233196e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2394baf287cf7d5041c11f483cbb35bc"/>
@@ -612,17 +627,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>6f22c629-89cf-4aa0-b691-d6f0e7042b71</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 13:37:18</sys_created_on>
         <sys_id>6794baf287cf7d5041c11f483cbb35c5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:18</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:12</sys_updated_on>
         <ui_id>db4cdc64-7ee9-4025-a4f3-989365e93f1e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6794baf287cf7d5041c11f483cbb35c5"/>
@@ -675,17 +691,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>6f22c629-89cf-4aa0-b691-d6f0e7042b71</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 13:37:18</sys_created_on>
         <sys_id>6794baf287cf7d5041c11f483cbb35d8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:18</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:12</sys_updated_on>
         <ui_id>70ca968c-a158-4466-a1ab-9fdfac15c328</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6794baf287cf7d5041c11f483cbb35d8"/>
@@ -737,17 +754,18 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 13:37:18</sys_created_on>
         <sys_id>d394baf287cf7d5041c11f483cbb35b2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:18</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:12</sys_updated_on>
         <ui_id>8b4b36bd-0bd6-4b5e-9732-5673a2ffe472</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d394baf287cf7d5041c11f483cbb35b2"/>
@@ -814,16 +832,17 @@
     <sys_hub_flow_logic action="delete_multiple" query="flow=d794baf287cf7d5041c11f483cbb3591^sys_idNOT IN1b94baf287cf7d5041c11f483cbb3599,5f94baf287cf7d5041c11f483cbb359c,9b94baf287cf7d5041c11f483cbb3595"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">1943a3af87fa311041c11f483cbb3554</block>
+        <block display_value="">c619429a1b2f8690c0c654ee034bcbcc</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -835,10 +854,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 13:37:18</sys_created_on>
         <sys_id>1b94baf287cf7d5041c11f483cbb3599</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:18</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:12</sys_updated_on>
         <ui_id>f622d045-42d0-4953-8f65-e5448e4ed488</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -861,16 +880,17 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=1b94baf287cf7d5041c11f483cbb3599"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">1d43a3af87fa311041c11f483cbb355f</block>
+        <block display_value="">ce19429a1b2f8690c0c654ee034bcbd2</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -882,10 +902,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 13:37:18</sys_created_on>
         <sys_id>5f94baf287cf7d5041c11f483cbb359c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:18</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:12</sys_updated_on>
         <ui_id>6f22c629-89cf-4aa0-b691-d6f0e7042b71</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -908,16 +928,17 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=5f94baf287cf7d5041c11f483cbb359c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">1143a3af87fa311041c11f483cbb3505</block>
+        <block display_value="">c219429a1b2f8690c0c654ee034bcbc7</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="PROC-Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
+        <flow display_value="PROC - Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -929,10 +950,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 13:37:18</sys_created_on>
         <sys_id>9b94baf287cf7d5041c11f483cbb3595</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:18</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:12</sys_updated_on>
         <ui_id>028d5837-0fb1-40d6-85d0-3e9f67e37ef3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -962,23 +983,23 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>6020672b87fa311041c11f483cbb3595</sys_id>
         <latest_snapshot>d794baf287cf7d5041c11f483cbb3591</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1a-10-30-2023_11-09-2023_1854.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6020672b87fa311041c11f483cbb3595"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6020672b87fa311041c11f483cbb3595^sys_idNOT IN7794faf287cf7d5041c11f483cbb3531"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"7794faf287cf7d5041c11f483cbb3531","name":"plan","plan_signature":null}}</plan>
-        <plan_id display_value="PROC-Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</plan_id>
-        <snapshot>edf4be3687cf7d5041c11f483cbb358b</snapshot>
+        <plan>com.snc.process_flow.engine.ProcessPlan@4cbf310e</plan>
+        <plan_id display_value="PROC - Discover Tables with Sys_Domain">6020672b87fa311041c11f483cbb3595</plan_id>
+        <snapshot>d794baf287cf7d5041c11f483cbb3591</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 13:37:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7794faf287cf7d5041c11f483cbb3531</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:37:19</sys_updated_on>
+        <sys_updated_on>2024-07-24 14:04:14</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>

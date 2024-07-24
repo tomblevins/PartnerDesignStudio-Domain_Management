@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="9dac6b0787a64210a3a80f68cebb35fb" sys_domain="global" table="x_snc_domain_man_0_domain_accounting" version="3" view="workspace-domain-management-1">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>table_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 15:14:34</sys_created_on>
+            <sys_id>f63299061b6b4690c0c654ee034bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_accounting" sys_domain="global" view="299c2b0777a642107cbd9741621d8e44">9dac6b0787a64210a3a80f68cebb35fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 15:14:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>table</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 15:14:34</sys_created_on>
+            <sys_id>fe3299061b6b4690c0c654ee034bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_accounting" sys_domain="global" view="299c2b0777a642107cbd9741621d8e44">9dac6b0787a64210a3a80f68cebb35fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 15:14:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 15:14:34</sys_created_on>
+            <sys_id>f63299061b6b4690c0c654ee034bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_accounting" sys_domain="global" view="299c2b0777a642107cbd9741621d8e44">9dac6b0787a64210a3a80f68cebb35fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 15:14:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>batch</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 15:14:34</sys_created_on>
+            <sys_id>fe3299061b6b4690c0c654ee034bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_accounting" sys_domain="global" view="299c2b0777a642107cbd9741621d8e44">9dac6b0787a64210a3a80f68cebb35fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 15:14:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 15:14:34</sys_created_on>
+            <sys_id>f63299061b6b4690c0c654ee034bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_accounting" sys_domain="global" view="299c2b0777a642107cbd9741621d8e44">9dac6b0787a64210a3a80f68cebb35fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 15:14:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

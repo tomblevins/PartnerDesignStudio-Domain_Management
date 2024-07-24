@@ -2,6 +2,7 @@
     <element db_object_id="1cb2f313872dc690a3a80f68cebb3502" label="Domain Indicators" max_length="40" name="x_snc_domain_man_0_domain_indicators" text_index="true" type="collection">
         <element label="Tables" max_length="4000" name="tables" type="glide_list"/>
         <element label="Delete Flag" max_length="40" name="delete_flag" type="boolean"/>
+        <element label="Domain Active" max_length="40" name="domain_active" type="boolean"/>
         <element label="Domain" max_length="32" name="domain" reference="domain" type="reference"/>
         <element display="true" label="Domain String" max_length="500" name="domain_string" type="string"/>
         <element label="Record Count" max_length="100" name="record_count" type="integer"/>

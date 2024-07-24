@@ -4,19 +4,20 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=79000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=8293188000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>scheddiscover_tables_with_sys_domain</internal_name>
         <label_cache>[]</label_cache>
         <master_snapshot>ac26f79f872dc690a3a80f68cebb352b</master_snapshot>
-        <name>SCHED-Discover Tables with Sys_Domain</name>
+        <name>SCHED - Discover Tables with Sys_Domain</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -27,21 +28,22 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:16:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>51d5f71b872dc690a3a80f68cebb35fe</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>SCHED-Discover Tables with Sys_Domain</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SCHED - Discover Tables with Sys_Domain</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_flow_51d5f71b872dc690a3a80f68cebb35fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:17:31</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=51d5f71b872dc690a3a80f68cebb35fe"/>
@@ -111,16 +113,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="SCHED-Discover Tables with Sys_Domain">51d5f71b872dc690a3a80f68cebb35fe</flow>
+        <flow display_value="SCHED - Discover Tables with Sys_Domain">51d5f71b872dc690a3a80f68cebb35fe</flow>
         <name>Daily</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:16:56</sys_created_on>
         <sys_id>a0063f5f872dc690a3a80f68cebb35e5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:17:30</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
         <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -165,21 +167,21 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="SCHED-Discover Tables with Sys_Domain">51d5f71b872dc690a3a80f68cebb35fe</flow>
+        <flow display_value="SCHED - Discover Tables with Sys_Domain">51d5f71b872dc690a3a80f68cebb35fe</flow>
         <generation_source/>
         <inputs/>
         <order>1</order>
         <parent_ui_id/>
-        <subflow display_value="PROC-Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</subflow>
+        <subflow display_value="PROC - Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:17:18</sys_created_on>
         <sys_id>f9163f5f872dc690a3a80f68cebb35e9</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:17:31</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
         <ui_id>27db3c72-1238-4d14-8b80-8be8419ee266</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f9163f5f872dc690a3a80f68cebb35e9"/>
@@ -195,7 +197,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-04-19 14:17:18</sys_updated_on>
         <value>1</value>
-        <variable display_value="Wait For Completion">b5163f5f872dc690a3a80f68cebb35eb</variable>
+        <variable display_value="wait_for_completion">b5163f5f872dc690a3a80f68cebb35eb</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_f9163f5f872dc690a3a80f68cebb35e9^id=f9163f5f872dc690a3a80f68cebb35e9"/>
     <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=f9163f5f872dc690a3a80f68cebb35e9^sys_idNOT INb5163f5f872dc690a3a80f68cebb35eb"/>
@@ -236,7 +238,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Wait For Completion</label>
+        <label>wait_for_completion</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <model display_value="">f9163f5f872dc690a3a80f68cebb35e9</model>
@@ -262,14 +264,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:17:18</sys_created_on>
         <sys_id>b5163f5f872dc690a3a80f68cebb35eb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:17:29</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -306,10 +308,10 @@
         <internal_name>scheddiscover_tables_with_sys_domain</internal_name>
         <label_cache>[]</label_cache>
         <master>true</master>
-        <name>SCHED-Discover Tables with Sys_Domain</name>
+        <name>SCHED - Discover Tables with Sys_Domain</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="SCHED-Discover Tables with Sys_Domain">51d5f71b872dc690a3a80f68cebb35fe</parent_flow>
+        <parent_flow display_value="SCHED - Discover Tables with Sys_Domain">51d5f71b872dc690a3a80f68cebb35fe</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -321,7 +323,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ac26f79f872dc690a3a80f68cebb352b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -329,7 +331,7 @@
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:17:29</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=ac26f79f872dc690a3a80f68cebb352b"/>
@@ -338,16 +340,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="SCHED-Discover Tables with Sys_Domain">ac26f79f872dc690a3a80f68cebb352b</flow>
+        <flow display_value="SCHED - Discover Tables with Sys_Domain">ac26f79f872dc690a3a80f68cebb352b</flow>
         <name>Daily</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:17:29</sys_created_on>
         <sys_id>6026f79f872dc690a3a80f68cebb3530</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:17:30</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
         <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -392,21 +394,21 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="SCHED-Discover Tables with Sys_Domain">ac26f79f872dc690a3a80f68cebb352b</flow>
+        <flow display_value="SCHED - Discover Tables with Sys_Domain">ac26f79f872dc690a3a80f68cebb352b</flow>
         <generation_source/>
         <inputs/>
         <order>1</order>
         <parent_ui_id/>
-        <subflow display_value="PROC-Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</subflow>
+        <subflow display_value="PROC - Discover Tables with Sys_Domain">d794baf287cf7d5041c11f483cbb3591</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:17:29</sys_created_on>
         <sys_id>2026f79f872dc690a3a80f68cebb3531</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:17:30</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
         <ui_id>27db3c72-1238-4d14-8b80-8be8419ee266</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2026f79f872dc690a3a80f68cebb3531"/>
@@ -422,7 +424,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-04-19 14:17:30</sys_updated_on>
         <value>1</value>
-        <variable display_value="Wait For Completion">e826f79f872dc690a3a80f68cebb3531</variable>
+        <variable display_value="wait_for_completion">e826f79f872dc690a3a80f68cebb3531</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_2026f79f872dc690a3a80f68cebb3531^id=2026f79f872dc690a3a80f68cebb3531"/>
     <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=2026f79f872dc690a3a80f68cebb3531^sys_idNOT INe826f79f872dc690a3a80f68cebb3531"/>
@@ -463,7 +465,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Wait For Completion</label>
+        <label>wait_for_completion</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <model display_value="">2026f79f872dc690a3a80f68cebb3531</model>
@@ -489,14 +491,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:17:29</sys_created_on>
         <sys_id>e826f79f872dc690a3a80f68cebb3531</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:17:29</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -520,12 +522,12 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>51d5f71b872dc690a3a80f68cebb35fe</sys_id>
         <latest_snapshot>ac26f79f872dc690a3a80f68cebb352b</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=51d5f71b872dc690a3a80f68cebb35fe^sys_idNOT IN7c26f79f872dc690a3a80f68cebb3555"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"7c26f79f872dc690a3a80f68cebb3555","name":"plan","plan_signature":null}}</plan>
         <plan_id>51d5f71b872dc690a3a80f68cebb35fe</plan_id>
         <snapshot>ac26f79f872dc690a3a80f68cebb352b</snapshot>
         <sys_created_by>admin</sys_created_by>
@@ -533,11 +535,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c26f79f872dc690a3a80f68cebb3555</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:17:30</sys_updated_on>
+        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
         <trigger display_value="">b826f79f872dc690a3a80f68cebb3553</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=51d5f71b872dc690a3a80f68cebb35fe"/>
