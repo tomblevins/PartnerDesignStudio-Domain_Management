@@ -1,0 +1,1938 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="batch" table="x_snc_domain_man_0_domain_indicators" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>batch</element>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:08:49</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>batch</sys_name>
+            <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+            <sys_update_name>sys_choice_x_snc_domain_man_0_domain_indicators_batch</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:08:49</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Exempt</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:27:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:27:21</sys_updated_on>
+            <value>exempt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch1</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:08:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:09:47</sys_updated_on>
+            <value>batch1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch2</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:08:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:09:48</sys_updated_on>
+            <value>batch2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch3</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:09:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:09:51</sys_updated_on>
+            <value>batch3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch4</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:10:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:11:37</sys_updated_on>
+            <value>batch4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch5</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:11:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:11:48</sys_updated_on>
+            <value>batch5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch6</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:12:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:13:39</sys_updated_on>
+            <value>batch6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch7</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:13:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 14:14:12</sys_updated_on>
+            <value>batch7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch8</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:14:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:12:00</sys_updated_on>
+            <value>batch8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch9</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:14:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:12:47</sys_updated_on>
+            <value>batch9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch10</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:14:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:07:19</sys_updated_on>
+            <value>batch10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch11</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:14:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:07:29</sys_updated_on>
+            <value>batch11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch12</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:14:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:07:38</sys_updated_on>
+            <value>batch12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch13</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:14:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:07:41</sys_updated_on>
+            <value>batch13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch14</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:15:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:07:44</sys_updated_on>
+            <value>batch14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch15</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:15:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:07:47</sys_updated_on>
+            <value>batch15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch16</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:15:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:07:50</sys_updated_on>
+            <value>batch16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch17</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:15:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:07:54</sys_updated_on>
+            <value>batch17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch18</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:15:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:07:58</sys_updated_on>
+            <value>batch18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch19</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:15:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:01</sys_updated_on>
+            <value>batch19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch20</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:16:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:06</sys_updated_on>
+            <value>batch20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch21</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:16:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:09</sys_updated_on>
+            <value>batch21</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch22</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:16:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:13</sys_updated_on>
+            <value>batch22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch23</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:16:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:15</sys_updated_on>
+            <value>batch23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch24</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:16:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:19</sys_updated_on>
+            <value>batch24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch25</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:16:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:22</sys_updated_on>
+            <value>batch25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch26</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:27</sys_updated_on>
+            <value>batch26</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch27</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>27</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:16:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:30</sys_updated_on>
+            <value>batch27</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch28</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>28</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:16:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:34</sys_updated_on>
+            <value>batch28</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch29</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>29</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:17:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:38</sys_updated_on>
+            <value>batch29</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch30</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:17:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:44</sys_updated_on>
+            <value>batch30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch31</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>31</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:17:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:47</sys_updated_on>
+            <value>batch31</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch32</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>32</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:17:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:50</sys_updated_on>
+            <value>batch32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch33</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>33</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:17:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:54</sys_updated_on>
+            <value>batch33</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch34</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>34</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:08:58</sys_updated_on>
+            <value>batch34</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch35</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>35</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:17:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:09:01</sys_updated_on>
+            <value>batch35</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch36</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>36</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:17:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:09:07</sys_updated_on>
+            <value>batch36</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch37</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>37</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:17:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:14:07</sys_updated_on>
+            <value>batch37</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch38</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>38</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:18:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:14:13</sys_updated_on>
+            <value>batch38</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch39</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>39</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:18:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:14:18</sys_updated_on>
+            <value>batch39</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch40</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:14:25</sys_updated_on>
+            <value>batch40</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch41</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>41</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:18:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:14:31</sys_updated_on>
+            <value>batch41</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch42</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>42</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:18:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:14:37</sys_updated_on>
+            <value>batch42</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch43</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>43</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:19:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:14:42</sys_updated_on>
+            <value>batch43</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch44</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>44</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:19:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:14:47</sys_updated_on>
+            <value>batch44</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch45</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>45</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:19:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:14:53</sys_updated_on>
+            <value>batch45</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch46</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>46</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:19:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:14:58</sys_updated_on>
+            <value>batch46</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch47</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>47</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:19:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:15:04</sys_updated_on>
+            <value>batch47</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch48</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>48</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:19:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:15:10</sys_updated_on>
+            <value>batch48</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch49</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>49</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:19:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:15:14</sys_updated_on>
+            <value>batch49</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch50</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:19:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:15:23</sys_updated_on>
+            <value>batch50</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch51</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>51</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:15:31</sys_updated_on>
+            <value>batch51</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch52</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>52</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:15:37</sys_updated_on>
+            <value>batch52</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch53</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>53</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:15:43</sys_updated_on>
+            <value>batch53</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch54</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>54</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:15:48</sys_updated_on>
+            <value>batch54</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch55</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>55</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:15:58</sys_updated_on>
+            <value>batch55</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch56</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>56</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:16:04</sys_updated_on>
+            <value>batch56</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch57</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>57</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:16:10</sys_updated_on>
+            <value>batch57</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch58</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>58</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:16:14</sys_updated_on>
+            <value>batch58</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch59</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>59</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:16:20</sys_updated_on>
+            <value>batch59</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch60</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:16:26</sys_updated_on>
+            <value>batch60</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch61</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>61</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:20:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:16:30</sys_updated_on>
+            <value>batch61</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch62</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>62</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:21:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:16:35</sys_updated_on>
+            <value>batch62</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch63</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>63</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:21:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:16:40</sys_updated_on>
+            <value>batch63</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch64</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>64</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:21:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:16:47</sys_updated_on>
+            <value>batch64</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch65</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>65</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:21:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:16:52</sys_updated_on>
+            <value>batch65</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch66</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>66</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:21:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:17:00</sys_updated_on>
+            <value>batch66</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch67</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>67</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:21:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:17:14</sys_updated_on>
+            <value>batch67</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch68</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>68</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:21:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:17:22</sys_updated_on>
+            <value>batch68</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch69</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>69</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:21:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:17:29</sys_updated_on>
+            <value>batch69</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch70</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:21:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:17:36</sys_updated_on>
+            <value>batch70</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch71</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>71</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:21:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:17:42</sys_updated_on>
+            <value>batch71</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch72</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>72</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:22:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:17:48</sys_updated_on>
+            <value>batch72</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch73</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>73</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:22:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:17:53</sys_updated_on>
+            <value>batch73</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch74</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>74</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:22:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:17:59</sys_updated_on>
+            <value>batch74</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch75</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>75</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:22:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:18:05</sys_updated_on>
+            <value>batch75</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch76</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>76</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:22:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:18:10</sys_updated_on>
+            <value>batch76</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch77</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>77</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:22:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:18:14</sys_updated_on>
+            <value>batch77</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch78</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>78</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:23:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:18:21</sys_updated_on>
+            <value>batch78</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch79</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>79</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:23:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:18:27</sys_updated_on>
+            <value>batch79</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch80</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:23:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:18:36</sys_updated_on>
+            <value>batch80</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch81</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>81</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:23:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:18:42</sys_updated_on>
+            <value>batch81</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch82</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>82</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:23:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:18:50</sys_updated_on>
+            <value>batch82</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch83</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>83</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:24:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:18:55</sys_updated_on>
+            <value>batch83</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch84</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>84</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:24:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:19:01</sys_updated_on>
+            <value>batch84</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch85</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>85</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:24:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:19:06</sys_updated_on>
+            <value>batch85</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch86</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>86</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:24:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:19:13</sys_updated_on>
+            <value>batch86</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch87</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>87</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:24:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:19:23</sys_updated_on>
+            <value>batch87</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch88</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>88</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:25:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:19:30</sys_updated_on>
+            <value>batch88</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch89</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>89</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:25:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:19:36</sys_updated_on>
+            <value>batch89</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch90</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:25:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:19:45</sys_updated_on>
+            <value>batch90</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch91</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>91</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:25:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:19:52</sys_updated_on>
+            <value>batch91</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch92</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>92</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:26:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:20:03</sys_updated_on>
+            <value>batch92</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch93</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>93</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:26:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:20:10</sys_updated_on>
+            <value>batch93</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch94</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>94</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:26:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:20:17</sys_updated_on>
+            <value>batch94</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch95</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>95</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:20:24</sys_updated_on>
+            <value>batch95</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch96</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>96</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:26:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:20:32</sys_updated_on>
+            <value>batch96</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch97</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>97</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:26:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:20:39</sys_updated_on>
+            <value>batch97</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch98</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>98</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:26:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:20:44</sys_updated_on>
+            <value>batch98</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch99</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>99</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:26:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:20:48</sys_updated_on>
+            <value>batch99</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>batch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Batch100</label>
+            <language>en</language>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 14:27:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-06 13:07:25</sys_updated_on>
+            <value>batch100</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

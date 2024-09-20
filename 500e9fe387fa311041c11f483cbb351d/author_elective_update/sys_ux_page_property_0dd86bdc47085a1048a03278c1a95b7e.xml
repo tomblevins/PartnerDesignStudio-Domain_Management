@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Test Management">49d86bdc52085a103ffeabb4e7e86d8d</page>
+        <required_translations>[ {
+  "message" : "New Domain Management Task",
+  "comment" : ""
+}, {
+  "message" : "New Domain to Table Relationships",
+  "comment" : ""
+}, {
+  "message" : "New Table Domain Accounting",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 12:14:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0dd86bdc47085a1048a03278c1a95b7e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_page_property_0dd86bdc47085a1048a03278c1a95b7e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 12:14:42</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_domain_man_0.49d86bdc52085a103ffeabb4e7e86d8d.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Domain Management Task"},"routeInfo":{"route":"record","fields":{"table":"x_snc_domain_man_0_domain_management_task","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_domain_man_0_domain_management_task","canCreate":true}}},{"label":{"translatable":true,"message":"New Domain to Table Relationships"},"routeInfo":{"route":"record","fields":{"table":"x_snc_domain_man_0_domain_rel_table","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_domain_man_0_domain_rel_table","canCreate":true}}},{"label":{"translatable":true,"message":"New Table Domain Accounting"},"routeInfo":{"route":"record","fields":{"table":"x_snc_domain_man_0_domain_accounting","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_domain_man_0_domain_accounting","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=0dd86bdc47085a1048a03278c1a95b7e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>blevinsdsprod</instance_name>
+        <name>sys_ux_page_property_0dd86bdc47085a1048a03278c1a95b7e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Tabs Configuration</description><name>chrome_tab</name><page display_value="Test Management">49d86bdc52085a103ffeabb4e7e86d8d</page><required_translations>[ {
+  "message" : "New Domain Management Task",
+  "comment" : ""
+}, {
+  "message" : "New Domain to Table Relationships",
+  "comment" : ""
+}, {
+  "message" : "New Table Domain Accounting",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-12 12:14:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0dd86bdc47085a1048a03278c1a95b7e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_tab</sys_name><sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package><sys_policy/><sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope><sys_update_name>sys_ux_page_property_0dd86bdc47085a1048a03278c1a95b7e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-12 12:14:42</sys_updated_on><type>json</type><unique_name>x_snc_domain_man_0.49d86bdc52085a103ffeabb4e7e86d8d.root.chrome_tab</unique_name><value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Domain Management Task"},"routeInfo":{"route":"record","fields":{"table":"x_snc_domain_man_0_domain_management_task","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_domain_man_0_domain_management_task","canCreate":true}}},{"label":{"translatable":true,"message":"New Domain to Table Relationships"},"routeInfo":{"route":"record","fields":{"table":"x_snc_domain_man_0_domain_rel_table","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_domain_man_0_domain_rel_table","canCreate":true}}},{"label":{"translatable":true,"message":"New Table Domain Accounting"},"routeInfo":{"route":"record","fields":{"table":"x_snc_domain_man_0_domain_accounting","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_domain_man_0_domain_accounting","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=0dd86bdc47085a1048a03278c1a95b7e"/></record_update>]]></payload>
+        <payload_hash>441610758</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>0e6001d31bcf4a10c0c654ee034bcb71</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 12:14:42</sys_created_on>
+        <sys_id>93d82fdc1b085a10c0c654ee034bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1914683197b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 12:14:42</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>5bd82fdc83085a1085263da4481d4c73</update_guid>
+        <update_guid_history>5bd82fdc83085a1085263da4481d4c73:441610758,53d82fdcb9085a10cf114da2e1faf072:-813019598</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 12:32:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>6443c6d86bb54248b344af70f3e4cc09</sys_id>
+        <sys_metadata>0dd86bdc47085a1048a03278c1a95b7e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_0dd86bdc47085a1048a03278c1a95b7e</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_0dd86bdc47085a1048a03278c1a95b7e">93d82fdc1b085a10c0c654ee034bcb74</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 12:32:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

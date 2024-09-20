@@ -17,7 +17,7 @@
         <internal_name>scheddiscover_tables_with_sys_domain</internal_name>
         <label_cache>[]</label_cache>
         <master_snapshot>ac26f79f872dc690a3a80f68cebb352b</master_snapshot>
-        <name>SCHED - Discover Tables with Sys_Domain</name>
+        <name>SCHED - Audit Tables and Create Domain Indicators</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -27,7 +27,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -35,15 +35,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>51d5f71b872dc690a3a80f68cebb35fe</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>SCHED - Discover Tables with Sys_Domain</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>SCHED - Audit Tables and Create Domain Indicators</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_flow_51d5f71b872dc690a3a80f68cebb35fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
+        <sys_updated_on>2024-08-06 13:27:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=51d5f71b872dc690a3a80f68cebb35fe"/>
@@ -113,16 +113,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="SCHED - Discover Tables with Sys_Domain">51d5f71b872dc690a3a80f68cebb35fe</flow>
+        <flow display_value="SCHED - Audit Tables and Create Domain Indicators">51d5f71b872dc690a3a80f68cebb35fe</flow>
         <name>Daily</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:16:56</sys_created_on>
         <sys_id>a0063f5f872dc690a3a80f68cebb35e5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
+        <sys_updated_on>2024-08-06 13:27:29</sys_updated_on>
         <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -167,7 +167,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="SCHED - Discover Tables with Sys_Domain">51d5f71b872dc690a3a80f68cebb35fe</flow>
+        <flow display_value="SCHED - Audit Tables and Create Domain Indicators">51d5f71b872dc690a3a80f68cebb35fe</flow>
         <generation_source/>
         <inputs/>
         <order>1</order>
@@ -178,10 +178,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:17:18</sys_created_on>
         <sys_id>f9163f5f872dc690a3a80f68cebb35e9</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-24 13:55:59</sys_updated_on>
+        <sys_updated_on>2024-08-06 13:27:29</sys_updated_on>
         <ui_id>27db3c72-1238-4d14-8b80-8be8419ee266</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f9163f5f872dc690a3a80f68cebb35e9"/>
@@ -311,7 +311,7 @@
         <name>SCHED - Discover Tables with Sys_Domain</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="SCHED - Discover Tables with Sys_Domain">51d5f71b872dc690a3a80f68cebb35fe</parent_flow>
+        <parent_flow display_value="SCHED - Audit Tables and Create Domain Indicators">51d5f71b872dc690a3a80f68cebb35fe</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -522,14 +522,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>51d5f71b872dc690a3a80f68cebb35fe</sys_id>
         <latest_snapshot>ac26f79f872dc690a3a80f68cebb352b</latest_snapshot>
-        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1b-08-05-2024_08-19-2024_0842.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=51d5f71b872dc690a3a80f68cebb35fe^sys_idNOT IN7c26f79f872dc690a3a80f68cebb3555"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"7c26f79f872dc690a3a80f68cebb3555","name":"plan","plan_signature":null}}</plan>
         <plan_id>51d5f71b872dc690a3a80f68cebb35fe</plan_id>
-        <snapshot>ac26f79f872dc690a3a80f68cebb352b</snapshot>
+        <snapshot>ef818c671b105210c0c654ee034bcbf3</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:17:30</sys_created_on>
         <sys_domain>global</sys_domain>

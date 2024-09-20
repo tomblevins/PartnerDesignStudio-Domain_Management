@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New Section" section_id="5ce86fdc1b085a10c0c654ee034bcbb1" sys_domain="global" table="x_snc_domain_man_0_domain_management_task" version="3" view="workspace-test-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-12 12:14:46</sys_created_on>
+            <sys_id>dce86fdc1b085a10c0c654ee034bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_domain_man_0_domain_management_task" sys_domain="global" view="89d86bdc05085a10311b1fdd83de6083">5ce86fdc1b085a10c0c654ee034bcbb1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-12 12:14:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes_list</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-12 12:14:46</sys_created_on>
+            <sys_id>58e86fdc1b085a10c0c654ee034bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_domain_man_0_domain_management_task" sys_domain="global" view="89d86bdc05085a10311b1fdd83de6083">5ce86fdc1b085a10c0c654ee034bcbb1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-12 12:14:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_snc_domain_man_0_domain_management_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-12 12:14:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ce86fdc1b085a10c0c654ee034bcbb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_domain_man_0_domain_management_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+            <sys_update_name>sys_ui_section_5ce86fdc1b085a10c0c654ee034bcbb1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-12 12:14:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Test Management 0" name="workspace-test-management-0">89d86bdc05085a10311b1fdd83de6083</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

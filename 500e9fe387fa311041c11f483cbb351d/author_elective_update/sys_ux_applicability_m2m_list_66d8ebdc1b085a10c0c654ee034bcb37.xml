@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="DELETE">
+        <active>true</active>
+        <applicability display_value="Audience for app test-management">92d8abdc1b085a10c0c654ee034bcbb0</applicability>
+        <list/>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 12:14:39</sys_created_on>
+        <sys_id>66d8ebdc1b085a10c0c654ee034bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_66d8ebdc1b085a10c0c654ee034bcb37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 12:14:39</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>blevinsdsprod</instance_name>
+        <name>sys_ux_applicability_m2m_list_66d8ebdc1b085a10c0c654ee034bcb37</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list"><sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Audience for app test-management">92d8abdc1b085a10c0c654ee034bcbb0</applicability><list/><order>100</order><sys_class_name>sys_ux_applicability_m2m_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-12 12:14:39</sys_created_on><sys_id>66d8ebdc1b085a10c0c654ee034bcb37</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package><sys_policy/><sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope><sys_update_name>sys_ux_applicability_m2m_list_66d8ebdc1b085a10c0c654ee034bcb37</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-12 12:14:39</sys_updated_on></sys_ux_applicability_m2m_list></record_update>]]></payload>
+        <payload_hash>-1650750358</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0e6001d31bcf4a10c0c654ee034bcb71</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 12:32:27</sys_created_on>
+        <sys_id>7c863c301b40da10c0c654ee034bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1914bb9b4380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 12:32:27</sys_updated_on>
+        <type>List Applicability</type>
+        <update_guid>26d8ebdc6f085a10326bca40b3397938</update_guid>
+        <update_guid_history>26d8ebdc6f085a10326bca40b3397938:-181146412,26d8ebdc6f085a10326bca40b3397938:-181146412</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 12:32:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_list">sys_ux_applicability_m2m_list</sys_db_object>
+        <sys_id>6c1d111cef454f2c99f722fb7e9e29e4</sys_id>
+        <sys_metadata>66d8ebdc1b085a10c0c654ee034bcb37</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_list_66d8ebdc1b085a10c0c654ee034bcb37</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_list_66d8ebdc1b085a10c0c654ee034bcb37">7c863c301b40da10c0c654ee034bcb4a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 12:32:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

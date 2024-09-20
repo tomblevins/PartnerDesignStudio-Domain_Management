@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color>#e2d859</color>
+        <color_name display_value="#e2d859">ed3f99d8b7733010b288bc16de11a959</color_name>
+        <display>background-color:#e2d859</display>
+        <element>priority</element>
+        <name>x_snc_domain_man_0_domain_management_task</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 12:25:36</sys_created_on>
+        <sys_id>875b2b901b485a10c0c654ee034bcb39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_domain_man_0_domain_management_task</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_report_chart_color_875b2b901b485a10c0c654ee034bcb39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 12:27:38</sys_updated_on>
+        <value>3</value>
+    </sys_report_chart_color>
+</record_update>

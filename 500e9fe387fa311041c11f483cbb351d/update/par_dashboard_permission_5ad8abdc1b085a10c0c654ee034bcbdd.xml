@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Test Management">89d86bdc00085a1038d4fafcfbcb2686</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_snc_domain_man_0.user" name="x_snc_domain_man_0.user">e7bed76787fa311041c11f483cbb35f0</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 12:14:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ad8abdc1b085a10c0c654ee034bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>89d86bdc00085a1038d4fafcfbcb2686</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>par_dashboard_permission_5ad8abdc1b085a10c0c654ee034bcbdd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 12:14:38</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>
