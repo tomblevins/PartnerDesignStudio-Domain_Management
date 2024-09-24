@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>Archive and Remove</action_name>
+        <action_name>sysverb_map_domains_to_tables</action_name>
         <active>true</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
@@ -8,14 +8,14 @@
 }]]></client_script_v2>
         <comments/>
         <condition/>
-        <form_action>true</form_action>
-        <form_button>true</form_button>
-        <form_button_v2>false</form_button_v2>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
-        <form_link>true</form_link>
-        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_link>false</form_link>
+        <form_menu_button_v2>true</form_menu_button_v2>
         <form_style/>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>false</isolate_script>
         <list_action>true</list_action>
@@ -27,23 +27,19 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Archive and Remove</name>
+        <name>Map Domains to Tables</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[var di = current.getValue('sys_id');
-
-(function() {
+        <script><![CDATA[(function() {
 	
 	try {
-		var inputs = {};
-		inputs['sysid'] = di; // String 
 
 		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
-		// sn_fd.FlowAPI.getRunner().subflow('x_snc_domain_man_0.uiaction__archive_and_delete_domain').inBackground().withInputs(inputs).run();
+		sn_fd.FlowAPI.getRunner().subflow('x_snc_domain_man_0.uiaction__map_domains_to_tables').inBackground().run();
 				
 		// Execute Synchronously: Run in foreground. Code snippet has access to outputs.
-		var result = sn_fd.FlowAPI.getRunner().subflow('x_snc_domain_man_0.uiaction__archive_and_delete_domain').inForeground().withInputs(inputs).run();
-		var outputs = result.getOutputs();
+		//var result = sn_fd.FlowAPI.getRunner().subflow('x_snc_domain_man_0.uiaction__map_domains_to_tables').inForeground().run();
+		//var outputs = result.getOutputs();
 
 		// Current subflow has no outputs defined.		
 	} catch (ex) {
@@ -58,20 +54,20 @@
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-14 18:39:10</sys_created_on>
+        <sys_created_on>2024-09-24 13:26:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>aeb92b4f1b538a50c0c654ee034bcbb6</sys_id>
+        <sys_id>dc7515da1b389e50c0c654ee034bcb9a</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Archive and Remove</sys_name>
+        <sys_name>Map Domains to Tables</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name>sys_ui_action_aeb92b4f1b538a50c0c654ee034bcbb6</sys_update_name>
+        <sys_update_name>sys_ui_action_dc7515da1b389e50c0c654ee034bcb9a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-24 12:45:34</sys_updated_on>
-        <table>x_snc_domain_man_0_domain_indicators</table>
+        <sys_updated_on>2024-09-24 13:33:45</sys_updated_on>
+        <table>x_snc_domain_man_0_domain_rel_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Domain Management Task">7cb967478722069041c11f483cbb3535</application>
+        <application display_value="Domain Management">3ca755161bb89e50c0c654ee034bcb43</application>
         <assessment/>
         <device_type/>
         <filter/>
@@ -10,32 +10,32 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Domain Management Tasks</mobile_title>
+        <mobile_title>Table Domain Accounting</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_snc_domain_man_0_domain_management_task</name>
-        <order/>
+        <name>x_snc_domain_man_0_domain_accounting</name>
+        <order>2</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_snc_domain_man_0.domain_management_task_user</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-07 11:47:29</sys_created_on>
+        <sys_created_on>2024-09-24 13:40:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>3cb967478722069041c11f483cbb3539</sys_id>
+        <sys_id>e0c8d5521bf89e50c0c654ee034bcb2e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Domain Management Tasks</sys_name>
+        <sys_name>Table Domain Accounting</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name>sys_app_module_3cb967478722069041c11f483cbb3539</sys_update_name>
+        <sys_update_name>sys_app_module_e0c8d5521bf89e50c0c654ee034bcb2e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-07 11:47:29</sys_updated_on>
+        <sys_updated_on>2024-09-24 13:40:43</sys_updated_on>
         <timeline_page/>
-        <title>Domain Management Tasks</title>
+        <title>Table Domain Accounting</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

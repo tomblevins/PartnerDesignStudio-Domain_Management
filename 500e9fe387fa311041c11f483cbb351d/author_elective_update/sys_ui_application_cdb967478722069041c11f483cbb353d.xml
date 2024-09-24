@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Domain Management Task</name>
+        <order/>
+        <roles>x_snc_domain_man_0.domain_management_task_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 11:47:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cdb967478722069041c11f483cbb353d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Management Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ui_application_cdb967478722069041c11f483cbb353d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 11:47:29</sys_updated_on>
+    </sys_ui_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>blevinsdsprod</instance_name>
+        <name>sys_ui_application_cdb967478722069041c11f483cbb353d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Domain Management Task</name>
+        <order/>
+        <roles>x_snc_domain_man_0.domain_management_task_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-07 11:47:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cdb967478722069041c11f483cbb353d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Management Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ui_application_cdb967478722069041c11f483cbb353d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 11:47:29</sys_updated_on>
+    </sys_ui_application>
+</record_update>]]></payload>
+        <payload_hash>1068725019</payload_hash>
+        <record_name>Domain Management Task</record_name>
+        <reverted_from/>
+        <source>387f745f1b8f4a10c0c654ee034bcb45</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 14:36:43</sys_created_on>
+        <sys_id>3f2081931bcf4a10c0c654ee034bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19073e0644f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 14:36:43</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>f720819360cf4a10d3ef678e3377f86a</update_guid>
+        <update_guid_history>f720819360cf4a10d3ef678e3377f86a:0,50bebc9b968f4a10536072c5c331b2e9:-321017024,bfca86955a474210ac4efa700fe4db72:1068725019</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-24 13:38:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>a05fa175b7504462af5771241a3f8e44</sys_id>
+        <sys_metadata>cdb967478722069041c11f483cbb353d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Management Task</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_ui_application_cdb967478722069041c11f483cbb353d</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_cdb967478722069041c11f483cbb353d">3f2081931bcf4a10c0c654ee034bcb6a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-24 13:38:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

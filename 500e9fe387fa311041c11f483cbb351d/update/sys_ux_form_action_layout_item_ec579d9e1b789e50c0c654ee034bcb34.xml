@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Map Domains to Tables">20579d9e1b789e50c0c654ee034bcb31</action>
+        <active>true</active>
+        <color>secondary</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Map Domains to Tables</label>
+        <layout_group/>
+        <name>Map Domains to Tables</name>
+        <order>100</order>
+        <overflow>true</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-24 13:33:46</sys_created_on>
+        <sys_id>ec579d9e1b789e50c0c654ee034bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Map Domains to Tables</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_ec579d9e1b789e50c0c654ee034bcb34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-24 13:33:46</sys_updated_on>
+        <table>x_snc_domain_man_0_domain_rel_table</table>
+    </sys_ux_form_action_layout_item>
+</record_update>
