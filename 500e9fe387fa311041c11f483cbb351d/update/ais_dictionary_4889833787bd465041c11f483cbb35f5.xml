@@ -4,28 +4,28 @@
         <auto_refresh>24</auto_refresh>
         <blocked_field/>
         <case_sensitive>false</case_sensitive>
-        <data_source>x_snc_domain_man_0_domain_rel_table,x_snc_domain_man_0_domain_indicators,x_snc_domain_man_0_domain_accounting</data_source>
+        <data_source>x_snc_domain_man_0_domain_indicators,x_snc_domain_man_0_domain_accounting</data_source>
         <derived>true</derived>
         <field/>
         <label>domain-data-management Search Profile Default Spell Check Dictionary</label>
-        <last_derived>2024-06-07 12:32:29</last_derived>
+        <last_derived>2024-11-21 09:26:57</last_derived>
         <locale>en</locale>
         <name>x_snc_domain_man_0_domain_data_management_search_profile_default_spell_check_dictionary</name>
-        <publish_id>5ddff3fa-ba89-4fb5-b943-d2937258f4b0</publish_id>
+        <publish_id>a4c40901-8225-4aee-9f56-1a937b578341</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
-        <state>PUBLISHED</state>
+        <state>DRAFT</state>
         <sys_class_name>ais_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-03 10:35:08</sys_created_on>
         <sys_id>4889833787bd465041c11f483cbb35f5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>x_snc_domain_man_0_domain_data_management_search_profile_default_spell_check_dictionary</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>ais_dictionary_4889833787bd465041c11f483cbb35f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-07 07:00:04</sys_updated_on>
+        <sys_updated_on>2024-11-22 08:00:04</sys_updated_on>
         <type>SPELLCHECK</type>
     </ais_dictionary>
 </record_update>

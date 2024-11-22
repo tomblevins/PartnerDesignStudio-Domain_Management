@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>sum_record_count</internal_name>
-        <label_cache>[{"name":"{{action.indicator_record}}","label":"action➛Indicator Record","type":"action","ref":"","reference_display":"Domain Indicators","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.mapping_record}}","label":"action➛Mapping Record","type":"action","ref":"","reference_display":"Domain to Table Relationships","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.indicator_record.record_count}}","label":"action➛Indicator Record➛Record Count","type":"action","ref":"","reference_display":"Record Count","base_type":"integer","parent_table_name":"x_snc_domain_man_0_domain_indicators","column_name":"record_count","choices":null,"attributes":{}},{"name":"{{action.mapping_record.record_count}}","label":"action➛Mapping Record➛Record Count","type":"action","ref":"","reference_display":"Record Count","base_type":"integer","parent_table_name":"x_snc_domain_man_0_domain_rel_table","column_name":"record_count","choices":null,"attributes":{}},{"name":"{{action.domain_sysid}}","label":"action➛Domain SysID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"fcb88690-da24-4721-9c12-482a15680708"}},{"name":"{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].table_count}}","label":"step➛Script step➛table_count","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].record_sum}}","label":"step➛Script step➛record_sum","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.indicator_record}}","label":"action➛Indicator Record","type":"action","ref":"","reference_display":"Domain Indicators","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.mapping_record}}","label":"action➛Mapping Record","type":"action","ref":"","reference_display":"Domain to Table Relationships","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.indicator_record.record_count}}","label":"action➛Indicator Record➛Record Count","type":"action","ref":"","reference_display":"Record Count","base_type":"integer","parent_table_name":"x_snc_domain_man_0_domain_indicators","column_name":"record_count","choices":null,"attributes":{}},{"name":"{{action.mapping_record.record_count}}","label":"action➛Mapping Record➛Record Count","type":"action","ref":"","reference_display":"Record Count","base_type":"integer","parent_table_name":"x_snc_domain_man_0_domain_rel_table","column_name":"record_count","choices":null,"attributes":{}},{"name":"{{action.domain_sysid}}","label":"action➛Domain SysID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"fcb88690-da24-4721-9c12-482a15680708"}},{"name":"{{action.table_name}}","label":"action➛Table Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[13d4711e-aa0c-4072-aa9a-74efadfb841e].record.domain_string}}","label":"step➛Look Up Record step➛Domain Indicators Record➛Domain String","type":"step","ref":"","reference_display":"Domain String","base_type":"string","parent_table_name":"x_snc_domain_man_0_domain_indicators","column_name":"domain_string","choices":null,"attributes":{}},{"name":"{{step[13d4711e-aa0c-4072-aa9a-74efadfb841e].record.record_count}}","label":"step➛Look Up Record step➛Domain Indicators Record➛Record Count","type":"step","ref":"","reference_display":"Record Count","base_type":"integer","parent_table_name":"x_snc_domain_man_0_domain_indicators","column_name":"record_count","choices":null,"attributes":{}},{"name":"{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].record_count}}","label":"step➛Script step➛record_count","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0e2dd4f7-562e-4d8e-9b7c-81bdc687a449"}},{"name":"{{step[c9e99705-7b36-4431-8d77-85e657ba358e].new_sum}}","label":"step➛Script step➛new_sum","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"88fc92da-3d91-4555-9a8a-06228275d31d"}}]</label_cache>
         <master_snapshot>84fdbfdf876dc690a3a80f68cebb35be</master_snapshot>
         <name>SUM Record Count</name>
         <natlang/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>226cb7db876dc690a3a80f68cebb35cf</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>SUM Record Count</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_226cb7db876dc690a3a80f68cebb35cf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:55</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:44:48</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -61,57 +61,89 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
         <document_key>226cb7db876dc690a3a80f68cebb35cf</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:05:04</sys_created_on>
-        <sys_id>4817a16f1b07ca10c0c654ee034bcb47</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:04</sys_updated_on>
-        <value/>
-        <variable display_value="Record Sum">bf07a16f1b07ca10c0c654ee034bcb3b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_definition</document>
-        <document_key>226cb7db876dc690a3a80f68cebb35cf</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:28</sys_created_on>
         <sys_id>92ed7fdf876dc690a3a80f68cebb3518</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 11:56:22</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2024-11-22 16:26:23</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}}}</value>
         <variable display_value="Action Status">12ed3fdf876dc690a3a80f68cebb35f8</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_definition</document>
-        <document_key>226cb7db876dc690a3a80f68cebb35cf</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+    <sys_element_mapping action="delete_multiple" query="id=226cb7db876dc690a3a80f68cebb35cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>domainname</field>
+        <id>226cb7db876dc690a3a80f68cebb35cf</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-19 14:51:28</sys_created_on>
-        <sys_id>deed7fdf876dc690a3a80f68cebb3517</sys_id>
+        <sys_created_on>2024-11-22 17:07:17</sys_created_on>
+        <sys_id>5bfd3d5d1b0e5610c0c654ee034bcb3d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:51:28</sys_updated_on>
-        <value/>
-        <variable display_value="Table Count">5aed3fdf876dc690a3a80f68cebb35fd</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=226cb7db876dc690a3a80f68cebb35cf"/>
+        <sys_updated_on>2024-11-22 17:07:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</table>
+        <value>{{step[13d4711e-aa0c-4072-aa9a-74efadfb841e].record.domain_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>newsum</field>
+        <id>226cb7db876dc690a3a80f68cebb35cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:19:02</sys_created_on>
+        <sys_id>a7a042511b4e5610c0c654ee034bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:19:02</sys_updated_on>
+        <table>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</table>
+        <value>{{step[c9e99705-7b36-4431-8d77-85e657ba358e].new_sum}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>oldsum</field>
+        <id>226cb7db876dc690a3a80f68cebb35cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:10:05</sys_created_on>
+        <sys_id>1cae399d1b0e5610c0c654ee034bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:10:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</table>
+        <value>{{step[13d4711e-aa0c-4072-aa9a-74efadfb841e].record.record_count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>recordcount</field>
+        <id>226cb7db876dc690a3a80f68cebb35cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:07:17</sys_created_on>
+        <sys_id>97fd3d5d1b0e5610c0c654ee034bcb3d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:11:45</sys_updated_on>
+        <table>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</table>
+        <value>{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].record_count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tablename</field>
+        <id>226cb7db876dc690a3a80f68cebb35cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:07:17</sys_created_on>
+        <sys_id>9bfd3d5d1b0e5610c0c654ee034bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:07:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</table>
+        <value>{{action.table_name}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>variable</field>
         <id>226cb7db876dc690a3a80f68cebb35cf</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:28</sys_created_on>
         <sys_id>16ed7fdf876dc690a3a80f68cebb3517</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:04</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:04:34</sys_updated_on>
         <table>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</table>
-        <value>{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].table_count}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>variable1</field>
@@ -119,11 +151,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-03 12:05:04</sys_created_on>
         <sys_id>bf07a16f1b07ca10c0c654ee034bcb46</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:04</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:04:34</sys_updated_on>
         <table>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</table>
-        <value>{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].record_sum}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
@@ -149,28 +181,28 @@
         <table>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=226cb7db876dc690a3a80f68cebb35cf^sys_idNOT IN46ed3fdf876dc690a3a80f68cebb35b5"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=226cb7db876dc690a3a80f68cebb35cf^sys_idNOT IN46ed3fdf876dc690a3a80f68cebb35b5,5f9002511b4e5610c0c654ee034bcb21,d35d315d1b0e5610c0c654ee034bcbb3"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SUM Record Count">226cb7db876dc690a3a80f68cebb35cf</action>
         <cid>772bf3e5-f17c-445b-9ce0-b2c788f7b12e</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <label>Script step</label>
-        <order>1</order>
+        <order>2</order>
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:27</sys_created_on>
         <sys_id>46ed3fdf876dc690a3a80f68cebb35b5</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:07:35</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:44:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=46ed3fdf876dc690a3a80f68cebb35b5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -195,29 +227,30 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:28</sys_created_on>
         <sys_id>96ed3fdf876dc690a3a80f68cebb35f3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:07:35</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:04:34</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 var did = inputs.domSysID;&#13;
+var tname = inputs.tableName;&#13;
 &#13;
-var agg = new GlideAggregate('x_snc_domain_man_0_domain_rel_table');&#13;
+var agg = new GlideAggregate(tname);&#13;
 agg.addAggregate('COUNT', 'create_date');&#13;
-agg.addAggregate('SUM', 'record_count');&#13;
-agg.addQuery('domain=' + did);&#13;
+//agg.addAggregate('SUM', 'record_count');&#13;
+agg.addQuery('sys_domain=' + did);&#13;
 agg.query();&#13;
 while (agg.next()) {&#13;
     //do things on the results&#13;
-    var tableCount = agg.getAggregate('COUNT', 'create_date');&#13;
-    var recordSum = agg.getAggregate('SUM', 'record_count');&#13;
+    var recordCount = agg.getAggregate('COUNT', 'create_date');&#13;
+    //var recordSum = agg.getAggregate('SUM', 'record_count');&#13;
     //gs.info('Display the count {0}', [recordSum]);&#13;
     //outputs.newcount = recordSum;&#13;
 }&#13;
 &#13;
 &#13;
 &#13;
-outputs.table_count = tableCount;&#13;
-outputs.record_sum = recordSum;&#13;
+outputs.record_count = recordCount;&#13;
+&#13;
 &#13;
 })(inputs, outputs);&#13;
 </value>
@@ -272,10 +305,22 @@ outputs.record_sum = recordSum;&#13;
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tableName</field>
+        <id>46ed3fdf876dc690a3a80f68cebb35b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 16:26:23</sys_created_on>
+        <sys_id>58a43d911b0e5610c0c654ee034bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 16:26:23</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_46ed3fdf876dc690a3a80f68cebb35b5</table>
+        <value>{{action.table_name}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_46ed3fdf876dc690a3a80f68cebb35b5^id=46ed3fdf876dc690a3a80f68cebb35b5"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=46ed3fdf876dc690a3a80f68cebb35b5"/>
     <sys_translated_text action="delete_multiple" query="documentkey=46ed3fdf876dc690a3a80f68cebb35b5"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=46ed3fdf876dc690a3a80f68cebb35b5^sys_idNOT IN1c15212b1bc3ca10c0c654ee034bcb38"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=46ed3fdf876dc690a3a80f68cebb35b5^sys_idNOT IN1c15212b1bc3ca10c0c654ee034bcb38,cca43d911b0e5610c0c654ee034bcb2b"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -359,12 +404,11 @@ outputs.record_sum = recordSum;&#13;
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=46ed3fdf876dc690a3a80f68cebb35b5^sys_idNOT IN3f07a16f1b07ca10c0c654ee034bcb17,7f07a16f1b07ca10c0c654ee034bcb13"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=16e5a33c-6565-49ac-95bb-a0ff589c57da</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -388,7 +432,7 @@ outputs.record_sum = recordSum;&#13;
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>record_sum</element>
+        <element>tableName</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -397,15 +441,15 @@ outputs.record_sum = recordSum;&#13;
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>record_sum</label>
-        <mandatory>false</mandatory>
+        <label/>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Script step">46ed3fdf876dc690a3a80f68cebb35b5</model>
         <model_id>46ed3fdf876dc690a3a80f68cebb35b5</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_46ed3fdf876dc690a3a80f68cebb35b5</name>
+        <name>var__m_sys_hub_step_ext_input_46ed3fdf876dc690a3a80f68cebb35b5</name>
         <next_element/>
-        <order>2</order>
+        <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -419,10 +463,10 @@ outputs.record_sum = recordSum;&#13;
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:05:03</sys_created_on>
-        <sys_id>3f07a16f1b07ca10c0c654ee034bcb17</sys_id>
+        <sys_created_on>2024-11-22 16:26:22</sys_created_on>
+        <sys_id>cca43d911b0e5610c0c654ee034bcb2b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -430,7 +474,7 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:03</sys_updated_on>
+        <sys_updated_on>2024-11-22 16:26:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -442,12 +486,13 @@ outputs.record_sum = recordSum;&#13;
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=46ed3fdf876dc690a3a80f68cebb35b5^sys_idNOT INd4ae399d1b0e5610c0c654ee034bcb5f"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=02f074ce-247b-442d-8fb3-747495ee8b3c</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0e2dd4f7-562e-4d8e-9b7c-81bdc687a449</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -471,7 +516,7 @@ outputs.record_sum = recordSum;&#13;
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>table_count</element>
+        <element>record_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -480,7 +525,7 @@ outputs.record_sum = recordSum;&#13;
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>table_count</label>
+        <label>record_count</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
         <model display_value="Script step">46ed3fdf876dc690a3a80f68cebb35b5</model>
@@ -504,8 +549,8 @@ outputs.record_sum = recordSum;&#13;
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:05:03</sys_created_on>
-        <sys_id>7f07a16f1b07ca10c0c654ee034bcb13</sys_id>
+        <sys_created_on>2024-11-22 17:10:04</sys_created_on>
+        <sys_id>d4ae399d1b0e5610c0c654ee034bcb5f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -513,7 +558,7 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:03</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:10:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -527,19 +572,19 @@ outputs.record_sum = recordSum;&#13;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=46ed3fdf876dc690a3a80f68cebb35b5"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_46ed3fdf876dc690a3a80f68cebb35b5^sys_idNOT IN7f07a16f1b07ca10c0c654ee034bcb16,f307a16f1b07ca10c0c654ee034bcb1a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_46ed3fdf876dc690a3a80f68cebb35b5^sys_idNOT IN58ae399d1b0e5610c0c654ee034bcb62"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>table_count</element>
+        <element>record_count</element>
         <help/>
         <hint/>
-        <label>table_count</label>
+        <label>record_count</label>
         <language>en</language>
         <name>var__m_sys_hub_step_ext_output_46ed3fdf876dc690a3a80f68cebb35b5</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:05:03</sys_created_on>
-        <sys_id>7f07a16f1b07ca10c0c654ee034bcb16</sys_id>
+        <sys_created_on>2024-11-22 17:10:04</sys_created_on>
+        <sys_id>58ae399d1b0e5610c0c654ee034bcb62</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -547,22 +592,404 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:03</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:10:04</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>record_sum</element>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="SUM Record Count">226cb7db876dc690a3a80f68cebb35cf</action>
+        <cid>c9e99705-7b36-4431-8d77-85e657ba358e</cid>
+        <error_handling_type>2</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>5f9002511b4e5610c0c654ee034bcb21</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:44:39</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5f9002511b4e5610c0c654ee034bcb21"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5f9002511b4e5610c0c654ee034bcb21</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>679002511b4e5610c0c654ee034bcb32</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:25:46</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+var o = Number(inputs.ocount);&#13;
+var r = Number(inputs.rcount);&#13;
+&#13;
+var nsum = o + r;&#13;
+&#13;
+outputs.new_sum = nsum; &#13;
+&#13;
+&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5f9002511b4e5610c0c654ee034bcb21</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>a39002511b4e5610c0c654ee034bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:18:45</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5f9002511b4e5610c0c654ee034bcb21</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>e39002511b4e5610c0c654ee034bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:18:45</sys_updated_on>
+        <value/>
+        <variable display_value="">539002511b4e5610c0c654ee034bcb25</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5f9002511b4e5610c0c654ee034bcb21"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>5f9002511b4e5610c0c654ee034bcb21</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>6f9002511b4e5610c0c654ee034bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:18:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ocount</field>
+        <id>5f9002511b4e5610c0c654ee034bcb21</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>af9002511b4e5610c0c654ee034bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:18:45</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5f9002511b4e5610c0c654ee034bcb21</table>
+        <value>{{step[13d4711e-aa0c-4072-aa9a-74efadfb841e].record.record_count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rcount</field>
+        <id>5f9002511b4e5610c0c654ee034bcb21</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>639002511b4e5610c0c654ee034bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:18:45</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5f9002511b4e5610c0c654ee034bcb21</table>
+        <value>{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].record_count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>5f9002511b4e5610c0c654ee034bcb21</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>239002511b4e5610c0c654ee034bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:18:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5f9002511b4e5610c0c654ee034bcb21^id=5f9002511b4e5610c0c654ee034bcb21"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5f9002511b4e5610c0c654ee034bcb21"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5f9002511b4e5610c0c654ee034bcb21"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5f9002511b4e5610c0c654ee034bcb21^sys_idNOT IN539002511b4e5610c0c654ee034bcb25,df9002511b4e5610c0c654ee034bcb27"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ocount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
         <help/>
         <hint/>
-        <label>record_sum</label>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">5f9002511b4e5610c0c654ee034bcb21</model>
+        <model_id>5f9002511b4e5610c0c654ee034bcb21</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_5f9002511b4e5610c0c654ee034bcb21</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>539002511b4e5610c0c654ee034bcb25</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:19:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rcount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">5f9002511b4e5610c0c654ee034bcb21</model>
+        <model_id>5f9002511b4e5610c0c654ee034bcb21</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_5f9002511b4e5610c0c654ee034bcb21</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>df9002511b4e5610c0c654ee034bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:18:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5f9002511b4e5610c0c654ee034bcb21^sys_idNOT IN2f9002511b4e5610c0c654ee034bcb2a"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=88fc92da-3d91-4555-9a8a-06228275d31d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_sum</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>new_sum</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">5f9002511b4e5610c0c654ee034bcb21</model>
+        <model_id>5f9002511b4e5610c0c654ee034bcb21</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5f9002511b4e5610c0c654ee034bcb21</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>2f9002511b4e5610c0c654ee034bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:18:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5f9002511b4e5610c0c654ee034bcb21"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5f9002511b4e5610c0c654ee034bcb21^sys_idNOT INaf9002511b4e5610c0c654ee034bcb2d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>new_sum</element>
+        <help/>
+        <hint/>
+        <label>new_sum</label>
         <language>en</language>
-        <name>var__m_sys_hub_step_ext_output_46ed3fdf876dc690a3a80f68cebb35b5</name>
+        <name>var__m_sys_hub_step_ext_output_5f9002511b4e5610c0c654ee034bcb21</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:05:03</sys_created_on>
-        <sys_id>f307a16f1b07ca10c0c654ee034bcb1a</sys_id>
+        <sys_created_on>2024-11-22 17:18:45</sys_created_on>
+        <sys_id>af9002511b4e5610c0c654ee034bcb2d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -570,11 +997,162 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:03</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:18:45</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=226cb7db876dc690a3a80f68cebb35cf^sys_idNOT INd415ede71bc3ca10c0c654ee034bcbd4"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="SUM Record Count">226cb7db876dc690a3a80f68cebb35cf</action>
+        <cid>13d4711e-aa0c-4072-aa9a-74efadfb841e</cid>
+        <error_handling_type>2</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:04:33</sys_created_on>
+        <sys_id>d35d315d1b0e5610c0c654ee034bcbb3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:44:39</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d35d315d1b0e5610c0c654ee034bcbb3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d35d315d1b0e5610c0c654ee034bcbb3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:04:33</sys_created_on>
+        <sys_id>235d315d1b0e5610c0c654ee034bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:04:33</sys_updated_on>
+        <value>x_snc_domain_man_0_domain_indicators</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d35d315d1b0e5610c0c654ee034bcbb3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>d35d315d1b0e5610c0c654ee034bcbb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:04:33</sys_created_on>
+        <sys_id>af5d315d1b0e5610c0c654ee034bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:04:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>domain.sys_id={{action.domain_sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>d35d315d1b0e5610c0c654ee034bcbb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:04:33</sys_created_on>
+        <sys_id>e75d315d1b0e5610c0c654ee034bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:04:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=d35d315d1b0e5610c0c654ee034bcbb3"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d35d315d1b0e5610c0c654ee034bcbb3"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d35d315d1b0e5610c0c654ee034bcbb3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d35d315d1b0e5610c0c654ee034bcbb3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d35d315d1b0e5610c0c654ee034bcbb3"/>
+    <sys_hub_action_input action="delete_multiple" query="model=226cb7db876dc690a3a80f68cebb35cf^sys_idNOT IN8ca43d911b0e5610c0c654ee034bcb1e,d415ede71bc3ca10c0c654ee034bcbd4"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2d7129f6-4e08-4cc7-8430-82f98e01c968</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="SUM Record Count">226cb7db876dc690a3a80f68cebb35cf</model>
+        <model_id>226cb7db876dc690a3a80f68cebb35cf</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_226cb7db876dc690a3a80f68cebb35cf</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 16:26:22</sys_created_on>
+        <sys_id>8ca43d911b0e5610c0c654ee034bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 16:26:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8ca43d911b0e5610c0c654ee034bcb1e"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -659,7 +1237,7 @@ outputs.record_sum = recordSum;&#13;
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d415ede71bc3ca10c0c654ee034bcbd4"/>
-    <sys_hub_action_output action="delete_multiple" query="model=226cb7db876dc690a3a80f68cebb35cf^sys_idNOT IN12ed3fdf876dc690a3a80f68cebb35f8,1eed7fdf876dc690a3a80f68cebb3501,5aed3fdf876dc690a3a80f68cebb35fd,bf07a16f1b07ca10c0c654ee034bcb3b"/>
+    <sys_hub_action_output action="delete_multiple" query="model=226cb7db876dc690a3a80f68cebb35cf^sys_idNOT IN12ed3fdf876dc690a3a80f68cebb35f8,13fdf95d1b0e5610c0c654ee034bcbfe,14ae399d1b0e5610c0c654ee034bcb7a,1eed7fdf876dc690a3a80f68cebb3501,53fd3d5d1b0e5610c0c654ee034bcb09,dbfdf95d1b0e5610c0c654ee034bcbf8,dffd3d5d1b0e5610c0c654ee034bcb04"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -707,7 +1285,7 @@ outputs.record_sum = recordSum;&#13;
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -725,14 +1303,14 @@ outputs.record_sum = recordSum;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:28</sys_created_on>
         <sys_id>12ed3fdf876dc690a3a80f68cebb35f8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:04</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:07:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -747,6 +1325,180 @@ outputs.record_sum = recordSum;&#13;
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=12ed3fdf876dc690a3a80f68cebb35f8"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=12ed3fdf876dc690a3a80f68cebb35f8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=bf697a73-8549-4223-8647-97c4764e3489</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>domainname</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>domainName</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="SUM Record Count">226cb7db876dc690a3a80f68cebb35cf</model>
+        <model_id>226cb7db876dc690a3a80f68cebb35cf</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:07:16</sys_created_on>
+        <sys_id>13fdf95d1b0e5610c0c654ee034bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:07:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=13fdf95d1b0e5610c0c654ee034bcbfe"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=13fdf95d1b0e5610c0c654ee034bcbfe"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d4b2bd4b-582a-4aa0-b9f4-bdfb551bf6a2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>oldsum</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>oldSum</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="SUM Record Count">226cb7db876dc690a3a80f68cebb35cf</model>
+        <model_id>226cb7db876dc690a3a80f68cebb35cf</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:10:05</sys_created_on>
+        <sys_id>14ae399d1b0e5610c0c654ee034bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:10:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=14ae399d1b0e5610c0c654ee034bcb7a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=14ae399d1b0e5610c0c654ee034bcb7a"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -794,7 +1546,7 @@ outputs.record_sum = recordSum;&#13;
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
         <next_element/>
-        <order>4</order>
+        <order>6</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -812,14 +1564,14 @@ outputs.record_sum = recordSum;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:28</sys_created_on>
         <sys_id>1eed7fdf876dc690a3a80f68cebb3501</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:54</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:44:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -838,7 +1590,7 @@ outputs.record_sum = recordSum;&#13;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=f615b345-4253-4419-9629-165deb9d832b</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=3bddb3ff-8a97-44e0-8005-d38f43301d95</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -862,7 +1614,7 @@ outputs.record_sum = recordSum;&#13;
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>variable</element>
+        <element>newsum</element>
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -872,10 +1624,97 @@ outputs.record_sum = recordSum;&#13;
         <help/>
         <hint/>
         <internal_link/>
-        <internal_type display_value="Integer">integer</internal_type>
-        <label>Table Count</label>
+        <internal_type display_value="String">string</internal_type>
+        <label>newSum</label>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>8000</max_length>
+        <model display_value="SUM Record Count">226cb7db876dc690a3a80f68cebb35cf</model>
+        <model_id>226cb7db876dc690a3a80f68cebb35cf</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:07:16</sys_created_on>
+        <sys_id>53fd3d5d1b0e5610c0c654ee034bcb09</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:19:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=53fd3d5d1b0e5610c0c654ee034bcb09"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53fd3d5d1b0e5610c0c654ee034bcb09"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=11b0265c-d652-406a-a40c-b259e31a1dc9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tablename</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>tableName</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
         <model display_value="SUM Record Count">226cb7db876dc690a3a80f68cebb35cf</model>
         <model_id>226cb7db876dc690a3a80f68cebb35cf</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
@@ -897,16 +1736,16 @@ outputs.record_sum = recordSum;&#13;
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-19 14:51:28</sys_created_on>
-        <sys_id>5aed3fdf876dc690a3a80f68cebb35fd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-11-22 17:07:16</sys_created_on>
+        <sys_id>dbfdf95d1b0e5610c0c654ee034bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:04</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:07:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -919,13 +1758,13 @@ outputs.record_sum = recordSum;&#13;
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5aed3fdf876dc690a3a80f68cebb35fd"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=5aed3fdf876dc690a3a80f68cebb35fd"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dbfdf95d1b0e5610c0c654ee034bcbf8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dbfdf95d1b0e5610c0c654ee034bcbf8"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=172495ec-e9a0-4b08-ab0b-bea7b41b0f91</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=c4741cb5-b420-4f88-a37f-08c98f217e68</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -949,7 +1788,7 @@ outputs.record_sum = recordSum;&#13;
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>variable1</element>
+        <element>recordcount</element>
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -959,16 +1798,16 @@ outputs.record_sum = recordSum;&#13;
         <help/>
         <hint/>
         <internal_link/>
-        <internal_type display_value="Integer">integer</internal_type>
-        <label>Record Sum</label>
+        <internal_type display_value="String">string</internal_type>
+        <label>recordCount</label>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>8000</max_length>
         <model display_value="SUM Record Count">226cb7db876dc690a3a80f68cebb35cf</model>
         <model_id>226cb7db876dc690a3a80f68cebb35cf</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
         <next_element/>
-        <order>3</order>
+        <order>4</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -984,8 +1823,8 @@ outputs.record_sum = recordSum;&#13;
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:05:04</sys_created_on>
-        <sys_id>bf07a16f1b07ca10c0c654ee034bcb3b</sys_id>
+        <sys_created_on>2024-11-22 17:07:16</sys_created_on>
+        <sys_id>dffd3d5d1b0e5610c0c654ee034bcb04</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -993,7 +1832,7 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:04</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:07:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1006,8 +1845,8 @@ outputs.record_sum = recordSum;&#13;
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bf07a16f1b07ca10c0c654ee034bcb3b"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=bf07a16f1b07ca10c0c654ee034bcb3b"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dffd3d5d1b0e5610c0c654ee034bcb04"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dffd3d5d1b0e5610c0c654ee034bcb04"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=226cb7db876dc690a3a80f68cebb35cf"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=226cb7db876dc690a3a80f68cebb35cf^sys_idNOT IN56ed7fdf876dc690a3a80f68cebb351a"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
@@ -1020,7 +1859,30 @@ outputs.record_sum = recordSum;&#13;
         <sys_updated_on>2024-04-19 14:51:28</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=56ed7fdf876dc690a3a80f68cebb351a"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_226cb7db876dc690a3a80f68cebb35cf^sys_idNOT IN9815ede71bc3ca10c0c654ee034bcbd8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_226cb7db876dc690a3a80f68cebb35cf^sys_idNOT IN08a43d911b0e5610c0c654ee034bcb25,9815ede71bc3ca10c0c654ee034bcbd8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_226cb7db876dc690a3a80f68cebb35cf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 16:26:22</sys_created_on>
+        <sys_id>08a43d911b0e5610c0c654ee034bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 16:26:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>domain_sysid</element>
         <help/>
@@ -1045,7 +1907,7 @@ outputs.record_sum = recordSum;&#13;
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_226cb7db876dc690a3a80f68cebb35cf"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf^sys_idNOT IN12ed7fdf876dc690a3a80f68cebb3514,1aed3fdf876dc690a3a80f68cebb35fc,3307a16f1b07ca10c0c654ee034bcb3f,daed7fdf876dc690a3a80f68cebb3500"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf^sys_idNOT IN12ed7fdf876dc690a3a80f68cebb3514,1aed3fdf876dc690a3a80f68cebb35fc,53fdf95d1b0e5610c0c654ee034bcbfd,93fd3d5d1b0e5610c0c654ee034bcb08,9bfd3d5d1b0e5610c0c654ee034bcb18,d3fd3d5d1b0e5610c0c654ee034bcb01,d4ae399d1b0e5610c0c654ee034bcb7d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -1093,17 +1955,17 @@ outputs.record_sum = recordSum;&#13;
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>variable1</element>
+        <element>tablename</element>
         <help/>
         <hint/>
-        <label>Record Sum</label>
+        <label>tableName</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:05:04</sys_created_on>
-        <sys_id>3307a16f1b07ca10c0c654ee034bcb3f</sys_id>
+        <sys_created_on>2024-11-22 17:07:16</sys_created_on>
+        <sys_id>53fdf95d1b0e5610c0c654ee034bcbfd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -1111,30 +1973,99 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:04</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:07:16</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>variable</element>
+        <element>recordcount</element>
         <help/>
         <hint/>
-        <label>Table Count</label>
+        <label>recordCount</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-19 14:51:28</sys_created_on>
-        <sys_id>daed7fdf876dc690a3a80f68cebb3500</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-11-22 17:07:16</sys_created_on>
+        <sys_id>93fd3d5d1b0e5610c0c654ee034bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:05:04</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:07:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>newsum</element>
+        <help/>
+        <hint/>
+        <label>newSum</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:07:16</sys_created_on>
+        <sys_id>9bfd3d5d1b0e5610c0c654ee034bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:07:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>domainname</element>
+        <help/>
+        <hint/>
+        <label>domainName</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:07:16</sys_created_on>
+        <sys_id>d3fd3d5d1b0e5610c0c654ee034bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:07:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>oldsum</element>
+        <help/>
+        <hint/>
+        <label>oldSum</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_226cb7db876dc690a3a80f68cebb35cf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:10:05</sys_created_on>
+        <sys_id>d4ae399d1b0e5610c0c654ee034bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:10:05</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1143,17 +2074,17 @@ outputs.record_sum = recordSum;&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="SUM Record Count">226cb7db876dc690a3a80f68cebb35cf</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e4fdffdf876dc690a3a80f68cebb354c","name":"plan","plan_signature":null}}</plan>
-        <snapshot>94f725af1b07ca10c0c654ee034bcbc1</snapshot>
+        <snapshot>8596c2591b4e5610c0c654ee034bcbb0</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e4fdffdf876dc690a3a80f68cebb354c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:56</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:44:50</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1170,7 +2101,7 @@ outputs.record_sum = recordSum;&#13;
         <description/>
         <flow_priority/>
         <internal_name>sum_record_count</internal_name>
-        <label_cache>[{"name":"{{action.indicator_record}}","label":"action➛Indicator Record","type":"action","ref":"","reference_display":"Domain Indicators","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.mapping_record}}","label":"action➛Mapping Record","type":"action","ref":"","reference_display":"Domain to Table Relationships","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.indicator_record.record_count}}","label":"action➛Indicator Record➛Record Count","type":"action","ref":"","reference_display":"Record Count","base_type":"integer","parent_table_name":"x_snc_domain_man_0_domain_indicators","column_name":"record_count","choices":null,"attributes":{}},{"name":"{{action.mapping_record.record_count}}","label":"action➛Mapping Record➛Record Count","type":"action","ref":"","reference_display":"Record Count","base_type":"integer","parent_table_name":"x_snc_domain_man_0_domain_rel_table","column_name":"record_count","choices":null,"attributes":{}},{"name":"{{action.domain_sysid}}","label":"action➛Domain SysID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"fcb88690-da24-4721-9c12-482a15680708"}},{"name":"{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].table_count}}","label":"step➛Script step➛table_count","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].record_sum}}","label":"step➛Script step➛record_sum","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.indicator_record}}","label":"action➛Indicator Record","type":"action","ref":"","reference_display":"Domain Indicators","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.mapping_record}}","label":"action➛Mapping Record","type":"action","ref":"","reference_display":"Domain to Table Relationships","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.indicator_record.record_count}}","label":"action➛Indicator Record➛Record Count","type":"action","ref":"","reference_display":"Record Count","base_type":"integer","parent_table_name":"x_snc_domain_man_0_domain_indicators","column_name":"record_count","choices":null,"attributes":{}},{"name":"{{action.mapping_record.record_count}}","label":"action➛Mapping Record➛Record Count","type":"action","ref":"","reference_display":"Record Count","base_type":"integer","parent_table_name":"x_snc_domain_man_0_domain_rel_table","column_name":"record_count","choices":null,"attributes":{}},{"name":"{{action.domain_sysid}}","label":"action➛Domain SysID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"fcb88690-da24-4721-9c12-482a15680708"}},{"name":"{{action.table_name}}","label":"action➛Table Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[13d4711e-aa0c-4072-aa9a-74efadfb841e].record.domain_string}}","label":"step➛Look Up Record step➛Domain Indicators Record➛Domain String","type":"step","ref":"","reference_display":"Domain String","base_type":"string","parent_table_name":"x_snc_domain_man_0_domain_indicators","column_name":"domain_string","choices":null,"attributes":{}},{"name":"{{step[13d4711e-aa0c-4072-aa9a-74efadfb841e].record.record_count}}","label":"step➛Look Up Record step➛Domain Indicators Record➛Record Count","type":"step","ref":"","reference_display":"Record Count","base_type":"integer","parent_table_name":"x_snc_domain_man_0_domain_indicators","column_name":"record_count","choices":null,"attributes":{}},{"name":"{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].record_count}}","label":"step➛Script step➛record_count","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0e2dd4f7-562e-4d8e-9b7c-81bdc687a449"}},{"name":"{{step[c9e99705-7b36-4431-8d77-85e657ba358e].new_sum}}","label":"step➛Script step➛new_sum","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"88fc92da-3d91-4555-9a8a-06228275d31d"}}]</label_cache>
         <master>true</master>
         <name>SUM Record Count</name>
         <natlang/>
@@ -1183,7 +2114,7 @@ outputs.record_sum = recordSum;&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>84fdbfdf876dc690a3a80f68cebb35be</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1191,7 +2122,7 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:55</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:26:56</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1200,44 +2131,16 @@ outputs.record_sum = recordSum;&#13;
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
         <document_key>84fdbfdf876dc690a3a80f68cebb35be</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:08:38</sys_created_on>
-        <sys_id>0ce761af1b07ca10c0c654ee034bcbe3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:38</sys_updated_on>
-        <value/>
-        <variable display_value="Record Sum">0ce761af1b07ca10c0c654ee034bcbd7</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_snapshot</document>
-        <document_key>84fdbfdf876dc690a3a80f68cebb35be</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:36</sys_created_on>
         <sys_id>58fdffdf876dc690a3a80f68cebb3506</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:38</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2024-11-22 17:26:58</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}}}</value>
         <variable display_value="Action Status">50fdbfdf876dc690a3a80f68cebb35e8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_snapshot</document>
-        <document_key>84fdbfdf876dc690a3a80f68cebb35be</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-19 14:51:36</sys_created_on>
-        <sys_id>94fdffdf876dc690a3a80f68cebb3506</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-19 14:51:36</sys_updated_on>
-        <value/>
-        <variable display_value="Table Count">18fdbfdf876dc690a3a80f68cebb35f9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -1254,6 +2157,66 @@ outputs.record_sum = recordSum;&#13;
         <variable display_value="Don't Treat as Error">58fdbfdf876dc690a3a80f68cebb35fd</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=84fdbfdf876dc690a3a80f68cebb35be"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>domainname</field>
+        <id>84fdbfdf876dc690a3a80f68cebb35be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:58</sys_created_on>
+        <sys_id>f772c6d11b4e5610c0c654ee034bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</table>
+        <value>{{step[13d4711e-aa0c-4072-aa9a-74efadfb841e].record.domain_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>newsum</field>
+        <id>84fdbfdf876dc690a3a80f68cebb35be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:58</sys_created_on>
+        <sys_id>3772c6d11b4e5610c0c654ee034bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</table>
+        <value>{{step[c9e99705-7b36-4431-8d77-85e657ba358e].new_sum}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>oldsum</field>
+        <id>84fdbfdf876dc690a3a80f68cebb35be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:58</sys_created_on>
+        <sys_id>b772c6d11b4e5610c0c654ee034bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</table>
+        <value>{{step[13d4711e-aa0c-4072-aa9a-74efadfb841e].record.record_count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>recordcount</field>
+        <id>84fdbfdf876dc690a3a80f68cebb35be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:58</sys_created_on>
+        <sys_id>7372c6d11b4e5610c0c654ee034bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</table>
+        <value>{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].record_count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tablename</field>
+        <id>84fdbfdf876dc690a3a80f68cebb35be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:58</sys_created_on>
+        <sys_id>bb72c6d11b4e5610c0c654ee034bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</table>
+        <value>{{action.table_name}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>variable</field>
         <id>84fdbfdf876dc690a3a80f68cebb35be</id>
@@ -1302,28 +2265,28 @@ outputs.record_sum = recordSum;&#13;
         <table>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN4cfdbfdf876dc690a3a80f68cebb35cf"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN4cfdbfdf876dc690a3a80f68cebb35cf,6f72c6d11b4e5610c0c654ee034bcb02,937286d11b4e5610c0c654ee034bcbdc"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SUM Record Count">84fdbfdf876dc690a3a80f68cebb35be</action>
         <cid>772bf3e5-f17c-445b-9ce0-b2c788f7b12e</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <label>Script step</label>
-        <order>1</order>
+        <order>2</order>
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:35</sys_created_on>
         <sys_id>4cfdbfdf876dc690a3a80f68cebb35cf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:38</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:44:48</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4cfdbfdf876dc690a3a80f68cebb35cf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1348,29 +2311,30 @@ outputs.record_sum = recordSum;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:36</sys_created_on>
         <sys_id>d8fdbfdf876dc690a3a80f68cebb35e3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:38</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 var did = inputs.domSysID;&#13;
+var tname = inputs.tableName;&#13;
 &#13;
-var agg = new GlideAggregate('x_snc_domain_man_0_domain_rel_table');&#13;
+var agg = new GlideAggregate(tname);&#13;
 agg.addAggregate('COUNT', 'create_date');&#13;
-agg.addAggregate('SUM', 'record_count');&#13;
-agg.addQuery('domain=' + did);&#13;
+//agg.addAggregate('SUM', 'record_count');&#13;
+agg.addQuery('sys_domain=' + did);&#13;
 agg.query();&#13;
 while (agg.next()) {&#13;
     //do things on the results&#13;
-    var tableCount = agg.getAggregate('COUNT', 'create_date');&#13;
-    var recordSum = agg.getAggregate('SUM', 'record_count');&#13;
+    var recordCount = agg.getAggregate('COUNT', 'create_date');&#13;
+    //var recordSum = agg.getAggregate('SUM', 'record_count');&#13;
     //gs.info('Display the count {0}', [recordSum]);&#13;
     //outputs.newcount = recordSum;&#13;
 }&#13;
 &#13;
 &#13;
 &#13;
-outputs.table_count = tableCount;&#13;
-outputs.record_sum = recordSum;&#13;
+outputs.record_count = recordCount;&#13;
+&#13;
 &#13;
 })(inputs, outputs);&#13;
 </value>
@@ -1425,10 +2389,105 @@ outputs.record_sum = recordSum;&#13;
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tableName</field>
+        <id>4cfdbfdf876dc690a3a80f68cebb35cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>2772c6d11b4e5610c0c654ee034bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_4cfdbfdf876dc690a3a80f68cebb35cf</table>
+        <value>{{action.table_name}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_4cfdbfdf876dc690a3a80f68cebb35cf^id=4cfdbfdf876dc690a3a80f68cebb35cf"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=4cfdbfdf876dc690a3a80f68cebb35cf"/>
     <sys_translated_text action="delete_multiple" query="documentkey=4cfdbfdf876dc690a3a80f68cebb35cf"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=4cfdbfdf876dc690a3a80f68cebb35cf^sys_idNOT IN8ce761af1b07ca10c0c654ee034bcbab"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=4cfdbfdf876dc690a3a80f68cebb35cf^sys_idNOT IN177286d11b4e5610c0c654ee034bcbe7,8ce761af1b07ca10c0c654ee034bcbab"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tableName</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>tableName</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">4cfdbfdf876dc690a3a80f68cebb35cf</model>
+        <model_id>4cfdbfdf876dc690a3a80f68cebb35cf</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_4cfdbfdf876dc690a3a80f68cebb35cf</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:56</sys_created_on>
+        <sys_id>177286d11b4e5610c0c654ee034bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1512,12 +2571,12 @@ outputs.record_sum = recordSum;&#13;
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=4cfdbfdf876dc690a3a80f68cebb35cf^sys_idNOT IN48e761af1b07ca10c0c654ee034bcbbf,c8e761af1b07ca10c0c654ee034bcbbb"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=4cfdbfdf876dc690a3a80f68cebb35cf^sys_idNOT IN937286d11b4e5610c0c654ee034bcbeb"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=16e5a33c-6565-49ac-95bb-a0ff589c57da</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0e2dd4f7-562e-4d8e-9b7c-81bdc687a449</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1541,7 +2600,7 @@ outputs.record_sum = recordSum;&#13;
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>record_sum</element>
+        <element>record_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -1550,90 +2609,7 @@ outputs.record_sum = recordSum;&#13;
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>record_sum</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Script step">4cfdbfdf876dc690a3a80f68cebb35cf</model>
-        <model_id>4cfdbfdf876dc690a3a80f68cebb35cf</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_4cfdbfdf876dc690a3a80f68cebb35cf</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:08:37</sys_created_on>
-        <sys_id>48e761af1b07ca10c0c654ee034bcbbf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:37</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=02f074ce-247b-442d-8fb3-747495ee8b3c</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>table_count</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>table_count</label>
+        <label>record_count</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
         <model display_value="Script step">4cfdbfdf876dc690a3a80f68cebb35cf</model>
@@ -1657,8 +2633,8 @@ outputs.record_sum = recordSum;&#13;
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:08:37</sys_created_on>
-        <sys_id>c8e761af1b07ca10c0c654ee034bcbbb</sys_id>
+        <sys_created_on>2024-11-22 17:26:56</sys_created_on>
+        <sys_id>937286d11b4e5610c0c654ee034bcbeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1666,7 +2642,7 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:37</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:26:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1680,19 +2656,19 @@ outputs.record_sum = recordSum;&#13;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4cfdbfdf876dc690a3a80f68cebb35cf"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4cfdbfdf876dc690a3a80f68cebb35cf^sys_idNOT IN00e761af1b07ca10c0c654ee034bcbc2,88e761af1b07ca10c0c654ee034bcbbe"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4cfdbfdf876dc690a3a80f68cebb35cf^sys_idNOT IN177286d11b4e5610c0c654ee034bcbee"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>record_sum</element>
+        <element>record_count</element>
         <help/>
         <hint/>
-        <label>record_sum</label>
+        <label>record_count</label>
         <language>en</language>
         <name>var__m_sys_hub_step_ext_output_4cfdbfdf876dc690a3a80f68cebb35cf</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:08:37</sys_created_on>
-        <sys_id>00e761af1b07ca10c0c654ee034bcbc2</sys_id>
+        <sys_created_on>2024-11-22 17:26:56</sys_created_on>
+        <sys_id>177286d11b4e5610c0c654ee034bcbee</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -1700,22 +2676,404 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:37</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:26:56</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>table_count</element>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="SUM Record Count">84fdbfdf876dc690a3a80f68cebb35be</action>
+        <cid>c9e99705-7b36-4431-8d77-85e657ba358e</cid>
+        <error_handling_type>2</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>6f72c6d11b4e5610c0c654ee034bcb02</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:44:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6f72c6d11b4e5610c0c654ee034bcb02"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6f72c6d11b4e5610c0c654ee034bcb02</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>2372c6d11b4e5610c0c654ee034bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6f72c6d11b4e5610c0c654ee034bcb02</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>6372c6d11b4e5610c0c654ee034bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <value/>
+        <variable display_value="ocount">6372c6d11b4e5610c0c654ee034bcb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6f72c6d11b4e5610c0c654ee034bcb02</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>e372c6d11b4e5610c0c654ee034bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+var o = Number(inputs.ocount);&#13;
+var r = Number(inputs.rcount);&#13;
+&#13;
+var nsum = o + r;&#13;
+&#13;
+outputs.new_sum = nsum; &#13;
+&#13;
+&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6f72c6d11b4e5610c0c654ee034bcb02"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>6f72c6d11b4e5610c0c654ee034bcb02</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>eb72c6d11b4e5610c0c654ee034bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ocount</field>
+        <id>6f72c6d11b4e5610c0c654ee034bcb02</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>2f72c6d11b4e5610c0c654ee034bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6f72c6d11b4e5610c0c654ee034bcb02</table>
+        <value>{{step[13d4711e-aa0c-4072-aa9a-74efadfb841e].record.record_count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rcount</field>
+        <id>6f72c6d11b4e5610c0c654ee034bcb02</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>ef72c6d11b4e5610c0c654ee034bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6f72c6d11b4e5610c0c654ee034bcb02</table>
+        <value>{{step[772bf3e5-f17c-445b-9ce0-b2c788f7b12e].record_count}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>6f72c6d11b4e5610c0c654ee034bcb02</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>af72c6d11b4e5610c0c654ee034bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_6f72c6d11b4e5610c0c654ee034bcb02^id=6f72c6d11b4e5610c0c654ee034bcb02"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=6f72c6d11b4e5610c0c654ee034bcb02"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6f72c6d11b4e5610c0c654ee034bcb02"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6f72c6d11b4e5610c0c654ee034bcb02^sys_idNOT IN6372c6d11b4e5610c0c654ee034bcb06,6372c6d11b4e5610c0c654ee034bcb0a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ocount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
         <help/>
         <hint/>
-        <label>table_count</label>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>ocount</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">6f72c6d11b4e5610c0c654ee034bcb02</model>
+        <model_id>6f72c6d11b4e5610c0c654ee034bcb02</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6f72c6d11b4e5610c0c654ee034bcb02</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>6372c6d11b4e5610c0c654ee034bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rcount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>rcount</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">6f72c6d11b4e5610c0c654ee034bcb02</model>
+        <model_id>6f72c6d11b4e5610c0c654ee034bcb02</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6f72c6d11b4e5610c0c654ee034bcb02</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>6372c6d11b4e5610c0c654ee034bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6f72c6d11b4e5610c0c654ee034bcb02^sys_idNOT INaf72c6d11b4e5610c0c654ee034bcb0d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=88fc92da-3d91-4555-9a8a-06228275d31d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_sum</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>new_sum</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">6f72c6d11b4e5610c0c654ee034bcb02</model>
+        <model_id>6f72c6d11b4e5610c0c654ee034bcb02</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6f72c6d11b4e5610c0c654ee034bcb02</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>af72c6d11b4e5610c0c654ee034bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6f72c6d11b4e5610c0c654ee034bcb02"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_6f72c6d11b4e5610c0c654ee034bcb02^sys_idNOT INef72c6d11b4e5610c0c654ee034bcb10"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>new_sum</element>
+        <help/>
+        <hint/>
+        <label>new_sum</label>
         <language>en</language>
-        <name>var__m_sys_hub_step_ext_output_4cfdbfdf876dc690a3a80f68cebb35cf</name>
+        <name>var__m_sys_hub_step_ext_output_6f72c6d11b4e5610c0c654ee034bcb02</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:08:37</sys_created_on>
-        <sys_id>88e761af1b07ca10c0c654ee034bcbbe</sys_id>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>ef72c6d11b4e5610c0c654ee034bcb10</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -1723,11 +3081,78 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:37</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN7bd761af1b07ca10c0c654ee034bcb84"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="SUM Record Count">84fdbfdf876dc690a3a80f68cebb35be</action>
+        <cid>13d4711e-aa0c-4072-aa9a-74efadfb841e</cid>
+        <error_handling_type>2</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:56</sys_created_on>
+        <sys_id>937286d11b4e5610c0c654ee034bcbdc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:44:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=937286d11b4e5610c0c654ee034bcbdc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>937286d11b4e5610c0c654ee034bcbdc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:56</sys_created_on>
+        <sys_id>577286d11b4e5610c0c654ee034bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:56</sys_updated_on>
+        <value>x_snc_domain_man_0_domain_indicators</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=937286d11b4e5610c0c654ee034bcbdc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>937286d11b4e5610c0c654ee034bcbdc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:56</sys_created_on>
+        <sys_id>d37286d11b4e5610c0c654ee034bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>domain.sys_id={{action.domain_sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>937286d11b4e5610c0c654ee034bcbdc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:56</sys_created_on>
+        <sys_id>137286d11b4e5610c0c654ee034bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=937286d11b4e5610c0c654ee034bcbdc"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=937286d11b4e5610c0c654ee034bcbdc"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=937286d11b4e5610c0c654ee034bcbdc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=937286d11b4e5610c0c654ee034bcbdc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_937286d11b4e5610c0c654ee034bcbdc"/>
+    <sys_hub_action_input action="delete_multiple" query="model=84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN7bd761af1b07ca10c0c654ee034bcb84,977286d11b4e5610c0c654ee034bcbca"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1812,12 +3237,11 @@ outputs.record_sum = recordSum;&#13;
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7bd761af1b07ca10c0c654ee034bcb84"/>
-    <sys_hub_action_output action="delete_multiple" query="model=84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN0ce761af1b07ca10c0c654ee034bcbd7,18fdbfdf876dc690a3a80f68cebb35f9,50fdbfdf876dc690a3a80f68cebb35e8,58fdbfdf876dc690a3a80f68cebb35fd"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=172495ec-e9a0-4b08-ab0b-bea7b41b0f91</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2d7129f6-4e08-4cc7-8430-82f98e01c968</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1841,7 +3265,92 @@ outputs.record_sum = recordSum;&#13;
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>variable1</element>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="SUM Record Count">84fdbfdf876dc690a3a80f68cebb35be</model>
+        <model_id>84fdbfdf876dc690a3a80f68cebb35be</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_84fdbfdf876dc690a3a80f68cebb35be</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:56</sys_created_on>
+        <sys_id>977286d11b4e5610c0c654ee034bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=977286d11b4e5610c0c654ee034bcbca"/>
+    <sys_hub_action_output action="delete_multiple" query="model=84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN2372c6d11b4e5610c0c654ee034bcb3e,2772c6d11b4e5610c0c654ee034bcb31,2b72c6d11b4e5610c0c654ee034bcb25,50fdbfdf876dc690a3a80f68cebb35e8,58fdbfdf876dc690a3a80f68cebb35fd,6772c6d11b4e5610c0c654ee034bcb35,a772c6d11b4e5610c0c654ee034bcb2a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d4b2bd4b-582a-4aa0-b9f4-bdfb551bf6a2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>oldsum</element>
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -1851,16 +3360,16 @@ outputs.record_sum = recordSum;&#13;
         <help/>
         <hint/>
         <internal_link/>
-        <internal_type display_value="Integer">integer</internal_type>
-        <label>Record Sum</label>
+        <internal_type display_value="String">string</internal_type>
+        <label>oldSum</label>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>8000</max_length>
         <model display_value="SUM Record Count">84fdbfdf876dc690a3a80f68cebb35be</model>
         <model_id>84fdbfdf876dc690a3a80f68cebb35be</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
         <next_element/>
-        <order>3</order>
+        <order>7</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1876,8 +3385,8 @@ outputs.record_sum = recordSum;&#13;
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:08:38</sys_created_on>
-        <sys_id>0ce761af1b07ca10c0c654ee034bcbd7</sys_id>
+        <sys_created_on>2024-11-22 17:26:58</sys_created_on>
+        <sys_id>2372c6d11b4e5610c0c654ee034bcb3e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1885,7 +3394,7 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:38</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:26:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1898,13 +3407,13 @@ outputs.record_sum = recordSum;&#13;
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0ce761af1b07ca10c0c654ee034bcbd7"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=0ce761af1b07ca10c0c654ee034bcbd7"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2372c6d11b4e5610c0c654ee034bcb3e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2372c6d11b4e5610c0c654ee034bcb3e"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=f615b345-4253-4419-9629-165deb9d832b</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=c4741cb5-b420-4f88-a37f-08c98f217e68</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1928,7 +3437,7 @@ outputs.record_sum = recordSum;&#13;
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>variable</element>
+        <element>recordcount</element>
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -1938,10 +3447,97 @@ outputs.record_sum = recordSum;&#13;
         <help/>
         <hint/>
         <internal_link/>
-        <internal_type display_value="Integer">integer</internal_type>
-        <label>Table Count</label>
+        <internal_type display_value="String">string</internal_type>
+        <label>recordCount</label>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>8000</max_length>
+        <model display_value="SUM Record Count">84fdbfdf876dc690a3a80f68cebb35be</model>
+        <model_id>84fdbfdf876dc690a3a80f68cebb35be</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>2772c6d11b4e5610c0c654ee034bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2772c6d11b4e5610c0c654ee034bcb31"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2772c6d11b4e5610c0c654ee034bcb31"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=11b0265c-d652-406a-a40c-b259e31a1dc9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tablename</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>tableName</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
         <model display_value="SUM Record Count">84fdbfdf876dc690a3a80f68cebb35be</model>
         <model_id>84fdbfdf876dc690a3a80f68cebb35be</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
@@ -1963,16 +3559,16 @@ outputs.record_sum = recordSum;&#13;
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-19 14:51:36</sys_created_on>
-        <sys_id>18fdbfdf876dc690a3a80f68cebb35f9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>2b72c6d11b4e5610c0c654ee034bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:38</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1985,8 +3581,8 @@ outputs.record_sum = recordSum;&#13;
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18fdbfdf876dc690a3a80f68cebb35f9"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=18fdbfdf876dc690a3a80f68cebb35f9"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2b72c6d11b4e5610c0c654ee034bcb25"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2b72c6d11b4e5610c0c654ee034bcb25"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2034,7 +3630,7 @@ outputs.record_sum = recordSum;&#13;
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -2052,14 +3648,14 @@ outputs.record_sum = recordSum;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:36</sys_created_on>
         <sys_id>50fdbfdf876dc690a3a80f68cebb35e8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:38</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2121,7 +3717,7 @@ outputs.record_sum = recordSum;&#13;
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
         <next_element/>
-        <order>4</order>
+        <order>6</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -2139,14 +3735,14 @@ outputs.record_sum = recordSum;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-19 14:51:36</sys_created_on>
         <sys_id>58fdbfdf876dc690a3a80f68cebb35fd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:55</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:44:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2161,6 +3757,180 @@ outputs.record_sum = recordSum;&#13;
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=58fdbfdf876dc690a3a80f68cebb35fd"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=58fdbfdf876dc690a3a80f68cebb35fd"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=3bddb3ff-8a97-44e0-8005-d38f43301d95</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>newsum</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>newSum</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="SUM Record Count">84fdbfdf876dc690a3a80f68cebb35be</model>
+        <model_id>84fdbfdf876dc690a3a80f68cebb35be</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>6772c6d11b4e5610c0c654ee034bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6772c6d11b4e5610c0c654ee034bcb35"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6772c6d11b4e5610c0c654ee034bcb35"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=bf697a73-8549-4223-8647-97c4764e3489</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>domainname</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>domainName</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="SUM Record Count">84fdbfdf876dc690a3a80f68cebb35be</model>
+        <model_id>84fdbfdf876dc690a3a80f68cebb35be</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>a772c6d11b4e5610c0c654ee034bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a772c6d11b4e5610c0c654ee034bcb2a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a772c6d11b4e5610c0c654ee034bcb2a"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=84fdbfdf876dc690a3a80f68cebb35be"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN9cfdffdf876dc690a3a80f68cebb3508"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
@@ -2173,7 +3943,7 @@ outputs.record_sum = recordSum;&#13;
         <sys_updated_on>2024-04-19 14:51:36</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9cfdffdf876dc690a3a80f68cebb3508"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN37d761af1b07ca10c0c654ee034bcb8a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN37d761af1b07ca10c0c654ee034bcb8a,9f7286d11b4e5610c0c654ee034bcbd9"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>domain_sysid</element>
         <help/>
@@ -2197,43 +3967,18 @@ outputs.record_sum = recordSum;&#13;
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_84fdbfdf876dc690a3a80f68cebb35be"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN18fdbfdf876dc690a3a80f68cebb35fc,4ce761af1b07ca10c0c654ee034bcbda,58fdffdf876dc690a3a80f68cebb3502,d4fdbfdf876dc690a3a80f68cebb35f8"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>variable</element>
+        <element>table_name</element>
         <help/>
         <hint/>
-        <label>Table Count</label>
+        <label>Table Name</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
+        <name>var__m_sys_hub_action_input_84fdbfdf876dc690a3a80f68cebb35be</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-19 14:51:36</sys_created_on>
-        <sys_id>18fdbfdf876dc690a3a80f68cebb35fc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:38</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>variable1</element>
-        <help/>
-        <hint/>
-        <label>Record Sum</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:08:38</sys_created_on>
-        <sys_id>4ce761af1b07ca10c0c654ee034bcbda</sys_id>
+        <sys_created_on>2024-11-22 17:26:56</sys_created_on>
+        <sys_id>9f7286d11b4e5610c0c654ee034bcbd9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -2241,7 +3986,32 @@ outputs.record_sum = recordSum;&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 12:08:38</sys_updated_on>
+        <sys_updated_on>2024-11-22 17:26:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_84fdbfdf876dc690a3a80f68cebb35be"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be^sys_idNOT IN2b72c6d11b4e5610c0c654ee034bcb2d,58fdffdf876dc690a3a80f68cebb3502,a372c6d11b4e5610c0c654ee034bcb41,a772c6d11b4e5610c0c654ee034bcb34,d4fdbfdf876dc690a3a80f68cebb35f8,e772c6d11b4e5610c0c654ee034bcb29,e772c6d11b4e5610c0c654ee034bcb38"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>domainname</element>
+        <help/>
+        <hint/>
+        <label>domainName</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>2b72c6d11b4e5610c0c654ee034bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2269,6 +4039,52 @@ outputs.record_sum = recordSum;&#13;
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
+        <element>oldsum</element>
+        <help/>
+        <hint/>
+        <label>oldSum</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:58</sys_created_on>
+        <sys_id>a372c6d11b4e5610c0c654ee034bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>recordcount</element>
+        <help/>
+        <hint/>
+        <label>recordCount</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>a772c6d11b4e5610c0c654ee034bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
         <hint/>
@@ -2291,10 +4107,56 @@ outputs.record_sum = recordSum;&#13;
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>tablename</element>
+        <help/>
+        <hint/>
+        <label>tableName</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>e772c6d11b4e5610c0c654ee034bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>newsum</element>
+        <help/>
+        <hint/>
+        <label>newSum</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 17:26:57</sys_created_on>
+        <sys_id>e772c6d11b4e5610c0c654ee034bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 17:26:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_84fdbfdf876dc690a3a80f68cebb35be"/>
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>226cb7db876dc690a3a80f68cebb35cf</sys_id>
         <latest_snapshot>84fdbfdf876dc690a3a80f68cebb35be</latest_snapshot>
-        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch7a-09-23-2024_10-06-2024_0822.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

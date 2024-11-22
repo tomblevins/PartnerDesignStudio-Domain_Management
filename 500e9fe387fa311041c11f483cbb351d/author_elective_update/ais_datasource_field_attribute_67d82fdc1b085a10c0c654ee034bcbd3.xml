@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="DELETE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource display_value="Domain to Table Relationships Table">8fe84bb7877d465041c11f483cbb3538</datasource>
+        <field>name</field>
+        <source>x_snc_domain_man_0_domain_rel_table</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 12:14:43</sys_created_on>
+        <sys_id>67d82fdc1b085a10c0c654ee034bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_domain_man_0_domain_rel_table.name</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_67d82fdc1b085a10c0c654ee034bcbd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 12:14:43</sys_updated_on>
+        <value>title</value>
+    </ais_datasource_field_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>blevinsdsprod</instance_name>
+        <name>ais_datasource_field_attribute_67d82fdc1b085a10c0c654ee034bcbd3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute"><ais_datasource_field_attribute action="INSERT_OR_UPDATE"><attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute><datasource display_value="Domain to Table Relationships Table">8fe84bb7877d465041c11f483cbb3538</datasource><field>name</field><source>x_snc_domain_man_0_domain_rel_table</source><sys_class_name>ais_datasource_field_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-12 12:14:43</sys_created_on><sys_id>67d82fdc1b085a10c0c654ee034bcbd3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_domain_man_0_domain_rel_table.name</sys_name><sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package><sys_policy/><sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope><sys_update_name>ais_datasource_field_attribute_67d82fdc1b085a10c0c654ee034bcbd3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-12 12:14:43</sys_updated_on><value>title</value></ais_datasource_field_attribute></record_update>]]></payload>
+        <payload_hash>-1980512907</payload_hash>
+        <record_name>x_snc_domain_man_0_domain_rel_table.name</record_name>
+        <reverted_from/>
+        <source>0e6001d31bcf4a10c0c654ee034bcb71</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 12:14:43</sys_created_on>
+        <sys_id>27d82fdc1b085a10c0c654ee034bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19146831db70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 12:14:43</sys_updated_on>
+        <type>AI Search Indexed Source Field Attribute</type>
+        <update_guid>2bd82fdc99085a10f6f3bdd8045830d4</update_guid>
+        <update_guid_history>2bd82fdc99085a10f6f3bdd8045830d4:-1980512907</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_domain_man_0_domain_rel_table.name">8cc000151b065610c0c654ee034bcb26</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 08:00:06</sys_created_on>
+        <sys_db_object display_value="" name="ais_datasource_field_attribute">ais_datasource_field_attribute</sys_db_object>
+        <sys_id>0311a25ed15c4609803531a89be58f11</sys_id>
+        <sys_metadata>67d82fdc1b085a10c0c654ee034bcbd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_domain_man_0_domain_rel_table.name</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>ais_datasource_field_attribute_67d82fdc1b085a10c0c654ee034bcbd3</sys_update_name>
+        <sys_update_version display_value="ais_datasource_field_attribute_67d82fdc1b085a10c0c654ee034bcbd3">27d82fdc1b085a10c0c654ee034bcbd5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 08:00:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

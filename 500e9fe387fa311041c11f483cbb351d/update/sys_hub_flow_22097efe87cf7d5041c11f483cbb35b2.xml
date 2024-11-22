@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=19177138000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>22097efe87cf7d5041c11f483cbb35b2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>BR - Calculate Table to Domain Record Count</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -43,15 +43,14 @@
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_flow_22097efe87cf7d5041c11f483cbb35b2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-24 13:55:41</sys_updated_on>
+        <sys_updated_on>2024-11-21 20:09:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=22097efe87cf7d5041c11f483cbb35b2"/>
     <sys_variable_value action="delete_multiple" query="document_key=22097efe87cf7d5041c11f483cbb35b2"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_snc_domain_man_0_domain_rel_table">update_caluclations=true<item endquery="false" field="update_caluclations" goto="false" newquery="false" operator="=" or="false" value="true"/>
-        </condition>
+        <condition table="x_snc_domain_man_0_domain_rel_table">update_caluclations=true</condition>
         <name/>
         <on_delete>false</on_delete>
         <on_insert>true</on_insert>
@@ -75,16 +74,16 @@
         <table>x_snc_domain_man_0_domain_rel_table</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>22097efe87cf7d5041c11f483cbb35b2</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-24 13:55:40</sys_created_on>
         <sys_id>78c94ada1b2f8690c0c654ee034bcb49</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-24 13:55:40</sys_updated_on>
+        <sys_updated_on>2024-11-21 20:09:31</sys_updated_on>
         <trigger display_value="">600a36b28703bd5041c11f483cbb358c</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=22097efe87cf7d5041c11f483cbb35b2^sys_idNOT IN78c94ada1b2f8690c0c654ee034bcb49"/>
@@ -446,10 +445,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>16f932b28703bd5041c11f483cbb3598</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-24 14:08:34</sys_updated_on>
+        <sys_updated_on>2024-09-20 14:53:55</sys_updated_on>
         <ui_id>bc3553a3-7b84-4208-bcd9-9504f892adb9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=16f932b28703bd5041c11f483cbb3598"/>
@@ -510,10 +509,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>22f932b28703bd5041c11f483cbb35b1</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-24 14:08:34</sys_updated_on>
+        <sys_updated_on>2024-09-20 14:53:55</sys_updated_on>
         <ui_id>b1e0093c-9b02-4d24-907a-38367a346fb1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=22f932b28703bd5041c11f483cbb35b1"/>
@@ -586,10 +585,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>26f932b28703bd5041c11f483cbb35ab</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-24 14:08:34</sys_updated_on>
+        <sys_updated_on>2024-09-20 14:53:55</sys_updated_on>
         <ui_id>342fdb3a-e80d-49ba-8506-0558caa8d26a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=26f932b28703bd5041c11f483cbb35ab"/>
@@ -636,10 +635,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:43</sys_created_on>
         <sys_id>eaf932b28703bd5041c11f483cbb35a2</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-24 14:08:34</sys_updated_on>
+        <sys_updated_on>2024-09-20 14:53:55</sys_updated_on>
         <ui_id>2fab9bf7-fd7c-46d8-b3ac-5e5bb05c6658</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eaf932b28703bd5041c11f483cbb35a2"/>
@@ -1481,14 +1480,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>22097efe87cf7d5041c11f483cbb35b2</sys_id>
         <latest_snapshot>0c0af2b28703bd5041c11f483cbb3579</latest_snapshot>
-        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1b-08-05-2024_08-19-2024_0842.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=22097efe87cf7d5041c11f483cbb35b2^sys_idNOT IN640a36b28703bd5041c11f483cbb358e"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"640a36b28703bd5041c11f483cbb358e","name":"plan","plan_signature":null}}</plan>
         <plan_id>22097efe87cf7d5041c11f483cbb35b2</plan_id>
-        <snapshot>75bccede1b2f8690c0c654ee034bcb26</snapshot>
+        <snapshot>a34381cd1bb8da5074a6fe25cc4bcb61</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-15 14:00:52</sys_created_on>
         <sys_domain>global</sys_domain>
