@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Domain Man 0 1733334408651</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_domain_man_0_1733334408651</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-04 17:46:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>402abb811b9e9650c0c654ee034bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Man 0 1733334408651</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_app_module_402abb811b9e9650c0c654ee034bcb79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-04 17:46:51</sys_updated_on>
+        <timeline_page/>
+        <title>Domain Man 0 1733334408651</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</application>
+        <file_path/>
+        <instance_id>25b0627bdb66e8900ae3ac44d4961997</instance_id>
+        <instance_name>blevinsdsprod</instance_name>
+        <name>sys_app_module_402abb811b9e9650c0c654ee034bcb79</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Domain Man 0 1733334408651</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_domain_man_0_1733334408651</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-04 17:46:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>402abb811b9e9650c0c654ee034bcb79</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Domain Man 0 1733334408651</sys_name><sys_overrides/><sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package><sys_policy/><sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope><sys_update_name>sys_app_module_402abb811b9e9650c0c654ee034bcb79</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-04 17:46:51</sys_updated_on><timeline_page/><title>Domain Man 0 1733334408651</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-40295999</payload_hash>
+        <record_name>Domain Man 0 1733334408651</record_name>
+        <reverted_from/>
+        <source>0e6001d31bcf4a10c0c654ee034bcb71</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-04 17:46:51</sys_created_on>
+        <sys_id>402abb811b9e9650c0c654ee034bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19392c829d80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-04 17:46:51</sys_updated_on>
+        <type>Module</type>
+        <update_guid>442abb81259e96504c7276c0cf2be387</update_guid>
+        <update_guid_history>442abb81259e96504c7276c0cf2be387:-40295999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Domain Man 0 1733334408651">818ab3c11b9e9650c0c654ee034bcbce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-04 17:48:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>54c3c5f1b75943c2a821c3fe78ce91c4</sys_id>
+        <sys_metadata>402abb811b9e9650c0c654ee034bcb79</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Man 0 1733334408651</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
+        <sys_update_name>sys_app_module_402abb811b9e9650c0c654ee034bcb79</sys_update_name>
+        <sys_update_version display_value="sys_app_module_402abb811b9e9650c0c654ee034bcb79">402abb811b9e9650c0c654ee034bcb88</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-04 17:48:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
