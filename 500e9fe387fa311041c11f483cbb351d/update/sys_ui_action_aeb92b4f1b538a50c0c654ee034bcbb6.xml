@@ -39,11 +39,11 @@
 		inputs['sysid'] = di; // String 
 
 		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
-		// sn_fd.FlowAPI.getRunner().subflow('x_snc_domain_man_0.uiaction__archive_and_delete_domain').inBackground().withInputs(inputs).run();
+		sn_fd.FlowAPI.getRunner().subflow('x_snc_domain_man_0.uiaction__archive_and_delete_domains').inBackground().withInputs(inputs).run();
 				
 		// Execute Synchronously: Run in foreground. Code snippet has access to outputs.
-		var result = sn_fd.FlowAPI.getRunner().subflow('x_snc_domain_man_0.uiaction__archive_and_delete_domain').inForeground().withInputs(inputs).run();
-		var outputs = result.getOutputs();
+		//var result = sn_fd.FlowAPI.getRunner().subflow('x_snc_domain_man_0.uiaction__archive_and_delete_domains').inForeground().withInputs(inputs).run();
+		//var outputs = result.getOutputs();
 
 		// Current subflow has no outputs defined.		
 	} catch (ex) {
@@ -62,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aeb92b4f1b538a50c0c654ee034bcbb6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Archive and Remove</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -70,7 +70,7 @@
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_ui_action_aeb92b4f1b538a50c0c654ee034bcbb6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-22 18:04:20</sys_updated_on>
+        <sys_updated_on>2024-12-04 21:44:58</sys_updated_on>
         <table>x_snc_domain_man_0_domain_indicators</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
