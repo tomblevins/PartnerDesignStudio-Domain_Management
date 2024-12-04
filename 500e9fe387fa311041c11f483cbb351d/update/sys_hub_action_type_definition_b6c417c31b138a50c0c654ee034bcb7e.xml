@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b6c417c31b138a50c0c654ee034bcb7e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Archive Domain Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b6c417c31b138a50c0c654ee034bcb7e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-14 17:09:35</sys_updated_on>
+        <sys_updated_on>2024-11-22 19:16:22</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -65,10 +65,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-14 17:03:15</sys_created_on>
         <sys_id>c3c417c31b138a50c0c654ee034bcbca</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-14 17:09:25</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD0bc417c341138a50057349ab9d64f4b6":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD0bc417c341138a50057349ab9d64f4b6.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"0ccfdffa-e11d-45a2-9994-85966f6cf50d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD0bc417c341138a50057349ab9d64f4b6\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2024-11-22 19:16:13</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FD0bc417c341138a50057349ab9d64f4b6":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD0bc417c341138a50057349ab9d64f4b6.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"0ccfdffa-e11d-45a2-9994-85966f6cf50d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD0bc417c341138a50057349ab9d64f4b6\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">43c417c31b138a50c0c654ee034bcbbd</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_b6c417c31b138a50c0c654ee034bcb7e^id=b6c417c31b138a50c0c654ee034bcb7e"/>
@@ -76,7 +76,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Archive Domain Records">b6c417c31b138a50c0c654ee034bcb7e</action>
         <cid>793621aa-1833-4251-b777-4aad4af4c5b3</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -90,10 +90,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-14 17:03:14</sys_created_on>
         <sys_id>32c417c31b138a50c0c654ee034bcb8f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-14 17:09:25</sys_updated_on>
+        <sys_updated_on>2024-11-22 19:16:12</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=32c417c31b138a50c0c654ee034bcb8f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -781,14 +781,14 @@ while(gr.next()){&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-14 17:03:15</sys_created_on>
         <sys_id>07c417c31b138a50c0c654ee034bcbc1</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-14 17:09:33</sys_updated_on>
+        <sys_updated_on>2024-11-22 19:16:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -815,7 +815,7 @@ while(gr.next()){&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cbc417c31b138a50c0c654ee034bcbb6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -823,7 +823,7 @@ while(gr.next()){&#13;
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-14 17:09:33</sys_updated_on>
+        <sys_updated_on>2024-11-22 19:16:20</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -1048,17 +1048,17 @@ while(gr.next()){&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Archive Domain Records">b6c417c31b138a50c0c654ee034bcb7e</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"84465f071b138a50c0c654ee034bcbfe","name":"plan","plan_signature":null}}</plan>
-        <snapshot>7f365f071b138a50c0c654ee034bcbd7</snapshot>
+        <snapshot>ca8bd2dd1b429610c0c654ee034bcb91</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-14 17:09:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>84465f071b138a50c0c654ee034bcbfe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-14 17:09:35</sys_updated_on>
+        <sys_updated_on>2024-11-22 19:16:22</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1109,10 +1109,10 @@ while(gr.next()){&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-14 17:09:35</sys_created_on>
         <sys_id>3b365f071b138a50c0c654ee034bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-14 17:09:35</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2024-11-22 19:16:21</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}}}</value>
         <variable display_value="Action Status">3b365f071b138a50c0c654ee034bcbbc</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1134,7 +1134,7 @@ while(gr.next()){&#13;
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Archive Domain Records">2f365f071b138a50c0c654ee034bcb86</action>
         <cid>793621aa-1833-4251-b777-4aad4af4c5b3</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -1148,10 +1148,10 @@ while(gr.next()){&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-14 17:09:34</sys_created_on>
         <sys_id>ff365f071b138a50c0c654ee034bcb9a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-14 17:09:34</sys_updated_on>
+        <sys_updated_on>2024-11-22 19:16:21</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ff365f071b138a50c0c654ee034bcb9a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1926,14 +1926,14 @@ while(gr.next()){&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-14 17:09:35</sys_created_on>
         <sys_id>b3365f071b138a50c0c654ee034bcbc1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-14 17:09:35</sys_updated_on>
+        <sys_updated_on>2024-11-22 19:16:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2082,6 +2082,6 @@ while(gr.next()){&#13;
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>b6c417c31b138a50c0c654ee034bcb7e</sys_id>
         <latest_snapshot>2f365f071b138a50c0c654ee034bcb86</latest_snapshot>
-        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch7a-09-23-2024_10-06-2024_0822.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>
