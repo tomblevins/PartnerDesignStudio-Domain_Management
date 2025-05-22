@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ce69eb838722069041c11f483cbb3582" extends="task" label="Domain Management Task" max_length="40" name="x_snc_domain_man_0_domain_management_task" text_index="true" type="collection"/>
+    <element db_object_id="ce69eb838722069041c11f483cbb3582" extends="task" label="Domain Management Task" max_length="40" name="x_snc_domain_man_0_domain_management_task" text_index="true" type="collection">
+        <element label="Domain Indicator" max_length="32" name="domain_indicator" reference="x_snc_domain_man_0_domain_indicators" type="reference"/>
+    </element>
 </database>

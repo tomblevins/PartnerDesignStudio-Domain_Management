@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Domain Indicator Batching">503b96d987a56e10c60eeca73cbb3575</decision_table>
+        <label>Batches: 2 Batches</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 19:01:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbdc5e5d87a56e10c60eeca73cbb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Batches: 2 Batches</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_decision_multi_result_cbdc5e5d87a56e10c60eeca73cbb351e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 19:01:54</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=cbdc5e5d87a56e10c60eeca73cbb351e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>cbdc5e5d87a56e10c60eeca73cbb351e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 19:01:54</sys_created_on>
+        <sys_id>cfdc5e5d87a56e10c60eeca73cbb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 19:01:54</sys_updated_on>
+        <value>2 Batches</value>
+        <variable display_value="Batches">72dc1e5d87a56e10c60eeca73cbb35d1</variable>
+    </sys_variable_value>
+</record_update>

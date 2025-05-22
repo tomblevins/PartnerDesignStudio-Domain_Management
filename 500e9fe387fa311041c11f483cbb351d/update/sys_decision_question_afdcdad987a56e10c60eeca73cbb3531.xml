@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>fedc121d87a56e10c60eeca73cbb35ff</answer>
+        <condition table="var__m_sys_decision_input_503b96d987a56e10c60eeca73cbb3575">u_number_of_batches=1^EQ<item endquery="false" field="u_number_of_batches" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Domain Indicator Batching">503b96d987a56e10c60eeca73cbb3575</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_503b96d987a56e10c60eeca73cbb3575</input_table>
+        <label>Domain Indicator Batching_100</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 19:01:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>afdcdad987a56e10c60eeca73cbb3531</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domain Indicator Batching_100</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_decision_question_afdcdad987a56e10c60eeca73cbb3531</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 19:01:56</sys_updated_on>
+    </sys_decision_question>
+</record_update>
