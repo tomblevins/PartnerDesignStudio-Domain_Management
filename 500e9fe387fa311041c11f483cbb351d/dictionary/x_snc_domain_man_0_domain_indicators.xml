@@ -4,8 +4,20 @@
         <element label="Delete Flag" max_length="40" name="delete_flag" type="boolean"/>
         <element label="Domain Active" max_length="40" name="domain_active" type="boolean"/>
         <element label="Domain" max_length="32" name="domain" reference="domain" type="reference"/>
+        <element choice="1" default="0" label="Processing State" max_length="40" name="processing_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Removing" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="Archiving" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="Restoring" sequence="7" value="12"/>
+                <element inactive_on_update="false" label="Marked for removal" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Marked to restore" sequence="6" value="11"/>
+                <element inactive_on_update="false" label="Removed" sequence="5" value="9"/>
+                <element inactive_on_update="false" label="Restored" sequence="8" value="19"/>
+                <element inactive_on_update="false" label="Live" sequence="1" value="0"/>
+            </choice>
+        </element>
         <element display="true" label="Domain String" max_length="500" name="domain_string" type="string"/>
-        <element choice="1" label="Batch" max_length="40" name="batch" type="choice">
+        <element choice="1" default="0" label="Batch" max_length="40" name="batch" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Batch24" sequence="24" value="batch24"/>
                 <element inactive_on_update="false" label="Batch45" sequence="45" value="batch45"/>
@@ -74,6 +86,7 @@
                 <element inactive_on_update="false" label="Batch93" sequence="93" value="batch93"/>
                 <element inactive_on_update="false" label="Batch97" sequence="97" value="batch97"/>
                 <element inactive_on_update="false" label="Batch74" sequence="74" value="batch74"/>
+                <element inactive_on_update="false" label="Batch0" sequence="0" value="batch0"/>
                 <element inactive_on_update="false" label="Batch85" sequence="85" value="batch85"/>
                 <element inactive_on_update="false" label="Batch48" sequence="48" value="batch48"/>
                 <element inactive_on_update="false" label="Batch51" sequence="51" value="batch51"/>
@@ -86,7 +99,7 @@
                 <element inactive_on_update="false" label="Batch8" sequence="8" value="batch8"/>
                 <element inactive_on_update="false" label="Batch70" sequence="70" value="batch70"/>
                 <element inactive_on_update="false" label="Batch50" sequence="50" value="batch50"/>
-                <element inactive_on_update="false" label="Exempt" sequence="0" value="exempt"/>
+                <element inactive_on_update="false" label="Exempt" sequence="199" value="exempt"/>
                 <element inactive_on_update="false" label="Batch26" sequence="26" value="batch26"/>
                 <element inactive_on_update="false" label="Batch5" sequence="5" value="batch5"/>
                 <element inactive_on_update="false" label="Batch32" sequence="32" value="batch32"/>
@@ -111,6 +124,7 @@
             </choice>
         </element>
         <element label="Record Count" max_length="100" name="record_count" type="integer"/>
+        <element label="Processing Notes" max_length="4000" name="processing_notes" type="string"/>
         <index name="index">
             <element name="domain"/>
         </index>
