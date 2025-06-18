@@ -2,6 +2,7 @@
     <sys_data_source action="INSERT_OR_UPDATE">
         <batch_size>1000</batch_size>
         <category/>
+        <connection_alias/>
         <connection_override_last_success_time/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:e31ab7011b9e9650c0c654ee034bcb82/x_snc_domain_man_0_domain_accounting.xlsx</connection_url>
@@ -13,6 +14,9 @@
  // Add your code here to insert data to import_set_table 
 
 })(import_set_table, data_source, import_log, last_success_import_time, partition_info);]]></data_loader>
+        <data_stream_action/>
+        <data_stream_action_inputs/>
+        <data_stream_connection_alias/>
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>
@@ -76,10 +80,12 @@
         <sys_updated_on>2024-12-04 17:46:51</sys_updated_on>
         <table_name/>
         <type>File</type>
+        <u_number/>
         <use_batch_import>false</use_batch_import>
         <use_integrated_authentication>false</use_integrated_authentication>
         <use_last_run_datetime>false</use_last_run_datetime>
         <xpath_root_node/>
         <zipped>false</zipped>
     </sys_data_source>
+    <sys_variable_value action="delete_multiple" query="document_key=e31ab7011b9e9650c0c654ee034bcb82"/>
 </record_update>

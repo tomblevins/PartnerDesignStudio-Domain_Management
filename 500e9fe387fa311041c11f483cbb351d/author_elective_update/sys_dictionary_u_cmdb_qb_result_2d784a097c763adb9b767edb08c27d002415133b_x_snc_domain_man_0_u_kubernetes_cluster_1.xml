@@ -111,5 +111,6 @@
         <sys_update_version display_value="sys_dictionary_u_cmdb_qb_result_2d784a097c763adb9b767edb08c27d002415133b_x_snc_domain_man_0_u_kubernetes_cluster_1">bed56f2d874fb15041c11f483cbb3531</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-11 20:00:04</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

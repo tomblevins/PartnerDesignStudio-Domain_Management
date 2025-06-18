@@ -36,16 +36,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>02376e031b5b4a50c0c654ee034bcbd6</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>SUBPROC - Archive Domain Records (deprecated)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_flow_02376e031b5b4a50c0c654ee034bcbd6</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-22 14:45:35</sys_updated_on>
+        <sys_updated_by>E091838</sys_updated_by>
+        <sys_updated_on>2025-06-16 13:38:44</sys_updated_on>
         <type>subflow</type>
+        <u_number/>
         <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=02376e031b5b4a50c0c654ee034bcbd6"/>
@@ -139,6 +140,7 @@
         <sys_updated_on>2024-11-22 18:30:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -223,6 +225,7 @@
         <sys_updated_on>2024-11-22 18:30:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -309,6 +312,7 @@
         <sys_updated_on>2025-05-19 20:50:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -463,6 +467,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=02376e031b5b4a50c0c654ee034bcbd6"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=02376e031b5b4a50c0c654ee034bcbd6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_02376e031b5b4a50c0c654ee034bcbd6^sys_idNOT IN22f056d91b029610c0c654ee034bcb9c,a2f056d91b029610c0c654ee034bcb9f"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>domain_sysid</element>
         <help/>
@@ -476,13 +481,14 @@
         <sys_created_on>2024-11-22 18:30:14</sys_created_on>
         <sys_id>22f056d91b029610c0c654ee034bcb9c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Domain SysID</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_02376e031b5b4a50c0c654ee034bcbd6_domain_sysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-22 18:30:14</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -499,17 +505,19 @@
         <sys_created_on>2024-11-22 18:30:14</sys_created_on>
         <sys_id>a2f056d91b029610c0c654ee034bcb9f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table SysID</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_02376e031b5b4a50c0c654ee034bcbd6_table_sysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-22 18:30:14</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_02376e031b5b4a50c0c654ee034bcbd6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_02376e031b5b4a50c0c654ee034bcbd6^sys_idNOT IN660c53ee87e92210c60eeca73cbb35d6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>archive_domain</element>
         <help/>
@@ -523,13 +531,14 @@
         <sys_created_on>2025-05-19 20:50:20</sys_created_on>
         <sys_id>660c53ee87e92210c60eeca73cbb35d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Archive Domain</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_02376e031b5b4a50c0c654ee034bcbd6_archive_domain_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-19 20:50:20</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -575,6 +584,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-19 20:50:25</sys_updated_on>
         <type>subflow</type>
+        <u_number/>
         <version>2</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=91925f031b138a50c0c654ee034bcb10"/>
@@ -668,6 +678,7 @@
         <sys_updated_on>2024-11-22 18:36:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -752,6 +763,7 @@
         <sys_updated_on>2024-11-22 18:36:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -838,6 +850,7 @@
         <sys_updated_on>2025-05-19 20:50:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -992,6 +1005,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=91925f031b138a50c0c654ee034bcb10"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=91925f031b138a50c0c654ee034bcb10"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_91925f031b138a50c0c654ee034bcb10^sys_idNOT IN49825a5d1b029610c0c654ee034bcbbd,89825a5d1b029610c0c654ee034bcbb5"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_sysid</element>
         <help/>
@@ -1005,13 +1019,14 @@
         <sys_created_on>2024-11-22 18:36:58</sys_created_on>
         <sys_id>49825a5d1b029610c0c654ee034bcbbd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table SysID</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_91925f031b138a50c0c654ee034bcb10_table_sysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-22 18:36:58</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1028,17 +1043,19 @@
         <sys_created_on>2024-11-22 18:36:57</sys_created_on>
         <sys_id>89825a5d1b029610c0c654ee034bcbb5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Domain SysID</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_91925f031b138a50c0c654ee034bcb10_domain_sysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-22 18:36:57</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_91925f031b138a50c0c654ee034bcb10"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_91925f031b138a50c0c654ee034bcb10^sys_idNOT IN630cd3ee87e92210c60eeca73cbb3521"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>archive_domain</element>
         <help/>
@@ -1052,13 +1069,14 @@
         <sys_created_on>2025-05-19 20:50:25</sys_created_on>
         <sys_id>630cd3ee87e92210c60eeca73cbb3521</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Archive Domain</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_91925f031b138a50c0c654ee034bcb10_archive_domain_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-19 20:50:25</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>

@@ -18,5 +18,6 @@
         <target_name>sn_ci_analytics_event</target_name>
         <target_scope display_value="Conversational Analytics">c53ca02a73c310108564b17afef6a7c0</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

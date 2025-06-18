@@ -17,6 +17,7 @@
         <internal_name>proc__audit_records_for_single_domain</internal_name>
         <label_cache>[{"name":"subflow.domain","label":"Input➛Domain","reference":"domain","reference_display":"Domain","type":"reference","base_type":"reference","usedInstances":{"2e211225-32fb-4c9e-8a4f-e9b0d8ae1c78":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5f150c23-6e3f-46c3-b3d5-5073bad9690f","uiTypeLabel":"Reference"}},{"name":"2e211225-32fb-4c9e-8a4f-e9b0d8ae1c78.Records","label":"1 - Look Up Records➛Domain Indicators Records","reference":"x_snc_domain_man_0_domain_indicators","reference_display":"Domain Indicators","type":"records","base_type":"records","usedInstances":{"394c397a-e083-45e8-b6f9-ef1aa09bac52":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a33f3fae-6de1-40fa-a7bb-fea4c2f9c54a.Records","label":"4 - Look Up Records➛Table Domain Accounting Records","reference":"x_snc_domain_man_0_domain_accounting","reference_display":"Table Domain Accounting","type":"records","base_type":"records","usedInstances":{"5de49b05-0095-445d-8300-d1ff96acff7a":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5de49b05-0095-445d-8300-d1ff96acff7a.item","label":"5 - For Each➛Table Domain Accounting Record","reference":"x_snc_domain_man_0_domain_accounting","reference_display":"Table Domain Accounting","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"5de49b05-0095-445d-8300-d1ff96acff7a.item.table.sys_id","label":"5 - For Each➛Table Domain Accounting Record➛Table➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_db_object","column_name":"sys_id","usedInstances":{"88d8bcc1-c6eb-45bd-bcfc-6c6cdb86575f":["table"]}},{"name":"394c397a-e083-45e8-b6f9-ef1aa09bac52.item.domain.sys_id","label":"2 - For Each➛Domain Indicators Record➛Domain➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"domain","column_name":"sys_id","usedInstances":{"88d8bcc1-c6eb-45bd-bcfc-6c6cdb86575f":["domain"],"dc1d37ee-3e63-4e8f-8d49-9fabe0c5b56e":["domain_sysid"]}},{"name":"394c397a-e083-45e8-b6f9-ef1aa09bac52.item.domain","label":"2 - For Each➛Domain Indicators Record➛Domain","reference":"domain","reference_display":"Domain","type":"reference","base_type":"reference","parent_table_name":"x_snc_domain_man_0_domain_indicators","column_name":"domain","usedInstances":{"9dfc2b05-30ff-4fd5-98dc-1080ab78d1dd":["domain"]}},{"name":"5de49b05-0095-445d-8300-d1ff96acff7a.item.table_name","label":"5 - For Each➛Table Domain Accounting Record➛Table Name","reference":"","reference_display":"Table Name","type":"string","base_type":"string","parent_table_name":"x_snc_domain_man_0_domain_accounting","column_name":"table_name","usedInstances":{"9dfc2b05-30ff-4fd5-98dc-1080ab78d1dd":["table_name"]}},{"name":"5de49b05-0095-445d-8300-d1ff96acff7a.item.table.name","label":"5 - For Each➛Table Domain Accounting Record➛Table➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name","usedInstances":{"dc1d37ee-3e63-4e8f-8d49-9fabe0c5b56e":["table_name"]}},{"name":"394c397a-e083-45e8-b6f9-ef1aa09bac52.item","label":"2 - For Each➛Domain Indicators Record","reference":"x_snc_domain_man_0_domain_indicators","reference_display":"Domain Indicators","type":"reference","base_type":"reference","usedInstances":{"604724b6-5a3d-4c95-b6d3-c4f0dbc3fe83":["record"],"44565e4a-759f-4e45-aabf-b2a0b672aa9e":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"dc1d37ee-3e63-4e8f-8d49-9fabe0c5b56e.newsum","label":"6 - SUM Record Count➛newSum","reference_display":"newSum","type":"string","base_type":"string","usedInstances":{"604724b6-5a3d-4c95-b6d3-c4f0dbc3fe83":["record_count"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"3bddb3ff-8a97-44e0-8005-d38f43301d95"}}]</label_cache>
         <master_snapshot>a1e15a1d1b029610c0c654ee034bcb4b</master_snapshot>
+        <master_snapshot_digest/>
         <name>PROC - Audit Records for Single Domain</name>
         <natlang/>
         <outputs/>
@@ -35,20 +36,21 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a471ded91b029610c0c654ee034bcba4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>PROC - Audit Records for Single Domain</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_flow_a471ded91b029610c0c654ee034bcba4</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-22 18:34:18</sys_updated_on>
+        <sys_updated_by>E091838</sys_updated_by>
+        <sys_updated_on>2025-06-16 13:38:53</sys_updated_on>
         <type>subflow</type>
+        <u_number/>
+        <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a471ded91b029610c0c654ee034bcba4"/>
     <sys_variable_value action="delete_multiple" query="document_key=a471ded91b029610c0c654ee034bcba4"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=a471ded91b029610c0c654ee034bcba4"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=a471ded91b029610c0c654ee034bcba4"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=a471ded91b029610c0c654ee034bcba4^sys_idNOT INa471ded91b029610c0c654ee034bcba5"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -137,6 +139,7 @@
         <sys_updated_on>2024-11-22 18:34:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -150,6 +153,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=44e1d61d1b029610c0c654ee034bcbde"/>
     <sys_hub_flow_output action="delete_multiple" query="model=a471ded91b029610c0c654ee034bcba4"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a471ded91b029610c0c654ee034bcba4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a471ded91b029610c0c654ee034bcba4"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=a471ded91b029610c0c654ee034bcba4^sys_idNOT IN7871ded91b029610c0c654ee034bcbdd,b071ded91b029610c0c654ee034bcbc2,b471ded91b029610c0c654ee034bcbba,b871ded91b029610c0c654ee034bcbc9,fc71ded91b029610c0c654ee034bcbd7"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -538,7 +542,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=fc71ded91b029610c0c654ee034bcbd7"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fc71ded91b029610c0c654ee034bcbd7"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a471ded91b029610c0c654ee034bcba4"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=a471ded91b029610c0c654ee034bcba4^sys_idNOT IN6471ded91b029610c0c654ee034bcbae,e871ded91b029610c0c654ee034bcbb2"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -636,6 +639,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e871ded91b029610c0c654ee034bcbb2"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e871ded91b029610c0c654ee034bcbb2"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a471ded91b029610c0c654ee034bcba4"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=a471ded91b029610c0c654ee034bcba4"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=a471ded91b029610c0c654ee034bcba4"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a471ded91b029610c0c654ee034bcba4^sys_idNOT IN4ce1d61d1b029610c0c654ee034bcbe2"/>
@@ -652,13 +656,14 @@
         <sys_created_on>2024-11-22 18:34:09</sys_created_on>
         <sys_id>4ce1d61d1b029610c0c654ee034bcbe2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Domain</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a471ded91b029610c0c654ee034bcba4_domain_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-22 18:34:09</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -706,10 +711,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-22 18:34:16</sys_updated_on>
         <type>subflow</type>
+        <u_number/>
+        <version>1</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=a1e15a1d1b029610c0c654ee034bcb4b"/>
     <sys_variable_value action="delete_multiple" query="document_key=a1e15a1d1b029610c0c654ee034bcb4b"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=a1e15a1d1b029610c0c654ee034bcb4b"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=a1e15a1d1b029610c0c654ee034bcb4b"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=a1e15a1d1b029610c0c654ee034bcb4b^sys_idNOT INe1e15a1d1b029610c0c654ee034bcb4c"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -798,6 +804,7 @@
         <sys_updated_on>2024-11-22 18:34:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -811,6 +818,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=69e15a1d1b029610c0c654ee034bcb4d"/>
     <sys_hub_flow_output action="delete_multiple" query="model=a1e15a1d1b029610c0c654ee034bcb4b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a1e15a1d1b029610c0c654ee034bcb4b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a1e15a1d1b029610c0c654ee034bcb4b"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=a1e15a1d1b029610c0c654ee034bcb4b^sys_idNOT IN31e15a1d1b029610c0c654ee034bcb8a,35e15a1d1b029610c0c654ee034bcba3,39e15a1d1b029610c0c654ee034bcb7a,b9e15a1d1b029610c0c654ee034bcb9d,bde15a1d1b029610c0c654ee034bcb82"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1185,7 +1193,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=bde15a1d1b029610c0c654ee034bcb82"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bde15a1d1b029610c0c654ee034bcb82"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a1e15a1d1b029610c0c654ee034bcb4b"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=a1e15a1d1b029610c0c654ee034bcb4b^sys_idNOT IN61e15a1d1b029610c0c654ee034bcb6c,65e15a1d1b029610c0c654ee034bcb70"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -1283,6 +1290,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=65e15a1d1b029610c0c654ee034bcb70"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=65e15a1d1b029610c0c654ee034bcb70"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a1e15a1d1b029610c0c654ee034bcb4b"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=a1e15a1d1b029610c0c654ee034bcb4b"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=a1e15a1d1b029610c0c654ee034bcb4b"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a1e15a1d1b029610c0c654ee034bcb4b^sys_idNOT IN69e15a1d1b029610c0c654ee034bcb65"/>
@@ -1299,13 +1307,14 @@
         <sys_created_on>2024-11-22 18:34:16</sys_created_on>
         <sys_id>69e15a1d1b029610c0c654ee034bcb65</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Domain</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a1e15a1d1b029610c0c654ee034bcb4b_domain_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-22 18:34:16</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>

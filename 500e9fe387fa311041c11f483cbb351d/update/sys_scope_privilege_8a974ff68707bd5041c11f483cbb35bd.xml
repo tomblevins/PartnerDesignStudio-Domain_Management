@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 15:00:13</sys_updated_on>
         <target_name>sn_sre_task_predicted_skill</target_name>
-        <target_scope display_value="Skill Recommendation">d83a865473220010dd6131ff2ef6a7c7</target_scope>
+        <target_scope display_value="">d83a865473220010dd6131ff2ef6a7c7</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

@@ -80,7 +80,7 @@
         <update_guid_history>c5bfbc9f7f8f4a106bd121f1ca4193a6:0,6f4e341b568f4a1090a5576fea72b966:-552907454,a26a86d1c84742105bf36464ede26e9a:906365297</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Domain Management Task">163899de1b789e50c0c654ee034bcb43</sys_audit_delete>
+        <sys_audit_delete display_value="">163899de1b789e50c0c654ee034bcb43</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-24 13:37:42</sys_created_on>
@@ -98,5 +98,6 @@
         <sys_update_version display_value="sys_app_application_7cb967478722069041c11f483cbb3535">0dbfbc9f1b8f4a10c0c654ee034bcba6</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-24 13:37:42</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

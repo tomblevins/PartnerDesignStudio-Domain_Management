@@ -14,6 +14,6 @@
         <sys_updated_by>tom.blevins@snc</sys_updated_by>
         <sys_updated_on>2023-12-05 14:21:07</sys_updated_on>
         <sys_user_role display_value="x_snc_domain_man_0.admin" name="x_snc_domain_man_0.admin">efbed76787fa311041c11f483cbb35d9</sys_user_role>
-        <transaction_id/>
+        <u_number/>
     </sys_security_acl_role>
 </record_update>

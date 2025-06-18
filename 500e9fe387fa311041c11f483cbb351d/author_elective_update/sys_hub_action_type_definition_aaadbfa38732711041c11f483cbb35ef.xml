@@ -564,5 +564,6 @@ outputs.table_name = gr;&amp;#13;
         <sys_update_version display_value="sys_hub_action_type_definition_aaadbfa38732711041c11f483cbb35ef">a640483b8732711041c11f483cbb35a5</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-05 17:05:59</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

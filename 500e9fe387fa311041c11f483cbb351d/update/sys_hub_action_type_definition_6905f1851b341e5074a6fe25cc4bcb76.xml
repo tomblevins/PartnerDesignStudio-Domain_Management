@@ -18,6 +18,7 @@
         <internal_name>trigger__create_domain_indicators</internal_name>
         <label_cache>[{"name":"{{action.batch}}","label":"action➛Batch Number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"b73de714-ca7d-4d0a-b879-565908244e31"}},{"name":"{{step[61280840-942a-4777-a74b-3db341642f25].flowresult}}","label":"step➛Script step➛FlowResult","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"f7daa34e-5bb1-48c8-b9e9-40b66359809d"}}]</label_cache>
         <master_snapshot>05063dc51b341e5074a6fe25cc4bcbb0</master_snapshot>
+        <master_snapshot_digest/>
         <name>TRIGGER - Create Domain Indicators</name>
         <natlang/>
         <outputs/>
@@ -30,17 +31,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6905f1851b341e5074a6fe25cc4bcb76</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>TRIGGER - Create Domain Indicators</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_6905f1851b341e5074a6fe25cc4bcb76</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-20 18:38:44</sys_updated_on>
+        <sys_updated_by>E091838</sys_updated_by>
+        <sys_updated_on>2025-06-16 13:38:39</sys_updated_on>
         <system_level>false</system_level>
         <type/>
+        <u_number/>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=6905f1851b341e5074a6fe25cc4bcb76"/>
     <sys_variable_value action="delete_multiple" query="document_key=6905f1851b341e5074a6fe25cc4bcb76"/>
@@ -194,18 +196,6 @@ var batch = inputs.batch;&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=73f5f9c51b341e5074a6fe25cc4bcbd6"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>73f5f9c51b341e5074a6fe25cc4bcbd6</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-20 18:35:23</sys_created_on>
-        <sys_id>fbf53dc51b341e5074a6fe25cc4bcb02</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-20 18:35:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>batch</field>
         <id>73f5f9c51b341e5074a6fe25cc4bcbd6</id>
         <sys_created_by>admin</sys_created_by>
@@ -217,21 +207,8 @@ var batch = inputs.batch;&#13;
         <table>var__m_sys_hub_step_ext_input_73f5f9c51b341e5074a6fe25cc4bcbd6</table>
         <value>{{action.batch}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>73f5f9c51b341e5074a6fe25cc4bcbd6</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-20 18:35:23</sys_created_on>
-        <sys_id>b3f53dc51b341e5074a6fe25cc4bcb03</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-20 18:35:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_73f5f9c51b341e5074a6fe25cc4bcbd6^id=73f5f9c51b341e5074a6fe25cc4bcbd6"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=73f5f9c51b341e5074a6fe25cc4bcbd6"/>
-    <sys_translated_text action="delete_multiple" query="documentkey=73f5f9c51b341e5074a6fe25cc4bcbd6"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=73f5f9c51b341e5074a6fe25cc4bcbd6^sys_idNOT IN3bf5f9c51b341e5074a6fe25cc4bcbdd"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -306,6 +283,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:35:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -390,6 +368,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:35:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -415,13 +394,14 @@ var batch = inputs.batch;&#13;
         <sys_created_on>2024-09-20 18:35:23</sys_created_on>
         <sys_id>37f5f9c51b341e5074a6fe25cc4bcbfe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>FlowResult</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_73f5f9c51b341e5074a6fe25cc4bcbd6_flowresult_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-20 18:35:23</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -499,6 +479,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:36:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -586,6 +567,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:38:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -673,6 +655,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:38:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -760,6 +743,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:38:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -798,13 +782,14 @@ var batch = inputs.batch;&#13;
         <sys_created_on>2024-09-20 18:35:23</sys_created_on>
         <sys_id>7bf5f9c51b341e5074a6fe25cc4bcbba</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Batch Number</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6905f1851b341e5074a6fe25cc4bcb76_batch_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-20 18:36:02</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -823,13 +808,14 @@ var batch = inputs.batch;&#13;
         <sys_created_on>2024-09-20 18:35:23</sys_created_on>
         <sys_id>33f53dc51b341e5074a6fe25cc4bcb0c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6905f1851b341e5074a6fe25cc4bcb76___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-20 18:35:23</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -846,13 +832,14 @@ var batch = inputs.batch;&#13;
         <sys_created_on>2024-09-20 18:38:38</sys_created_on>
         <sys_id>9fb6fd091b341e5074a6fe25cc4bcbc8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Message</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6905f1851b341e5074a6fe25cc4bcb76_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-20 18:38:38</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -869,13 +856,14 @@ var batch = inputs.batch;&#13;
         <sys_created_on>2024-09-20 18:35:23</sys_created_on>
         <sys_id>fff53dc51b341e5074a6fe25cc4bcb12</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6905f1851b341e5074a6fe25cc4bcb76___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-20 18:35:23</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -935,6 +923,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:38:43</sys_updated_on>
         <system_level>false</system_level>
         <type/>
+        <u_number/>
     </sys_hub_action_type_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=05063dc51b341e5074a6fe25cc4bcbb0"/>
     <sys_variable_value action="delete_multiple" query="document_key=05063dc51b341e5074a6fe25cc4bcbb0"/>
@@ -1088,18 +1077,6 @@ var batch = inputs.batch;&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5d063dc51b341e5074a6fe25cc4bcbba"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5d063dc51b341e5074a6fe25cc4bcbba</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-20 18:35:29</sys_created_on>
-        <sys_id>dd063dc51b341e5074a6fe25cc4bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-20 18:35:29</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>batch</field>
         <id>5d063dc51b341e5074a6fe25cc4bcbba</id>
         <sys_created_by>admin</sys_created_by>
@@ -1111,21 +1088,8 @@ var batch = inputs.batch;&#13;
         <table>var__m_sys_hub_step_ext_input_5d063dc51b341e5074a6fe25cc4bcbba</table>
         <value>{{action.batch}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5d063dc51b341e5074a6fe25cc4bcbba</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-20 18:35:29</sys_created_on>
-        <sys_id>91063dc51b341e5074a6fe25cc4bcbd6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-20 18:35:29</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5d063dc51b341e5074a6fe25cc4bcbba^id=5d063dc51b341e5074a6fe25cc4bcbba"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5d063dc51b341e5074a6fe25cc4bcbba"/>
-    <sys_translated_text action="delete_multiple" query="documentkey=5d063dc51b341e5074a6fe25cc4bcbba"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=5d063dc51b341e5074a6fe25cc4bcbba^sys_idNOT IN51063dc51b341e5074a6fe25cc4bcbbe"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1200,6 +1164,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:35:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1284,6 +1249,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:35:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1309,13 +1275,14 @@ var batch = inputs.batch;&#13;
         <sys_created_on>2024-09-20 18:35:29</sys_created_on>
         <sys_id>15063dc51b341e5074a6fe25cc4bcbd2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>FlowResult</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5d063dc51b341e5074a6fe25cc4bcbba_flowresult_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-20 18:35:29</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1393,6 +1360,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:36:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1480,6 +1448,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:38:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1567,6 +1536,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:38:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1654,6 +1624,7 @@ var batch = inputs.batch;&#13;
         <sys_updated_on>2024-09-20 18:38:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1692,13 +1663,14 @@ var batch = inputs.batch;&#13;
         <sys_created_on>2024-09-20 18:35:29</sys_created_on>
         <sys_id>19063dc51b341e5074a6fe25cc4bcbb8</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Batch Number</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_05063dc51b341e5074a6fe25cc4bcbb0_batch_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-20 18:36:07</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1717,13 +1689,14 @@ var batch = inputs.batch;&#13;
         <sys_created_on>2024-09-20 18:35:29</sys_created_on>
         <sys_id>1d063dc51b341e5074a6fe25cc4bcbdd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_05063dc51b341e5074a6fe25cc4bcbb0___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-20 18:35:29</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1740,13 +1713,14 @@ var batch = inputs.batch;&#13;
         <sys_created_on>2024-09-20 18:35:29</sys_created_on>
         <sys_id>dd063dc51b341e5074a6fe25cc4bcbe3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_05063dc51b341e5074a6fe25cc4bcbb0___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-20 18:35:29</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1763,13 +1737,14 @@ var batch = inputs.batch;&#13;
         <sys_created_on>2024-09-20 18:38:43</sys_created_on>
         <sys_id>f8c631491b341e5074a6fe25cc4bcbc1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Message</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_05063dc51b341e5074a6fe25cc4bcbb0_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-20 18:38:43</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>

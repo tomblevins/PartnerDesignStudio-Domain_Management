@@ -18,5 +18,7 @@
         <sys_update_name>sys_search_source_3b9cab0787a64210a3a80f68cebb3521</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-07 12:00:14</sys_updated_on>
+        <u_number/>
     </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=3b9cab0787a64210a3a80f68cebb3521"/>
 </record_update>

@@ -14,6 +14,7 @@
             <sys_update_name>sys_choice_x_snc_domain_man_0_domain_indicators_batch</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-07-31 14:08:49</sys_updated_on>
+            <u_number/>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -26,12 +27,12 @@
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:35:33</sys_created_on>
+            <sys_created_on>2024-07-31 14:27:06</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:35:44</sys_updated_on>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:35:49</sys_updated_on>
             <value>batch0</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -1944,13 +1945,13 @@
             <name>x_snc_domain_man_0_domain_indicators</name>
             <sequence>199</sequence>
             <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-31 14:27:06</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:37:03</sys_updated_on>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:35:59</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:36:22</sys_updated_on>
             <value>exempt</value>
         </sys_choice>
     </sys_choice>

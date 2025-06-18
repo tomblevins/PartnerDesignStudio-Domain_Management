@@ -36,16 +36,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1c85522f87292610c60eeca73cbb356d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>PROC - Set Domain Indicator Batches</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_flow_1c85522f87292610c60eeca73cbb356d</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-22 19:11:21</sys_updated_on>
+        <sys_updated_by>E091838</sys_updated_by>
+        <sys_updated_on>2025-06-16 13:38:46</sys_updated_on>
         <type>subflow</type>
+        <u_number/>
         <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1c85522f87292610c60eeca73cbb356d"/>
@@ -138,6 +139,7 @@
         <sys_updated_on>2025-05-22 18:18:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -222,6 +224,7 @@
         <sys_updated_on>2025-05-22 18:18:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -913,6 +916,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=1c85522f87292610c60eeca73cbb356d"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=1c85522f87292610c60eeca73cbb356d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1c85522f87292610c60eeca73cbb356d^sys_idNOT IN14069a2f87292610c60eeca73cbb3590,18069a2f87292610c60eeca73cbb3593"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>batch_count</element>
         <help/>
@@ -926,13 +930,14 @@
         <sys_created_on>2025-05-22 18:18:17</sys_created_on>
         <sys_id>14069a2f87292610c60eeca73cbb3590</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Batch Count</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1c85522f87292610c60eeca73cbb356d_batch_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-22 18:18:17</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -949,17 +954,19 @@
         <sys_created_on>2025-05-22 18:18:17</sys_created_on>
         <sys_id>18069a2f87292610c60eeca73cbb3593</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Records Per Batch</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1c85522f87292610c60eeca73cbb356d_records_per_batch_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-22 18:18:17</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1c85522f87292610c60eeca73cbb356d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1c85522f87292610c60eeca73cbb356d"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1c85522f87292610c60eeca73cbb356d"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1002,6 +1009,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-22 19:11:20</sys_updated_on>
         <type>subflow</type>
+        <u_number/>
         <version>2</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=2e781a2387692610c60eeca73cbb358c"/>
@@ -1094,6 +1102,7 @@
         <sys_updated_on>2025-05-22 18:29:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1178,6 +1187,7 @@
         <sys_updated_on>2025-05-22 18:29:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1869,6 +1879,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=2e781a2387692610c60eeca73cbb358c"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=2e781a2387692610c60eeca73cbb358c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2e781a2387692610c60eeca73cbb358c^sys_idNOT INe6781a2387692610c60eeca73cbb35b8,ee781a2387692610c60eeca73cbb35a4"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>records_per_batch</element>
         <help/>
@@ -1882,13 +1893,14 @@
         <sys_created_on>2025-05-22 18:29:05</sys_created_on>
         <sys_id>e6781a2387692610c60eeca73cbb35b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Records Per Batch</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2e781a2387692610c60eeca73cbb358c_records_per_batch_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-22 18:29:05</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1905,17 +1917,19 @@
         <sys_created_on>2025-05-22 18:29:05</sys_created_on>
         <sys_id>ee781a2387692610c60eeca73cbb35a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Batch Count</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2e781a2387692610c60eeca73cbb358c_batch_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-22 18:29:05</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2e781a2387692610c60eeca73cbb358c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2e781a2387692610c60eeca73cbb358c"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2e781a2387692610c60eeca73cbb358c"/>
     <sys_hub_flow action="UPDATE">
         <sys_id>1c85522f87292610c60eeca73cbb356d</sys_id>

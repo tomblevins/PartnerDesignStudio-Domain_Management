@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_snc_domain_man_0_domain_indicators" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>domain_string</element>
+            <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ad69cc5447de26d0641a1ea2846d4346</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:30:48</sys_created_on>
+            <sys_id>ed69cc5447de26d0641a1ea2846d4349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:30:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>domain</element>
+            <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ad69cc5447de26d0641a1ea2846d4346</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:30:48</sys_created_on>
+            <sys_id>6d69cc5447de26d0641a1ea2846d434a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:30:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>record_count</element>
+            <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ad69cc5447de26d0641a1ea2846d4346</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:30:48</sys_created_on>
+            <sys_id>6169cc5447de26d0641a1ea2846d434b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:30:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tables</element>
+            <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ad69cc5447de26d0641a1ea2846d4346</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:30:48</sys_created_on>
+            <sys_id>6569cc5447de26d0641a1ea2846d434b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:30:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>domain_active</element>
+            <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ad69cc5447de26d0641a1ea2846d4346</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:30:48</sys_created_on>
+            <sys_id>6969cc5447de26d0641a1ea2846d434b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:30:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>delete_flag</element>
+            <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ad69cc5447de26d0641a1ea2846d4346</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:30:48</sys_created_on>
+            <sys_id>ad69c0d447de26d0641a1ea2846d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:30:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>batch</element>
+            <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ad69cc5447de26d0641a1ea2846d4346</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:30:48</sys_created_on>
+            <sys_id>a169c0d447de26d0641a1ea2846d4312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:30:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>processing_state</element>
+            <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ad69cc5447de26d0641a1ea2846d4346</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:30:48</sys_created_on>
+            <sys_id>a569c0d447de26d0641a1ea2846d4312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:30:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ad69cc5447de26d0641a1ea2846d4346</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:30:48</sys_created_on>
+            <sys_id>a969c0d447de26d0641a1ea2846d4312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:30:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_domain_man_0_domain_indicators</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>tom.blevins@servicenow.com</sys_created_by>
+            <sys_created_on>2025-06-18 12:30:48</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ad69cc5447de26d0641a1ea2846d4346</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_domain_man_0_domain_indicators</sys_name>
+            <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_domain_man_0_domain_indicators_null_774190f01f1310005a3637b8ec8b70ef</sys_update_name>
+            <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+            <sys_updated_on>2025-06-18 12:30:48</sys_updated_on>
+            <sys_user/>
+            <u_number/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

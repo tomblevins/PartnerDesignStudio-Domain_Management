@@ -18,5 +18,6 @@
         <target_name>GlideRecord.setValue</target_name>
         <target_scope display_value="Global">global</target_scope>
         <target_type>scriptable</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

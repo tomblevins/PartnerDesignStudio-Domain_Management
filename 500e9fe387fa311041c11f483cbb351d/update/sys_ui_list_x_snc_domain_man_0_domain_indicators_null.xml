@@ -9,11 +9,11 @@
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:27:58</sys_created_on>
-            <sys_id>d8b2c9d587ed2e10c60eeca73cbb35fe</sys_id>
+            <sys_created_on>2024-09-20 12:43:44</sys_created_on>
+            <sys_id>b485a8491b38da5074a6fe25cc4bcbe6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:27:58</sys_updated_on>
+            <sys_updated_on>2024-09-20 12:43:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -24,11 +24,11 @@
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:27:58</sys_created_on>
-            <sys_id>54b28d1987ed2e10c60eeca73cbb358e</sys_id>
+            <sys_created_on>2024-09-20 12:43:45</sys_created_on>
+            <sys_id>bc85a8491b38da5074a6fe25cc4bcbe6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:27:58</sys_updated_on>
+            <sys_updated_on>2024-09-20 12:43:45</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -39,11 +39,11 @@
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:27:58</sys_created_on>
-            <sys_id>58b28d1987ed2e10c60eeca73cbb358e</sys_id>
+            <sys_created_on>2024-09-20 12:43:45</sys_created_on>
+            <sys_id>b085a8491b38da5074a6fe25cc4bcbe7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:27:58</sys_updated_on>
+            <sys_updated_on>2024-09-20 12:43:45</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -54,11 +54,11 @@
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:27:58</sys_created_on>
-            <sys_id>5cb28d1987ed2e10c60eeca73cbb358e</sys_id>
+            <sys_created_on>2024-09-20 12:43:45</sys_created_on>
+            <sys_id>b485a8491b38da5074a6fe25cc4bcbe7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:27:58</sys_updated_on>
+            <sys_updated_on>2024-09-20 12:43:45</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -69,11 +69,11 @@
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:27:58</sys_created_on>
-            <sys_id>50b28d1987ed2e10c60eeca73cbb358f</sys_id>
+            <sys_created_on>2024-09-20 12:43:45</sys_created_on>
+            <sys_id>b885a8491b38da5074a6fe25cc4bcbe7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:27:58</sys_updated_on>
+            <sys_updated_on>2024-09-20 12:43:45</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -84,11 +84,11 @@
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:27:58</sys_created_on>
-            <sys_id>54b28d1987ed2e10c60eeca73cbb358f</sys_id>
+            <sys_created_on>2024-09-20 12:43:45</sys_created_on>
+            <sys_id>bc85a8491b38da5074a6fe25cc4bcbe7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:27:58</sys_updated_on>
+            <sys_updated_on>2024-09-20 12:43:45</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -99,26 +99,11 @@
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:27:58</sys_created_on>
-            <sys_id>58b28d1987ed2e10c60eeca73cbb358f</sys_id>
+            <sys_created_on>2024-09-20 12:43:45</sys_created_on>
+            <sys_id>b085a8491b38da5074a6fe25cc4bcbe8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:27:58</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>processing_state</element>
-            <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">50b2c9d587ed2e10c60eeca73cbb35fd</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>7</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:27:58</sys_created_on>
-            <sys_id>5cb28d1987ed2e10c60eeca73cbb358f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:27:58</sys_updated_on>
+            <sys_updated_on>2024-09-20 12:43:45</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -126,14 +111,14 @@
             <list_id display_value="x_snc_domain_man_0_domain_indicators" element="NULL" name="x_snc_domain_man_0_domain_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">50b2c9d587ed2e10c60eeca73cbb35fd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>8</position>
+            <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:27:58</sys_created_on>
-            <sys_id>50b28d1987ed2e10c60eeca73cbb3590</sys_id>
+            <sys_created_on>2024-09-20 12:43:45</sys_created_on>
+            <sys_id>b485a8491b38da5074a6fe25cc4bcbe8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:27:58</sys_updated_on>
+            <sys_updated_on>2024-09-20 12:43:45</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -147,7 +132,7 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:27:58</sys_created_on>
+            <sys_created_on>2024-09-20 12:43:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>50b2c9d587ed2e10c60eeca73cbb35fd</sys_id>
@@ -158,8 +143,9 @@
             <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_domain_man_0_domain_indicators_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:27:58</sys_updated_on>
+            <sys_updated_on>2024-09-20 12:43:44</sys_updated_on>
             <sys_user/>
+            <u_number/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

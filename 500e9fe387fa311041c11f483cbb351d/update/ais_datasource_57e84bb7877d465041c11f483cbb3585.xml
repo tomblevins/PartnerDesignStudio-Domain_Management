@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
     <ais_datasource action="INSERT_OR_UPDATE">
         <active>true</active>
+        <conflict>false</conflict>
+        <embedding_model>E5FT</embedding_model>
         <filter/>
         <force_late_binding>false</force_late_binding>
         <name>Table Domain Accounting Table</name>
@@ -19,5 +21,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-03 10:32:37</sys_updated_on>
         <type>internal</type>
+        <u_number/>
     </ais_datasource>
 </record_update>

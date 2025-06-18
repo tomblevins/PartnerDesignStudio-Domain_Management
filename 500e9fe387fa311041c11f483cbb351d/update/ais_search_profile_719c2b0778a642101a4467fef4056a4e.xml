@@ -6,9 +6,9 @@
         <genius_result_assembly/>
         <label>domain-management Search Profile</label>
         <name>x_snc_domain_man_0_dpkfpro_search_profile</name>
-        <publish_id>91a1d362-c06b-4fd9-96ec-c2ccea3a8e9f</publish_id>
+        <publish_id>95c6fff4-a9cf-40c0-8091-604f7d12c337</publish_id>
         <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
-        <state>DRAFT</state>
+        <state>PUBLISHED</state>
         <sys_class_name>ais_search_profile</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-07 12:00:06</sys_created_on>
@@ -21,5 +21,6 @@
         <sys_update_name>ais_search_profile_719c2b0778a642101a4467fef4056a4e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-22 08:00:05</sys_updated_on>
+        <u_number/>
     </ais_search_profile>
 </record_update>

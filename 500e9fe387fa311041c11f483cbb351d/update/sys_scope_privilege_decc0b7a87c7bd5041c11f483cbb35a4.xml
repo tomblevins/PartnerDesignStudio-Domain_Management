@@ -18,5 +18,6 @@
         <target_name>ssa_deflection_configuration</target_name>
         <target_scope display_value="Self-Service Analytics Core">d9e3e1d773e7001036fe41244ef6a75c</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

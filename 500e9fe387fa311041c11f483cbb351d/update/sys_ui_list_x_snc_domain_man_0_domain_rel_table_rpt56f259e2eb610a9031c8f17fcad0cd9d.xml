@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_domain_man_0_domain_rel_table" version="2" view="RPT56f259e2eb610a9031c8f17fcad0cd9d">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_snc_domain_man_0_domain_rel_table" element="NULL" name="x_snc_domain_man_0_domain_rel_table" parent="NULL" relationship="NULL" sys_domain="global" view="926318e28748ee10cd96c38e0ebb35ad">3bdd61e2eb250a9031c8f17fcad0cd0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>clone.user</sys_created_by>
+            <sys_created_on>2024-04-16 20:26:43</sys_created_on>
+            <sys_id>7bdd61e2eb250a9031c8f17fcad0cd10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clone.user</sys_updated_by>
+            <sys_updated_on>2024-04-16 20:26:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_snc_domain_man_0_domain_rel_table" element="NULL" name="x_snc_domain_man_0_domain_rel_table" parent="NULL" relationship="NULL" sys_domain="global" view="926318e28748ee10cd96c38e0ebb35ad">3bdd61e2eb250a9031c8f17fcad0cd0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>clone.user</sys_created_by>
+            <sys_created_on>2024-04-16 20:26:43</sys_created_on>
+            <sys_id>ffdd61e2eb250a9031c8f17fcad0cd10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clone.user</sys_updated_by>
+            <sys_updated_on>2024-04-16 20:26:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_domain_man_0_domain_rel_table</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>clone.user</sys_created_by>
+            <sys_created_on>2024-04-16 20:26:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bdd61e2eb250a9031c8f17fcad0cd0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_domain_man_0_domain_rel_table</sys_name>
+            <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_domain_man_0_domain_rel_table_RPT56f259e2eb610a9031c8f17fcad0cd9d</sys_update_name>
+            <sys_updated_by>clone.user</sys_updated_by>
+            <sys_updated_on>2024-04-16 20:26:43</sys_updated_on>
+            <sys_user/>
+            <u_number/>
+            <view display_value="Rpt56f259e2eb610a9031c8f17fcad0cd9d" name="RPT56f259e2eb610a9031c8f17fcad0cd9d">926318e28748ee10cd96c38e0ebb35ad</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

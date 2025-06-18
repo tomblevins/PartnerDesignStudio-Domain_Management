@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
     <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
         <profile display_value="domain-data-management Search Profile">22794bf37fbd4650a5a8b717a09da897</profile>
         <search_source display_value="Domain Indicators">0be80bb7877d465041c11f483cbb35a7</search_source>
         <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
@@ -14,5 +17,6 @@
         <sys_update_name>ais_search_profile_ais_search_source_m2m_c089833787bd465041c11f483cbb35f4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-03 10:35:08</sys_updated_on>
+        <u_number/>
     </ais_search_profile_ais_search_source_m2m>
 </record_update>

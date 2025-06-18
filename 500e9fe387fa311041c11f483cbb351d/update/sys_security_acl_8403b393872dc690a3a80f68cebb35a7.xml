@@ -2,8 +2,10 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>true</advanced>
+        <advanced>false</advanced>
+        <applies_to/>
         <condition/>
+        <decision_type>allow</decision_type>
         <description>Default access control on x_snc_domain_man_0_domain_indicators</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_snc_domain_man_0_domain_indicators</name>
@@ -23,5 +25,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-04-19 14:03:48</sys_updated_on>
         <type display_value="record">record</type>
+        <u_number/>
     </sys_security_acl>
 </record_update>

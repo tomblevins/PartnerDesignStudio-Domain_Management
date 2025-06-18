@@ -18,5 +18,6 @@
         <target_name>automation_error_instance_code_stats</target_name>
         <target_scope display_value="Service Error Mgmt">8f2ae86d9f323200a0d5b10f842e709b</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

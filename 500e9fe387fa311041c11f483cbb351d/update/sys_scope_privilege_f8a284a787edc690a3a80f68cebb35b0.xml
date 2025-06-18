@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2024-04-19 15:12:07</sys_updated_on>
         <target_name>sn_align_core_feedback</target_name>
-        <target_scope display_value="Portfolio Planning integrations for Shared Infrastructure">5c43591e87c43010fb4b3a0548cb0ba5</target_scope>
+        <target_scope display_value="">5c43591e87c43010fb4b3a0548cb0ba5</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

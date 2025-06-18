@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 14:43:11</sys_updated_on>
         <target_name>sn_grc_taxonomy_external_taxonomy</target_name>
-        <target_scope display_value="GRC: taxonomy management">95f69f2f1b6c78107eb2415bbc4bcb27</target_scope>
+        <target_scope display_value="">95f69f2f1b6c78107eb2415bbc4bcb27</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

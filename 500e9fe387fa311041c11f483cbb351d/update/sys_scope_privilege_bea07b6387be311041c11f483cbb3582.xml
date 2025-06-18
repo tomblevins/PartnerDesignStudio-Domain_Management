@@ -18,5 +18,6 @@
         <target_name>sn_doc_template_block</target_name>
         <target_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

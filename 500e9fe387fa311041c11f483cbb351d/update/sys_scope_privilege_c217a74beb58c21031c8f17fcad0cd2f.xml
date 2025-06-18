@@ -18,5 +18,6 @@
         <target_name>directory_job_log</target_name>
         <target_scope display_value="Remote Directory Sync">92b71bd7d5b20010fa9ba060b13e8884</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

@@ -18,5 +18,6 @@
         <target_name>sn_app_cs_social_social_log</target_name>
         <target_scope display_value="app-cs-social">a832f952d73022004f1e82285e610335</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

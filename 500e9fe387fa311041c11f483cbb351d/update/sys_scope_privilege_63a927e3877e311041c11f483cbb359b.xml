@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-05 15:08:54</sys_updated_on>
         <target_name>sn_notify_msteams_user</target_name>
-        <target_scope display_value="Notify Connector for Microsoft Teams">9a72df920ff21010ab3779aca8767e91</target_scope>
+        <target_scope display_value="">9a72df920ff21010ab3779aca8767e91</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

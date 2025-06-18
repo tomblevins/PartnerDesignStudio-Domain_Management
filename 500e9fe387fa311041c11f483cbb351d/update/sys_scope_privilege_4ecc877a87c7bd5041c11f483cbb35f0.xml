@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 15:22:53</sys_updated_on>
         <target_name>sn_align_ws_roadmap_configuration</target_name>
-        <target_scope display_value="Portfolio Planning">9aa0eddcc70c2010d302670f6ec260c4</target_scope>
+        <target_scope display_value="">9aa0eddcc70c2010d302670f6ec260c4</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

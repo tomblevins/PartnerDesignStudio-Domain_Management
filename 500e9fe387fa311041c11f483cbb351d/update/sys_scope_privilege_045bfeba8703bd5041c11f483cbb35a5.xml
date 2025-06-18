@@ -18,5 +18,6 @@
         <target_name>ticket_configuration</target_name>
         <target_scope display_value="Service Portal - Standard Ticket">c9f1df5787f50010e0ef0cf888cb0b2c</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

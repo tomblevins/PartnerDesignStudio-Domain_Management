@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 14:43:06</sys_updated_on>
         <target_name>sn_apm_tpm_app_service_hardware_model</target_name>
-        <target_scope display_value="Application Portfolio Management">65c1ca2cdbb2120091285411cf961963</target_scope>
+        <target_scope display_value="">65c1ca2cdbb2120091285411cf961963</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">9d27ac0987020210a3a80f68cebb35d3</super_class>
+        <super_class display_value="Task" name="task">4a9f97a4db020010edbfe88913961973</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-07 11:47:29</sys_created_on>
@@ -30,6 +30,7 @@
         <sys_update_name>sys_db_object_ce69eb838722069041c11f483cbb3582</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-07 11:58:19</sys_updated_on>
+        <u_number/>
         <update_access>true</update_access>
         <user_role display_value="x_snc_domain_man_0.domain_management_task_user" name="x_snc_domain_man_0.domain_management_task_user">70b963478722069041c11f483cbb35f7</user_role>
         <ws_access>true</ws_access>

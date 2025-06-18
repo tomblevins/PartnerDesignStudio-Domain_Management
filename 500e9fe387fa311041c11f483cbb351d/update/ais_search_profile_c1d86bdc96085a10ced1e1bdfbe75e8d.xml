@@ -6,9 +6,9 @@
         <genius_result_assembly/>
         <label>test-management Search Profile</label>
         <name>x_snc_domain_man_0_hesgqsbm_search_profile</name>
-        <publish_id>4e5ef8aa-0896-4d08-9887-59f909e66589</publish_id>
+        <publish_id>ec3a9eb1-635c-4c9a-b431-72c74b85ac19</publish_id>
         <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
-        <state>DRAFT</state>
+        <state>PUBLISHED</state>
         <sys_class_name>ais_search_profile</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-12 12:14:34</sys_created_on>
@@ -19,7 +19,8 @@
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>ais_search_profile_c1d86bdc96085a10ced1e1bdfbe75e8d</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-02-02 05:00:01</sys_updated_on>
+        <sys_updated_by>E110072</sys_updated_by>
+        <sys_updated_on>2025-02-11 04:55:23</sys_updated_on>
+        <u_number/>
     </ais_search_profile>
 </record_update>

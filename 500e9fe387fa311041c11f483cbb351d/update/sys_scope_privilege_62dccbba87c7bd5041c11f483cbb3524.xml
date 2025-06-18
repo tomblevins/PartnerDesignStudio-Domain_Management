@@ -18,5 +18,6 @@
         <target_name>chg_success_score_rating</target_name>
         <target_scope display_value="Change Management - Change Success Score">0f3b87c173330010491d235f04f6a7ab</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

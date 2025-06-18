@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="records_per_batch" label="Records Per Batch" language="en" table="var__m_sys_hub_flow_input_20cadb6e87e92210c60eeca73cbb3518">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>records_per_batch</element>
+            <help/>
+            <hint/>
+            <label>Records Per Batch</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_20cadb6e87e92210c60eeca73cbb3518</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 14:40:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Records Per Batch</sys_name>
+            <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_20cadb6e87e92210c60eeca73cbb3518_records_per_batch_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 14:40:33</sys_updated_on>
+            <u_number/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

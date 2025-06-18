@@ -16,7 +16,8 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-15 12:32:30</sys_updated_on>
         <target_name>sn_ins_claim_coverage</target_name>
-        <target_scope display_value="Insurance Claims Core">6f661ec96b230110068b7b412e44af9f</target_scope>
+        <target_scope display_value="">6f661ec96b230110068b7b412e44af9f</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

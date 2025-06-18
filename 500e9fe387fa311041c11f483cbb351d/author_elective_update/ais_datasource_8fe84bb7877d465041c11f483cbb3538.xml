@@ -68,7 +68,7 @@
         <update_guid_history>f3af3c9ffc8f4a10739ef2217fe9a9fe:0,c96e7c1bac8f4a10957b3363c718f7cf:-2063300843,596a06d11047421034f934688109a7dd:49746951</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Domain to Table Relationships Table">f3b000151b065610c0c654ee034bcb12</sys_audit_delete>
+        <sys_audit_delete display_value="">f3b000151b065610c0c654ee034bcb12</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-22 08:00:06</sys_created_on>
@@ -86,5 +86,6 @@
         <sys_update_version display_value="ais_datasource_8fe84bb7877d465041c11f483cbb3538">3baf3c9f1b8f4a10c0c654ee034bcbfe</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-22 08:00:06</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

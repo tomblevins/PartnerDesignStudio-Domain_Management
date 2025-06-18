@@ -14,5 +14,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-03 10:32:35</sys_updated_on>
         <sys_user_role display_value="x_snc_domain_man_0.domain_indicators_user" name="x_snc_domain_man_0.domain_indicators_user">cc033b9b87e9c690a3a80f68cebb3531</sys_user_role>
+        <u_number/>
     </sys_security_acl_role>
 </record_update>

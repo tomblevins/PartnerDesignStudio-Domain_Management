@@ -8,12 +8,12 @@
         <derived>true</derived>
         <field/>
         <label>domain-management Search Profile Default Spell Check Dictionary</label>
-        <last_derived>2024-11-21 11:26:56</last_derived>
+        <last_derived>2025-06-17 14:27:00</last_derived>
         <locale>en</locale>
         <name>x_snc_domain_man_0_domain_management_search_profile_default_spell_check_dictionary</name>
-        <publish_id>d8cd86ba-d06a-485d-a5c7-8b00071b8d0a</publish_id>
+        <publish_id>5daa7ad3-1995-4ec7-8a51-3862a1bf46fe</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
-        <state>DRAFT</state>
+        <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-07 07:00:02</sys_created_on>
@@ -27,5 +27,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-22 08:00:02</sys_updated_on>
         <type>SPELLCHECK</type>
+        <u_number/>
     </ais_dictionary>
 </record_update>

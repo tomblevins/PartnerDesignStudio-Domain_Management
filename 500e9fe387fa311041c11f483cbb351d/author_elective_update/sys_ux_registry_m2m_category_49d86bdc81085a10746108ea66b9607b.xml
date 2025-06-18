@@ -30,13 +30,13 @@
         <source>216be7021b33021074a6fe25cc4bcb67</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>E091838</sys_created_by>
         <sys_created_on>2024-08-05 12:39:28</sys_created_on>
         <sys_id>89863c301b40da10c0c654ee034bcb8f</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>191228d40000000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>E091838</sys_updated_by>
+        <sys_updated_on>2025-06-16 13:41:00</sys_updated_on>
         <type>UX Application Category M2M</type>
         <update_guid>49863c30f440da10d7bda4505687a78f</update_guid>
         <update_guid_history>49863c30f440da10d7bda4505687a78f:979334547</update_guid_history>
@@ -60,5 +60,6 @@
         <sys_update_version display_value="sys_ux_registry_m2m_category_49d86bdc81085a10746108ea66b9607b">89863c301b40da10c0c654ee034bcb8f</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-13 12:32:28</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

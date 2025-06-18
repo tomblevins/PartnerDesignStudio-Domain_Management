@@ -36,16 +36,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>17e79fc11b5a9650c0c654ee034bcba2</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>UIACTION - Archive and Delete Domains</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_flow_17e79fc11b5a9650c0c654ee034bcba2</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-22 17:33:00</sys_updated_on>
+        <sys_updated_by>E091838</sys_updated_by>
+        <sys_updated_on>2025-06-16 13:38:45</sys_updated_on>
         <type>subflow</type>
+        <u_number/>
         <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=17e79fc11b5a9650c0c654ee034bcba2"/>
@@ -138,6 +139,7 @@
         <sys_updated_on>2024-12-04 15:36:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -245,6 +247,7 @@
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=17e79fc11b5a9650c0c654ee034bcba2"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=17e79fc11b5a9650c0c654ee034bcba2"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=17e79fc11b5a9650c0c654ee034bcba2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_17e79fc11b5a9650c0c654ee034bcba2^sys_idNOT IN263c1b491b5a9650c0c654ee034bcb4a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>sysid</element>
         <help/>
@@ -258,17 +261,19 @@
         <sys_created_on>2024-12-04 15:36:14</sys_created_on>
         <sys_id>263c1b491b5a9650c0c654ee034bcb4a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>sysid</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_17e79fc11b5a9650c0c654ee034bcba2_sysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-12-04 15:36:14</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_17e79fc11b5a9650c0c654ee034bcba2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_17e79fc11b5a9650c0c654ee034bcba2"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_17e79fc11b5a9650c0c654ee034bcba2"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -311,6 +316,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-22 17:33:00</sys_updated_on>
         <type>subflow</type>
+        <u_number/>
         <version>2</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=364cdb491b5a9650c0c654ee034bcb94"/>
@@ -403,6 +409,7 @@
         <sys_updated_on>2024-12-04 15:36:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -510,6 +517,7 @@
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=364cdb491b5a9650c0c654ee034bcb94"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=364cdb491b5a9650c0c654ee034bcb94"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=364cdb491b5a9650c0c654ee034bcb94"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_364cdb491b5a9650c0c654ee034bcb94^sys_idNOT IN4b4cdb491b5a9650c0c654ee034bcba5"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>sysid</element>
         <help/>
@@ -523,17 +531,19 @@
         <sys_created_on>2024-12-04 15:36:31</sys_created_on>
         <sys_id>4b4cdb491b5a9650c0c654ee034bcba5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>sysid</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_364cdb491b5a9650c0c654ee034bcb94_sysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-12-04 15:36:31</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_364cdb491b5a9650c0c654ee034bcb94"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_364cdb491b5a9650c0c654ee034bcb94"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_364cdb491b5a9650c0c654ee034bcb94"/>
     <sys_hub_flow action="UPDATE">
         <sys_id>17e79fc11b5a9650c0c654ee034bcba2</sys_id>

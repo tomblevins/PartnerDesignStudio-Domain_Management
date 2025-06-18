@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="Domain Management">0de88b77947d465012b476bdc63d92fb</dashboard>
-        <experience display_value="Domain Management">01e8cb77617d465073f1eac064b4501c</experience>
+        <experience/>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-03 10:32:29</sys_created_on>
@@ -17,5 +17,6 @@
         <sys_update_name>par_dashboard_visibility_c5e88b774d7d4650b6beab379519f3fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-03 10:32:29</sys_updated_on>
+        <u_number/>
     </par_dashboard_visibility>
 </record_update>

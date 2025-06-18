@@ -68,6 +68,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-24 13:05:42</sys_updated_on>
         <table>x_snc_domain_man_0_domain_accounting</table>
+        <u_number/>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

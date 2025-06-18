@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 15:22:53</sys_updated_on>
         <target_name>cmdb_ci_gcp_deployment_manager_stack</target_name>
-        <target_scope display_value="Cloud Provisioning and Governance: Google Cloud Connector">ace9012f5b072300f977273a41f91a8e</target_scope>
+        <target_scope display_value="">ace9012f5b072300f977273a41f91a8e</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

@@ -29,5 +29,6 @@ function evaluateProperty({api, helpers}) {
         <sys_updated_on>2024-06-07 12:00:07</sys_updated_on>
         <target>macroponent</target>
         <type>transform</type>
+        <u_number/>
     </sys_ux_client_script>
 </record_update>

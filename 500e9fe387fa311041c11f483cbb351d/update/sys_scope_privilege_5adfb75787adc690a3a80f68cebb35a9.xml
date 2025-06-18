@@ -18,5 +18,6 @@
         <target_name>nlu_analysis_execution</target_name>
         <target_scope display_value="NLU Workbench - Advanced Features">31f5f491c3a710100bf407720f40ddf4</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

@@ -18,5 +18,6 @@
         <target_name>app_cmn_field_set</target_name>
         <target_scope display_value="Application Common Configuration">f1ad77c7671210109743b1bb27415acd</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

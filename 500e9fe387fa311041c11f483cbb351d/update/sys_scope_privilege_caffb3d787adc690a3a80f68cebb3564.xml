@@ -18,5 +18,6 @@
         <target_name>sn_discovery_orchestrator_pattern_output0001</target_name>
         <target_scope display_value="Global">global</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

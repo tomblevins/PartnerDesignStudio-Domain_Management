@@ -36,13 +36,13 @@
         <source>40fb340187020210a3a80f68cebb3507</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>E091838</sys_created_by>
         <sys_created_on>2024-05-06 21:29:03</sys_created_on>
         <sys_id>a6f23f8f87a64210a3a80f68cebb35ba</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>18f4fcf65180000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>E091838</sys_updated_by>
+        <sys_updated_on>2025-06-16 13:41:03</sys_updated_on>
         <type>Table Subscription Configuration</type>
         <update_guid>66f23f8fd4a64210a8349fa82d61fbba</update_guid>
         <update_guid_history>66f23f8fd4a64210a8349fa82d61fbba:-1536086444</update_guid_history>
@@ -66,5 +66,6 @@
         <sys_update_version display_value="ua_table_licensing_config_7e6eafc787a64210a3a80f68cebb355f">a6f23f8f87a64210a3a80f68cebb35ba</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-07 12:28:00</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>
