@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1cb2f313872dc690a3a80f68cebb3502" label="Domain Indicators" max_length="40" name="x_snc_domain_man_0_domain_indicators" text_index="true" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Batch" max_length="40" name="batch" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="batch0" label="Batch" max_length="40" name="batch" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Batch0" sequence="0" value="batch0"/>
                 <element inactive_on_update="false" label="Batch1" sequence="1" value="batch1"/>
