@@ -18,5 +18,6 @@
         <target_name>cmdb_ci_exchange_mailbox_server</target_name>
         <target_scope display_value="Global">global</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="table_sysid" label="Table SysID" language="en" table="var__m_sys_hub_flow_input_02376e031b5b4a50c0c654ee034bcbd6">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>table_sysid</element>
+            <help/>
+            <hint/>
+            <label>Table SysID</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_02376e031b5b4a50c0c654ee034bcbd6</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-22 18:30:14</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Table SysID</sys_name>
+            <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_02376e031b5b4a50c0c654ee034bcbd6_table_sysid_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-22 18:30:14</sys_updated_on>
+            <u_number/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

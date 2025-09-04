@@ -18,6 +18,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-07 12:00:07</sys_updated_on>
         <theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme>
+        <u_number/>
         <ux_app_configuration display_value="Domain Management App Config">b99c2b07cea642108362b31d1b3d8a4e</ux_app_configuration>
     </m2m_app_config_theme>
 </record_update>

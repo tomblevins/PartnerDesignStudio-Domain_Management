@@ -64,7 +64,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Insight - Non-cloud Servers-Query Results</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
-        <sys_parent display_value="Query Builder Results">be5dd6174743011071459f78536d4358</sys_parent>
+        <sys_parent display_value="">be5dd6174743011071459f78536d4358</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_scope_delete display_value="">75d987b2b4634c4d9b2b4760c2f00641</sys_scope_delete>
@@ -72,5 +72,6 @@
         <sys_update_version display_value="sys_wizard_answer_bf72652e878bf110a3a80f68cebb354d">bb72652e878bf110a3a80f68cebb3550</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-12-15 11:53:42</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

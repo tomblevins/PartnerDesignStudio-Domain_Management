@@ -18,5 +18,6 @@
         <target_name>sn_ex_sp_m2m_action_group</target_name>
         <target_scope display_value="Employee Center">4249e63a28d54d61bb6fbf61fd86cccb</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

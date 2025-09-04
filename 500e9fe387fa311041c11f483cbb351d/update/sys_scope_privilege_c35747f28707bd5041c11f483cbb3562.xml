@@ -18,5 +18,6 @@
         <target_name>sys_cs_collab_user_query</target_name>
         <target_scope display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

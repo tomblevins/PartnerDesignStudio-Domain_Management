@@ -29,6 +29,7 @@
         <sys_updated_on>2024-12-04 17:48:30</sys_updated_on>
         <target_field>batch</target_field>
         <target_table>x_snc_domain_man_0_default_exempt_tables</target_table>
+        <u_number/>
         <use_source_script>false</use_source_script>
     </sys_transform_entry>
 </record_update>

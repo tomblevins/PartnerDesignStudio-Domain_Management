@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="domain" table="x_snc_domain_man_0_domain_indicators">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -61,6 +61,7 @@
         <sys_updated_on>2024-04-19 14:06:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>

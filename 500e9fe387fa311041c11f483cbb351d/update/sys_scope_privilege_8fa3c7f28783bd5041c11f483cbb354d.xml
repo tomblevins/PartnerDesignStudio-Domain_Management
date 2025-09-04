@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 14:43:05</sys_updated_on>
         <target_name>sn_team_perf_kpi_group</target_name>
-        <target_scope display_value="Team Performance">49a7d972b3170010ed7fc9c316a8dc30</target_scope>
+        <target_scope display_value="">49a7d972b3170010ed7fc9c316a8dc30</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

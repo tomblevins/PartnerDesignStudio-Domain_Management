@@ -22,6 +22,7 @@
         <sys_updated_by>clone.user</sys_updated_by>
         <sys_updated_on>2024-04-16 19:36:36</sys_updated_on>
         <title>Domain Management Catalog</title>
+        <u_number/>
     </sc_catalog>
     <sys_translated_text action="delete_multiple" query="documentkey=bfa5dd6aeb610a9031c8f17fcad0cd90"/>
 </record_update>

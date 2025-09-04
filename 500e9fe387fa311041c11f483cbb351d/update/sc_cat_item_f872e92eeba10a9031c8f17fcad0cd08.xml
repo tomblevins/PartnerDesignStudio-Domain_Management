@@ -12,7 +12,7 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
-        <display_price_property>non_zero</display_price_property>
+        <display_price_property>never</display_price_property>
         <entitlement_script/>
         <flow_designer_flow display_value="CATALOG - Remove Domains By Record Count">5503296eeba10a9031c8f17fcad0cd19</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
@@ -22,6 +22,7 @@
         <ignore_price>true</ignore_price>
         <image/>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -76,7 +77,9 @@
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
+        <turn_off_nowassist_conversation>false</turn_off_nowassist_conversation>
         <type>item</type>
+        <u_number/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <version>1</version>

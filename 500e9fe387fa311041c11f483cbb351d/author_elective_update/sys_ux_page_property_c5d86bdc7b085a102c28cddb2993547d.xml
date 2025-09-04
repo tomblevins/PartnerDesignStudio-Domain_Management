@@ -203,13 +203,13 @@
         <source>216be7021b33021074a6fe25cc4bcb67</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>E091838</sys_created_by>
         <sys_created_on>2024-08-05 12:39:28</sys_created_on>
         <sys_id>9d867c301b40da10c0c654ee034bcb0d</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>191228d40000000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>E091838</sys_updated_by>
+        <sys_updated_on>2025-06-16 13:40:59</sys_updated_on>
         <type>UX Page Property</type>
         <update_guid>5d867c304e40da10dd0d8a1b5a6ea20d</update_guid>
         <update_guid_history>5d867c304e40da10dd0d8a1b5a6ea20d:770982507</update_guid_history>
@@ -233,5 +233,6 @@
         <sys_update_version display_value="sys_ux_page_property_c5d86bdc7b085a102c28cddb2993547d">9d867c301b40da10c0c654ee034bcb0d</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-13 12:32:29</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

@@ -20,6 +20,6 @@
         <sys_update_name>sys_ux_event_e19c2b07fea642108c60f527471b7240</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-07 12:00:07</sys_updated_on>
+        <u_number/>
     </sys_ux_event>
-    <sys_translated_text action="delete_multiple" query="documentkey=e19c2b07fea642108c60f527471b7240"/>
 </record_update>

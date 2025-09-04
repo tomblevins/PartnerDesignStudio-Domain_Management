@@ -22,6 +22,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-07 12:00:06</sys_updated_on>
         <type>string</type>
+        <u_number/>
         <unique_name>x_snc_domain_man_0.f99c2b07d6a6421062a013d0e098a44d.root.actionConfigId</unique_name>
         <value>df28e3db0f1210107d20409dc4767ee0</value>
     </sys_ux_page_property>

@@ -18,5 +18,6 @@
         <target_name>sn_capi_api_trail</target_name>
         <target_scope display_value="Cloud API">0f7325250b21220033bc05ae37673a53</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

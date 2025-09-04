@@ -18,5 +18,6 @@
         <target_name>sn_cmdb_int_util_service_graph_connection_property</target_name>
         <target_scope display_value="Integration Commons for CMDB">f1a5a5b60f94001067ae409dc4767e08</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

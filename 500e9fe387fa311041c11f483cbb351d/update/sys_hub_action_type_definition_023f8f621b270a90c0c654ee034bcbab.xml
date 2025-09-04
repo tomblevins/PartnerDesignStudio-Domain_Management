@@ -18,6 +18,7 @@
         <internal_name>maint__delete_records</internal_name>
         <label_cache>[{"name":"{{action.table_name}}","label":"action➛Table Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>26df0b261b270a90c0c654ee034bcb3b</master_snapshot>
+        <master_snapshot_digest/>
         <name>MAINT - Delete Records</name>
         <natlang/>
         <outputs/>
@@ -29,17 +30,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>023f8f621b270a90c0c654ee034bcbab</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>MAINT - Delete Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_023f8f621b270a90c0c654ee034bcbab</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 13:40:23</sys_updated_on>
+        <sys_updated_by>E091838</sys_updated_by>
+        <sys_updated_on>2025-06-16 13:38:32</sys_updated_on>
         <system_level>false</system_level>
         <type/>
+        <u_number/>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=023f8f621b270a90c0c654ee034bcbab"/>
     <sys_variable_value action="delete_multiple" query="document_key=023f8f621b270a90c0c654ee034bcbab"/>
@@ -158,30 +160,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0cdfc7261b270a90c0c654ee034bcb15"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>0cdfc7261b270a90c0c654ee034bcb15</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-25 13:40:13</sys_created_on>
-        <sys_id>5cdfc7261b270a90c0c654ee034bcb23</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 13:40:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>0cdfc7261b270a90c0c654ee034bcb15</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-25 13:40:13</sys_created_on>
-        <sys_id>14dfc7261b270a90c0c654ee034bcb24</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 13:40:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tbl</field>
         <id>0cdfc7261b270a90c0c654ee034bcb15</id>
         <sys_created_by>admin</sys_created_by>
@@ -194,7 +172,6 @@
         <value>{{action.table_name}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=0cdfc7261b270a90c0c654ee034bcb15"/>
-    <sys_translated_text action="delete_multiple" query="documentkey=0cdfc7261b270a90c0c654ee034bcb15"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=0cdfc7261b270a90c0c654ee034bcb15^sys_idNOT IN90dfc7261b270a90c0c654ee034bcb1d"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -269,6 +246,7 @@
         <sys_updated_on>2024-07-25 13:40:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -356,6 +334,7 @@
         <sys_updated_on>2024-07-25 13:40:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -443,6 +422,7 @@
         <sys_updated_on>2024-07-25 13:40:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -530,6 +510,7 @@
         <sys_updated_on>2024-07-25 13:40:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -568,13 +549,14 @@
         <sys_created_on>2024-07-25 13:40:13</sys_created_on>
         <sys_id>48dfc7261b270a90c0c654ee034bcb13</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_023f8f621b270a90c0c654ee034bcbab_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 13:40:13</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -593,13 +575,14 @@
         <sys_created_on>2024-07-25 13:40:13</sys_created_on>
         <sys_id>90dfc7261b270a90c0c654ee034bcb2c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_023f8f621b270a90c0c654ee034bcbab___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 13:40:13</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -616,13 +599,14 @@
         <sys_created_on>2024-07-25 13:40:13</sys_created_on>
         <sys_id>d8dfc7261b270a90c0c654ee034bcb32</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_023f8f621b270a90c0c654ee034bcbab___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 13:40:13</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -681,6 +665,7 @@
         <sys_updated_on>2024-07-25 13:40:22</sys_updated_on>
         <system_level>false</system_level>
         <type/>
+        <u_number/>
     </sys_hub_action_type_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=26df0b261b270a90c0c654ee034bcb3b"/>
     <sys_variable_value action="delete_multiple" query="document_key=26df0b261b270a90c0c654ee034bcb3b"/>
@@ -799,30 +784,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=eedf0b261b270a90c0c654ee034bcb91"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>eedf0b261b270a90c0c654ee034bcb91</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-25 13:40:23</sys_created_on>
-        <sys_id>26df0b261b270a90c0c654ee034bcb9c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 13:40:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>eedf0b261b270a90c0c654ee034bcb91</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-25 13:40:23</sys_created_on>
-        <sys_id>e6df0b261b270a90c0c654ee034bcb9c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 13:40:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tbl</field>
         <id>eedf0b261b270a90c0c654ee034bcb91</id>
         <sys_created_by>admin</sys_created_by>
@@ -835,7 +796,6 @@
         <value>{{action.table_name}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=eedf0b261b270a90c0c654ee034bcb91"/>
-    <sys_translated_text action="delete_multiple" query="documentkey=eedf0b261b270a90c0c654ee034bcb91"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=eedf0b261b270a90c0c654ee034bcb91^sys_idNOT INe2df0b261b270a90c0c654ee034bcb95"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -910,6 +870,7 @@
         <sys_updated_on>2024-07-25 13:40:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -997,6 +958,7 @@
         <sys_updated_on>2024-07-25 13:40:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1084,6 +1046,7 @@
         <sys_updated_on>2024-07-25 13:40:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1171,6 +1134,7 @@
         <sys_updated_on>2024-07-25 13:40:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -1209,13 +1173,14 @@
         <sys_created_on>2024-07-25 13:40:23</sys_created_on>
         <sys_id>eadf0b261b270a90c0c654ee034bcb8f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_26df0b261b270a90c0c654ee034bcb3b_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 13:40:23</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1234,13 +1199,14 @@
         <sys_created_on>2024-07-25 13:40:23</sys_created_on>
         <sys_id>2adf0b261b270a90c0c654ee034bcba3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_26df0b261b270a90c0c654ee034bcb3b___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 13:40:23</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1257,13 +1223,14 @@
         <sys_created_on>2024-07-25 13:40:23</sys_created_on>
         <sys_id>eadf0b261b270a90c0c654ee034bcba9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_26df0b261b270a90c0c654ee034bcb3b___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 13:40:23</sys_updated_on>
+        <u_number/>
         <url/>
         <url_target/>
     </sys_documentation>

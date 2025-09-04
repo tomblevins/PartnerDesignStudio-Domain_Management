@@ -60,7 +60,7 @@
         <update_guid_history>57204193becf4a108d052754a4d865d0:0,4629a8db190f4a100fe7b20ad57775ed:755395439,6bca4695424742106f0ee900ffb29bdb:1519104713</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_domain_man_0_domain_rel_table.x_snc_domain_man_0.admin">ccee9d451b4a1610c0c654ee034bcbab</sys_audit_delete>
+        <sys_audit_delete display_value="">ccee9d451b4a1610c0c654ee034bcbab</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-21 20:12:51</sys_created_on>
@@ -78,5 +78,6 @@
         <sys_update_version display_value="sys_security_acl_role_9136afe3873e311041c11f483cbb35b9">9b2041931bcf4a10c0c654ee034bcbd0</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 20:12:51</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

@@ -168,34 +168,6 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>processing_state</element>
-            <position>12</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:20:58</sys_created_on>
-            <sys_id>4611859587ed2e10c60eeca73cbb352d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="Default view">e2684c2787210a90a3a80f68cebb35f7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:20:58</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>processing_notes</element>
-            <position>13</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-15 12:20:59</sys_created_on>
-            <sys_id>c61181d587ed2e10c60eeca73cbb358f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_domain_man_0_domain_indicators" sys_domain="global" view="Default view">e2684c2787210a90a3a80f68cebb35f7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-15 12:20:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
@@ -218,6 +190,7 @@
             <sys_updated_on>2024-04-19 15:37:21</sys_updated_on>
             <sys_user/>
             <title>true</title>
+            <u_number/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>

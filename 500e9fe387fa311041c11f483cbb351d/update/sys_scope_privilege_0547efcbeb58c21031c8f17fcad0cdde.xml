@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2024-02-16 15:15:34</sys_updated_on>
         <target_name>x_snd_eb_dataset_request</target_name>
-        <target_scope display_value="Unifi">74f0b4550f8ca20094f3c09ce1050e6a</target_scope>
+        <target_scope display_value="ShareLogic Unifi">74f0b4550f8ca20094f3c09ce1050e6a</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

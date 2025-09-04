@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 14:40:19</sys_updated_on>
         <target_name>sn_int_common_webhook_registry</target_name>
-        <target_scope display_value="Work Item Integrations Common">75f8d53373fe330001073cf2c4f6a7b6</target_scope>
+        <target_scope display_value="">75f8d53373fe330001073cf2c4f6a7b6</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

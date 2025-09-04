@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Domains to be Audited">bf8bc63e87c86650cd96c38e0ebb3537</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>E021480</sys_created_by>
+        <sys_created_on>2025-03-06 20:03:02</sys_created_on>
+        <sys_id>f78bc2be87c86650cd96c38e0ebb35a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bf8bc63e87c86650cd96c38e0ebb3537</sys_name>
+        <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+        <sys_update_name>sys_report_users_groups_f78bc2be87c86650cd96c38e0ebb35a4</sys_update_name>
+        <sys_updated_by>E021480</sys_updated_by>
+        <sys_updated_on>2025-03-06 20:03:02</sys_updated_on>
+        <u_number/>
+        <user_id display_value="Andrew Ferraro">3212624ddb009010b6b5c8981396191f</user_id>
+    </sys_report_users_groups>
+</record_update>

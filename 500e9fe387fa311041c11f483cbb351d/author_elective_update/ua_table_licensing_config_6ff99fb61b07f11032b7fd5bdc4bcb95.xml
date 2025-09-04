@@ -36,13 +36,13 @@
         <source>613fa2401b213110e0cd724edc4bcbf7</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>E091838</sys_created_by>
         <sys_created_on>2023-09-23 10:36:13</sys_created_on>
         <sys_id>708a1bba1b07f11032b7fd5bdc4bcb2d</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>18ac19c7d480000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>E091838</sys_updated_by>
+        <sys_updated_on>2025-06-16 13:41:03</sys_updated_on>
         <type>Table Subscription Configuration</type>
         <update_guid>308a1bba6607f110cbf89aa7e30ef72d</update_guid>
         <update_guid_history>308a1bba6607f110cbf89aa7e30ef72d:615334</update_guid_history>
@@ -66,5 +66,6 @@
         <sys_update_version display_value="ua_table_licensing_config_6ff99fb61b07f11032b7fd5bdc4bcb95">708a1bba1b07f11032b7fd5bdc4bcb2d</sys_update_version>
         <sys_updated_by>tom.blevins</sys_updated_by>
         <sys_updated_on>2023-12-15 16:30:51</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

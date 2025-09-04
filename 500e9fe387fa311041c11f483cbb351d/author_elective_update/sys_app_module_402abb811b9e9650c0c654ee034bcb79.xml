@@ -66,7 +66,7 @@
         <update_guid_history>442abb81259e96504c7276c0cf2be387:-40295999</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Domain Man 0 1733334408651">818ab3c11b9e9650c0c654ee034bcbce</sys_audit_delete>
+        <sys_audit_delete display_value="">818ab3c11b9e9650c0c654ee034bcbce</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-04 17:48:33</sys_created_on>
@@ -84,5 +84,6 @@
         <sys_update_version display_value="sys_app_module_402abb811b9e9650c0c654ee034bcb79">402abb811b9e9650c0c654ee034bcb88</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-12-04 17:48:33</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

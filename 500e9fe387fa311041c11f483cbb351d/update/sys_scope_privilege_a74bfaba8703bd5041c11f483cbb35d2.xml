@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 14:06:31</sys_updated_on>
         <target_name>sn_plng_att_core_resource_assignment</target_name>
-        <target_scope display_value="SPM Planning Attributes Core">b3a48e8058031110fa9b000bb9ea5f5f</target_scope>
+        <target_scope display_value="">b3a48e8058031110fa9b000bb9ea5f5f</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

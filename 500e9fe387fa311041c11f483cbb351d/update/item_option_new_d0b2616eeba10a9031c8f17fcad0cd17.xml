@@ -7,6 +7,7 @@
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
+        <conversational_label/>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -42,6 +43,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>record_count</name>
+        <not_available_conversation>false</not_available_conversation>
         <order/>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -87,7 +89,9 @@
         <sys_updated_on>2024-04-16 19:38:29</sys_updated_on>
         <table/>
         <tooltip/>
+        <topic_block/>
         <type>4</type>
+        <u_number/>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

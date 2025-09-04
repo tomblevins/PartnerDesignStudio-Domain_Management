@@ -18,5 +18,6 @@
         <target_name>sn_ent_model_classification_source</target_name>
         <target_scope display_value="Expanded Model and Asset Classes">7e67d4ff091b4110f87739da6a8d8c7d</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

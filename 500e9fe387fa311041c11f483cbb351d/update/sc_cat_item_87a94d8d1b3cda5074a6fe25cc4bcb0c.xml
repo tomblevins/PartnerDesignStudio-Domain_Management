@@ -12,7 +12,7 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
-        <display_price_property>non_zero</display_price_property>
+        <display_price_property>never</display_price_property>
         <entitlement_script/>
         <flow_designer_flow display_value="CATALOG - Domain Record Audit">d224f27287cf7d5041c11f483cbb3587</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
@@ -45,7 +45,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="Administrator Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=87a94d8d1b3cda5074a6fe25cc4bcb0c&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
@@ -77,7 +77,9 @@
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
+        <turn_off_nowassist_conversation>false</turn_off_nowassist_conversation>
         <type>item</type>
+        <u_number/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <version>4</version>

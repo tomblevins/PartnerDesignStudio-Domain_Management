@@ -1,130 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1cb2f313872dc690a3a80f68cebb3502" label="Domain Indicators" max_length="40" name="x_snc_domain_man_0_domain_indicators" text_index="true" type="collection">
-        <element label="Tables" max_length="4000" name="tables" type="glide_list"/>
-        <element label="Delete Flag" max_length="40" name="delete_flag" type="boolean"/>
-        <element label="Domain Active" max_length="40" name="domain_active" type="boolean"/>
-        <element label="Domain" max_length="32" name="domain" reference="domain" type="reference"/>
-        <element choice="1" default="0" label="Processing State" max_length="40" name="processing_state" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="batch0" label="Batch" max_length="40" name="batch" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Removing" sequence="4" value="3"/>
-                <element inactive_on_update="false" label="Archiving" sequence="3" value="2"/>
-                <element inactive_on_update="false" label="Restoring" sequence="7" value="12"/>
-                <element inactive_on_update="false" label="Marked for removal" sequence="2" value="1"/>
-                <element inactive_on_update="false" label="Marked to restore" sequence="6" value="11"/>
-                <element inactive_on_update="false" label="Removed" sequence="5" value="9"/>
-                <element inactive_on_update="false" label="Restored" sequence="8" value="19"/>
-                <element inactive_on_update="false" label="Live" sequence="1" value="0"/>
-            </choice>
-        </element>
-        <element display="true" label="Domain String" max_length="500" name="domain_string" type="string"/>
-        <element choice="1" default="0" label="Batch" max_length="40" name="batch" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Batch24" sequence="24" value="batch24"/>
-                <element inactive_on_update="false" label="Batch45" sequence="45" value="batch45"/>
-                <element inactive_on_update="false" label="Batch36" sequence="36" value="batch36"/>
-                <element inactive_on_update="false" label="Batch13" sequence="13" value="batch13"/>
+                <element inactive_on_update="false" label="Batch0" sequence="0" value="batch0"/>
+                <element inactive_on_update="false" label="Batch1" sequence="1" value="batch1"/>
+                <element inactive_on_update="false" label="Batch2" sequence="2" value="batch2"/>
+                <element inactive_on_update="false" label="Batch3" sequence="3" value="batch3"/>
+                <element inactive_on_update="false" label="Batch4" sequence="4" value="batch4"/>
+                <element inactive_on_update="false" label="Batch5" sequence="5" value="batch5"/>
+                <element inactive_on_update="false" label="Batch6" sequence="6" value="batch6"/>
+                <element inactive_on_update="false" label="Batch7" sequence="7" value="batch7"/>
+                <element inactive_on_update="false" label="Batch8" sequence="8" value="batch8"/>
                 <element inactive_on_update="false" label="Batch9" sequence="9" value="batch9"/>
-                <element inactive_on_update="false" label="Batch67" sequence="67" value="batch67"/>
-                <element inactive_on_update="false" label="Batch71" sequence="71" value="batch71"/>
-                <element inactive_on_update="false" label="Batch38" sequence="38" value="batch38"/>
-                <element inactive_on_update="false" label="Batch33" sequence="33" value="batch33"/>
+                <element inactive_on_update="false" label="Batch10" sequence="10" value="batch10"/>
                 <element inactive_on_update="false" label="Batch11" sequence="11" value="batch11"/>
-                <element inactive_on_update="false" label="Batch60" sequence="60" value="batch60"/>
-                <element inactive_on_update="false" label="Batch62" sequence="62" value="batch62"/>
+                <element inactive_on_update="false" label="Batch12" sequence="12" value="batch12"/>
+                <element inactive_on_update="false" label="Batch13" sequence="13" value="batch13"/>
+                <element inactive_on_update="false" label="Batch14" sequence="14" value="batch14"/>
+                <element inactive_on_update="false" label="Batch15" sequence="15" value="batch15"/>
+                <element inactive_on_update="false" label="Batch16" sequence="16" value="batch16"/>
+                <element inactive_on_update="false" label="Batch17" sequence="17" value="batch17"/>
+                <element inactive_on_update="false" label="Batch18" sequence="18" value="batch18"/>
+                <element inactive_on_update="false" label="Batch19" sequence="19" value="batch19"/>
+                <element inactive_on_update="false" label="Batch20" sequence="20" value="batch20"/>
+                <element inactive_on_update="false" label="Batch21" sequence="21" value="batch21"/>
+                <element inactive_on_update="false" label="Batch22" sequence="22" value="batch22"/>
+                <element inactive_on_update="false" label="Batch23" sequence="23" value="batch23"/>
+                <element inactive_on_update="false" label="Batch24" sequence="24" value="batch24"/>
+                <element inactive_on_update="false" label="Batch25" sequence="25" value="batch25"/>
+                <element inactive_on_update="false" label="Batch26" sequence="26" value="batch26"/>
+                <element inactive_on_update="false" label="Batch27" sequence="27" value="batch27"/>
+                <element inactive_on_update="false" label="Batch28" sequence="28" value="batch28"/>
+                <element inactive_on_update="false" label="Batch29" sequence="29" value="batch29"/>
+                <element inactive_on_update="false" label="Batch30" sequence="30" value="batch30"/>
+                <element inactive_on_update="false" label="Batch31" sequence="31" value="batch31"/>
+                <element inactive_on_update="false" label="Batch32" sequence="32" value="batch32"/>
+                <element inactive_on_update="false" label="Batch33" sequence="33" value="batch33"/>
+                <element inactive_on_update="false" label="Batch34" sequence="34" value="batch34"/>
+                <element inactive_on_update="false" label="Batch35" sequence="35" value="batch35"/>
+                <element inactive_on_update="false" label="Batch36" sequence="36" value="batch36"/>
+                <element inactive_on_update="false" label="Batch37" sequence="37" value="batch37"/>
+                <element inactive_on_update="false" label="Batch38" sequence="38" value="batch38"/>
+                <element inactive_on_update="false" label="Batch39" sequence="39" value="batch39"/>
+                <element inactive_on_update="false" label="Batch40" sequence="40" value="batch40"/>
                 <element inactive_on_update="false" label="Batch41" sequence="41" value="batch41"/>
                 <element inactive_on_update="false" label="Batch42" sequence="42" value="batch42"/>
-                <element inactive_on_update="false" label="Batch17" sequence="17" value="batch17"/>
-                <element inactive_on_update="false" label="Batch90" sequence="90" value="batch90"/>
-                <element inactive_on_update="false" label="Batch40" sequence="40" value="batch40"/>
-                <element inactive_on_update="false" label="Batch61" sequence="61" value="batch61"/>
-                <element inactive_on_update="false" label="Batch69" sequence="69" value="batch69"/>
-                <element inactive_on_update="false" label="Batch7" sequence="7" value="batch7"/>
-                <element inactive_on_update="false" label="Batch94" sequence="94" value="batch94"/>
-                <element inactive_on_update="false" label="Batch22" sequence="22" value="batch22"/>
-                <element inactive_on_update="false" label="Batch18" sequence="18" value="batch18"/>
-                <element inactive_on_update="false" label="Batch6" sequence="6" value="batch6"/>
-                <element inactive_on_update="false" label="Batch55" sequence="55" value="batch55"/>
-                <element inactive_on_update="false" label="Batch58" sequence="58" value="batch58"/>
-                <element inactive_on_update="false" label="Batch29" sequence="29" value="batch29"/>
-                <element inactive_on_update="false" label="Batch89" sequence="89" value="batch89"/>
-                <element inactive_on_update="false" label="Batch16" sequence="16" value="batch16"/>
-                <element inactive_on_update="false" label="Batch10" sequence="10" value="batch10"/>
-                <element inactive_on_update="false" label="Batch56" sequence="56" value="batch56"/>
-                <element inactive_on_update="false" label="Batch19" sequence="19" value="batch19"/>
-                <element inactive_on_update="false" label="Batch80" sequence="80" value="batch80"/>
-                <element inactive_on_update="false" label="Batch35" sequence="35" value="batch35"/>
-                <element inactive_on_update="false" label="Batch3" sequence="3" value="batch3"/>
-                <element inactive_on_update="false" label="Batch49" sequence="49" value="batch49"/>
-                <element inactive_on_update="false" label="Batch84" sequence="84" value="batch84"/>
-                <element inactive_on_update="false" label="Batch54" sequence="54" value="batch54"/>
-                <element inactive_on_update="false" label="Batch95" sequence="95" value="batch95"/>
-                <element inactive_on_update="false" label="Batch12" sequence="12" value="batch12"/>
-                <element inactive_on_update="false" label="Batch82" sequence="82" value="batch82"/>
-                <element inactive_on_update="false" label="Batch34" sequence="34" value="batch34"/>
-                <element inactive_on_update="false" label="Batch77" sequence="77" value="batch77"/>
-                <element inactive_on_update="false" label="Batch64" sequence="64" value="batch64"/>
-                <element inactive_on_update="false" label="Batch63" sequence="63" value="batch63"/>
-                <element inactive_on_update="false" label="Batch25" sequence="25" value="batch25"/>
-                <element inactive_on_update="false" label="Batch87" sequence="87" value="batch87"/>
-                <element inactive_on_update="false" label="Batch92" sequence="92" value="batch92"/>
-                <element inactive_on_update="false" label="Batch96" sequence="96" value="batch96"/>
-                <element inactive_on_update="false" label="Batch99" sequence="99" value="batch99"/>
-                <element inactive_on_update="false" label="Batch47" sequence="47" value="batch47"/>
-                <element inactive_on_update="false" label="Batch14" sequence="14" value="batch14"/>
-                <element inactive_on_update="false" label="Batch81" sequence="81" value="batch81"/>
-                <element inactive_on_update="false" label="Batch4" sequence="4" value="batch4"/>
-                <element inactive_on_update="false" label="Batch79" sequence="79" value="batch79"/>
-                <element inactive_on_update="false" label="Batch27" sequence="27" value="batch27"/>
                 <element inactive_on_update="false" label="Batch43" sequence="43" value="batch43"/>
-                <element inactive_on_update="false" label="Batch66" sequence="66" value="batch66"/>
-                <element inactive_on_update="false" label="Batch31" sequence="31" value="batch31"/>
-                <element inactive_on_update="false" label="Batch28" sequence="28" value="batch28"/>
-                <element inactive_on_update="false" label="Batch59" sequence="59" value="batch59"/>
-                <element inactive_on_update="false" label="Batch100" sequence="100" value="batch100"/>
-                <element inactive_on_update="false" label="Batch53" sequence="53" value="batch53"/>
-                <element inactive_on_update="false" label="Batch20" sequence="20" value="batch20"/>
-                <element inactive_on_update="false" label="Batch93" sequence="93" value="batch93"/>
-                <element inactive_on_update="false" label="Batch97" sequence="97" value="batch97"/>
-                <element inactive_on_update="false" label="Batch74" sequence="74" value="batch74"/>
-                <element inactive_on_update="false" label="Batch0" sequence="0" value="batch0"/>
-                <element inactive_on_update="false" label="Batch85" sequence="85" value="batch85"/>
-                <element inactive_on_update="false" label="Batch48" sequence="48" value="batch48"/>
-                <element inactive_on_update="false" label="Batch51" sequence="51" value="batch51"/>
-                <element inactive_on_update="false" label="Batch83" sequence="83" value="batch83"/>
-                <element inactive_on_update="false" label="Batch91" sequence="91" value="batch91"/>
-                <element inactive_on_update="false" label="Batch52" sequence="52" value="batch52"/>
-                <element inactive_on_update="false" label="Batch21" sequence="21" value="batch21"/>
-                <element inactive_on_update="false" label="Batch98" sequence="98" value="batch98"/>
-                <element inactive_on_update="false" label="Batch65" sequence="65" value="batch65"/>
-                <element inactive_on_update="false" label="Batch8" sequence="8" value="batch8"/>
-                <element inactive_on_update="false" label="Batch70" sequence="70" value="batch70"/>
-                <element inactive_on_update="false" label="Batch50" sequence="50" value="batch50"/>
-                <element inactive_on_update="false" label="Exempt" sequence="199" value="exempt"/>
-                <element inactive_on_update="false" label="Batch26" sequence="26" value="batch26"/>
-                <element inactive_on_update="false" label="Batch5" sequence="5" value="batch5"/>
-                <element inactive_on_update="false" label="Batch32" sequence="32" value="batch32"/>
-                <element inactive_on_update="false" label="Batch75" sequence="75" value="batch75"/>
-                <element inactive_on_update="false" label="Batch86" sequence="86" value="batch86"/>
-                <element inactive_on_update="false" label="Batch37" sequence="37" value="batch37"/>
-                <element inactive_on_update="false" label="Batch72" sequence="72" value="batch72"/>
-                <element inactive_on_update="false" label="Batch78" sequence="78" value="batch78"/>
-                <element inactive_on_update="false" label="Batch39" sequence="39" value="batch39"/>
-                <element inactive_on_update="false" label="Batch23" sequence="23" value="batch23"/>
-                <element inactive_on_update="false" label="Batch57" sequence="57" value="batch57"/>
-                <element inactive_on_update="false" label="Batch30" sequence="30" value="batch30"/>
-                <element inactive_on_update="false" label="Batch73" sequence="73" value="batch73"/>
-                <element inactive_on_update="false" label="Batch68" sequence="68" value="batch68"/>
-                <element inactive_on_update="false" label="Batch2" sequence="2" value="batch2"/>
-                <element inactive_on_update="false" label="Batch46" sequence="46" value="batch46"/>
                 <element inactive_on_update="false" label="Batch44" sequence="44" value="batch44"/>
-                <element inactive_on_update="false" label="Batch15" sequence="15" value="batch15"/>
-                <element inactive_on_update="false" label="Batch88" sequence="88" value="batch88"/>
-                <element inactive_on_update="false" label="Batch1" sequence="1" value="batch1"/>
+                <element inactive_on_update="false" label="Batch45" sequence="45" value="batch45"/>
+                <element inactive_on_update="false" label="Batch46" sequence="46" value="batch46"/>
+                <element inactive_on_update="false" label="Batch47" sequence="47" value="batch47"/>
+                <element inactive_on_update="false" label="Batch48" sequence="48" value="batch48"/>
+                <element inactive_on_update="false" label="Batch49" sequence="49" value="batch49"/>
+                <element inactive_on_update="false" label="Batch50" sequence="50" value="batch50"/>
+                <element inactive_on_update="false" label="Batch51" sequence="51" value="batch51"/>
+                <element inactive_on_update="false" label="Batch52" sequence="52" value="batch52"/>
+                <element inactive_on_update="false" label="Batch53" sequence="53" value="batch53"/>
+                <element inactive_on_update="false" label="Batch54" sequence="54" value="batch54"/>
+                <element inactive_on_update="false" label="Batch55" sequence="55" value="batch55"/>
+                <element inactive_on_update="false" label="Batch56" sequence="56" value="batch56"/>
+                <element inactive_on_update="false" label="Batch57" sequence="57" value="batch57"/>
+                <element inactive_on_update="false" label="Batch58" sequence="58" value="batch58"/>
+                <element inactive_on_update="false" label="Batch59" sequence="59" value="batch59"/>
+                <element inactive_on_update="false" label="Batch60" sequence="60" value="batch60"/>
+                <element inactive_on_update="false" label="Batch61" sequence="61" value="batch61"/>
+                <element inactive_on_update="false" label="Batch62" sequence="62" value="batch62"/>
+                <element inactive_on_update="false" label="Batch63" sequence="63" value="batch63"/>
+                <element inactive_on_update="false" label="Batch64" sequence="64" value="batch64"/>
+                <element inactive_on_update="false" label="Batch65" sequence="65" value="batch65"/>
+                <element inactive_on_update="false" label="Batch66" sequence="66" value="batch66"/>
+                <element inactive_on_update="false" label="Batch67" sequence="67" value="batch67"/>
+                <element inactive_on_update="false" label="Batch68" sequence="68" value="batch68"/>
+                <element inactive_on_update="false" label="Batch69" sequence="69" value="batch69"/>
+                <element inactive_on_update="false" label="Batch70" sequence="70" value="batch70"/>
+                <element inactive_on_update="false" label="Batch71" sequence="71" value="batch71"/>
+                <element inactive_on_update="false" label="Batch72" sequence="72" value="batch72"/>
+                <element inactive_on_update="false" label="Batch73" sequence="73" value="batch73"/>
+                <element inactive_on_update="false" label="Batch74" sequence="74" value="batch74"/>
+                <element inactive_on_update="false" label="Batch75" sequence="75" value="batch75"/>
                 <element inactive_on_update="false" label="Batch76" sequence="76" value="batch76"/>
+                <element inactive_on_update="false" label="Batch77" sequence="77" value="batch77"/>
+                <element inactive_on_update="false" label="Batch78" sequence="78" value="batch78"/>
+                <element inactive_on_update="false" label="Batch79" sequence="79" value="batch79"/>
+                <element inactive_on_update="false" label="Batch80" sequence="80" value="batch80"/>
+                <element inactive_on_update="false" label="Batch81" sequence="81" value="batch81"/>
+                <element inactive_on_update="false" label="Batch82" sequence="82" value="batch82"/>
+                <element inactive_on_update="false" label="Batch83" sequence="83" value="batch83"/>
+                <element inactive_on_update="false" label="Batch84" sequence="84" value="batch84"/>
+                <element inactive_on_update="false" label="Batch85" sequence="85" value="batch85"/>
+                <element inactive_on_update="false" label="Batch86" sequence="86" value="batch86"/>
+                <element inactive_on_update="false" label="Batch87" sequence="87" value="batch87"/>
+                <element inactive_on_update="false" label="Batch88" sequence="88" value="batch88"/>
+                <element inactive_on_update="false" label="Batch89" sequence="89" value="batch89"/>
+                <element inactive_on_update="false" label="Batch90" sequence="90" value="batch90"/>
+                <element inactive_on_update="false" label="Batch91" sequence="91" value="batch91"/>
+                <element inactive_on_update="false" label="Batch92" sequence="92" value="batch92"/>
+                <element inactive_on_update="false" label="Batch93" sequence="93" value="batch93"/>
+                <element inactive_on_update="false" label="Batch94" sequence="94" value="batch94"/>
+                <element inactive_on_update="false" label="Batch95" sequence="95" value="batch95"/>
+                <element inactive_on_update="false" label="Batch96" sequence="96" value="batch96"/>
+                <element inactive_on_update="false" label="Batch97" sequence="97" value="batch97"/>
+                <element inactive_on_update="false" label="Batch98" sequence="98" value="batch98"/>
+                <element inactive_on_update="false" label="Batch99" sequence="99" value="batch99"/>
+                <element inactive_on_update="false" label="Batch100" sequence="100" value="batch100"/>
+                <element inactive_on_update="false" label="Exempt" sequence="199" value="exempt"/>
             </choice>
         </element>
-        <element label="Record Count" max_length="100" name="record_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Delete Flag" max_length="40" name="delete_flag" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Domain" max_length="32" name="domain" reference="domain" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Domain Active" max_length="40" name="domain_active" type="boolean"/>
+        <element display="true" label="Domain String" max_length="500" name="domain_string" type="string"/>
         <element label="Processing Notes" max_length="4000" name="processing_notes" type="string"/>
+        <element choice="1" default="0" label="Processing State" max_length="40" name="processing_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Live" sequence="1" value="0"/>
+                <element inactive_on_update="false" label="Marked for removal" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Archiving" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="Removing" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="Removed" sequence="5" value="9"/>
+                <element inactive_on_update="false" label="Marked to restore" sequence="6" value="11"/>
+                <element inactive_on_update="false" label="Restoring" sequence="7" value="12"/>
+                <element inactive_on_update="false" label="Restored" sequence="8" value="19"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Record Count" max_length="100" name="record_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Tables" max_length="4000" name="tables" type="glide_list"/>
         <index name="index">
             <element name="domain"/>
         </index>

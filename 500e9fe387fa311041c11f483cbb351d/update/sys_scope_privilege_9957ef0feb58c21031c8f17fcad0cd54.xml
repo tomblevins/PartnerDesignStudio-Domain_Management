@@ -18,5 +18,6 @@
         <target_name>sn_test_management_test_assignment</target_name>
         <target_scope display_value="Test Management">78fa9e075bb1030036c32c1cf0f91a70</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

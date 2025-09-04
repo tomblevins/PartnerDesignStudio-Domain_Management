@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="request_item" label="Request Item" language="en" table="var__m_sys_hub_flow_input_2d776926ebe10a9031c8f17fcad0cd5d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>request_item</element>
+            <help/>
+            <hint/>
+            <label>Request Item</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_2d776926ebe10a9031c8f17fcad0cd5d</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>clone.user</sys_created_by>
+            <sys_created_on>2024-04-16 19:58:43</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Item</sys_name>
+            <sys_package display_value="Domain Management" source="x_snc_domain_man_0">500e9fe387fa311041c11f483cbb351d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2d776926ebe10a9031c8f17fcad0cd5d_request_item_en</sys_update_name>
+            <sys_updated_by>clone.user</sys_updated_by>
+            <sys_updated_on>2024-04-16 19:58:43</sys_updated_on>
+            <u_number/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

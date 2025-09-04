@@ -18,5 +18,6 @@
         <target_name>cmdb_ci_ot_industrial_drive</target_name>
         <target_scope display_value="CMDB CI Class Models">ae99d84b2320330006c0110d96bf65b3</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

@@ -70,6 +70,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-12-05 15:30:12</sys_updated_on>
             <sys_user/>
+            <u_number/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

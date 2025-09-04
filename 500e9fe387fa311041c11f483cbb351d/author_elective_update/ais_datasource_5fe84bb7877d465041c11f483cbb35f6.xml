@@ -68,7 +68,7 @@
         <update_guid_history>e3c5a1d030ea4a5035d1fb227f3d0c0e:-1015164562</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Configuration Properties Table">fae7a6cf87624210a3a80f68cebb3536</sys_audit_delete>
+        <sys_audit_delete display_value="">fae7a6cf87624210a3a80f68cebb3536</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-07 07:00:05</sys_created_on>
@@ -86,5 +86,6 @@
         <sys_update_version display_value="ais_datasource_5fe84bb7877d465041c11f483cbb35f6">27c5a1d087ea4a5041c11f483cbb350e</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-07 07:00:05</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

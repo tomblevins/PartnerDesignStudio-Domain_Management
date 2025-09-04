@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
     <sys_ux_app_route action="INSERT_OR_UPDATE">
-        <app_config display_value="Domain Management App Config">c1e8cb77397d46500fe38bfd8a84161c</app_config>
+        <app_config/>
         <description/>
         <extension_point/>
         <fields>notificationTrayDisplayed,notificationQueue,notificationTrayIsLoading,notificationUIRoute,toastItem</fields>
@@ -24,6 +24,6 @@
         <sys_update_name>sys_ux_app_route_cde88b77397d46504197fedf274157f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-03 10:32:29</sys_updated_on>
+        <u_number/>
     </sys_ux_app_route>
-    <sys_translated_text action="delete_multiple" query="documentkey=cde88b77397d46504197fedf274157f8"/>
 </record_update>

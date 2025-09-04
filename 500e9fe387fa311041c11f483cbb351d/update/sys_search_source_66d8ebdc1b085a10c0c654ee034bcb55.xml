@@ -19,5 +19,7 @@
         <sys_update_name>sys_search_source_66d8ebdc1b085a10c0c654ee034bcb55</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-12 12:14:40</sys_updated_on>
+        <u_number/>
     </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=66d8ebdc1b085a10c0c654ee034bcb55"/>
 </record_update>

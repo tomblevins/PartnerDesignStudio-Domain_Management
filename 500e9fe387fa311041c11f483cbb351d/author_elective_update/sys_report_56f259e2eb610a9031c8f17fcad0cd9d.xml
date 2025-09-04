@@ -348,7 +348,7 @@
         <update_guid_history>e88a42158e474210ee638ecb749335c5:1922651068</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Domain Removal Candidates">78eedd451b4a1610c0c654ee034bcbc9</sys_audit_delete>
+        <sys_audit_delete display_value="">78eedd451b4a1610c0c654ee034bcbc9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-21 20:12:55</sys_created_on>
@@ -366,5 +366,6 @@
         <sys_update_version display_value="sys_report_56f259e2eb610a9031c8f17fcad0cd9d">2c8a42151b474210c0c654ee034bcbc5</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-21 20:12:55</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

@@ -9,7 +9,6 @@
         <create_access>false</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
-        <is_document_table>false</is_document_table>
         <is_extendable>false</is_extendable>
         <label>Domain Indicators</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -31,6 +30,7 @@
         <sys_update_name>sys_db_object_1cb2f313872dc690a3a80f68cebb3502</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-04-19 14:03:48</sys_updated_on>
+        <u_number/>
         <update_access>false</update_access>
         <user_role display_value="x_snc_domain_man_0.domain_indicators_user" name="x_snc_domain_man_0.domain_indicators_user">cc033b9b87e9c690a3a80f68cebb3531</user_role>
         <ws_access>true</ws_access>

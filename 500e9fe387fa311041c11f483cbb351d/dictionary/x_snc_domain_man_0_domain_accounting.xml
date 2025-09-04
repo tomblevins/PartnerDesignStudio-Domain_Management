@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8ebe576787fa311041c11f483cbb3598" label="Table Domain Accounting" max_length="40" name="x_snc_domain_man_0_domain_accounting" text_index="true" type="collection">
-        <element label="Table" max_length="32" name="table" reference="sys_db_object" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" display="true" label="Table Name" max_length="40" name="table_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="batch1" label="Batch" max_length="40" name="batch" type="string">
             <choice>
-                <element inactive_on_update="false" label="Exempt" sequence="4" value="exempt"/>
-                <element inactive_on_update="false" label="Batch3" sequence="2" value="batch3"/>
                 <element inactive_on_update="false" label="Batch1" sequence="0" value="batch1"/>
-                <element inactive_on_update="false" label="Batch4" sequence="3" value="batch4"/>
                 <element inactive_on_update="false" label="Batch2" sequence="1" value="batch2"/>
+                <element inactive_on_update="false" label="Batch3" sequence="2" value="batch3"/>
+                <element inactive_on_update="false" label="Batch4" sequence="3" value="batch4"/>
+                <element inactive_on_update="false" label="Exempt" sequence="4" value="exempt"/>
             </choice>
         </element>
-        <element label="Delete Flag" max_length="40" name="delete_flag" type="boolean"/>
+        <element label="Core Table" max_length="32" name="core_table" reference="sys_db_object" type="reference"/>
+        <element display="true" label="Core Table Name" max_length="100" name="core_table_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Delete Flag" max_length="40" name="delete_flag" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Table" max_length="32" name="table" reference="sys_db_object" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Table Name" max_length="40" name="table_name" type="string"/>
         <index name="index">
+            <element name="core_table"/>
+        </index>
+        <index name="index2">
             <element name="table"/>
         </index>
     </element>

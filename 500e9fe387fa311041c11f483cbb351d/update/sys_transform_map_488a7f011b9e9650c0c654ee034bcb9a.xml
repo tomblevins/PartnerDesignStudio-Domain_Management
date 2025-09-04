@@ -27,5 +27,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-12-04 17:48:29</sys_updated_on>
         <target_table>x_snc_domain_man_0_default_exempt_tables</target_table>
+        <u_number/>
     </sys_transform_map>
 </record_update>

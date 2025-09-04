@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="batch" table="x_snc_domain_man_0_domain_indicators">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -16,7 +16,7 @@
         <column_label>Batch</column_label>
         <comments/>
         <create_roles/>
-        <default_value>0</default_value>
+        <default_value>batch0</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -57,10 +57,11 @@
         <sys_policy/>
         <sys_scope display_value="Domain Management">500e9fe387fa311041c11f483cbb351d</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_domain_man_0_domain_indicators_batch</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-15 12:36:43</sys_updated_on>
+        <sys_updated_by>tom.blevins@servicenow.com</sys_updated_by>
+        <sys_updated_on>2025-06-26 13:06:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_number/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>

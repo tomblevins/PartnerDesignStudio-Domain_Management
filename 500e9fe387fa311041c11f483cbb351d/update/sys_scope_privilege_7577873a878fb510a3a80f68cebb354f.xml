@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 14:59:39</sys_updated_on>
         <target_name>sn_shift_planning_schedule_shift</target_name>
-        <target_scope display_value="Shift Planning">e2a8b62b0f633300717cc562ff767e16</target_scope>
+        <target_scope display_value="">e2a8b62b0f633300717cc562ff767e16</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

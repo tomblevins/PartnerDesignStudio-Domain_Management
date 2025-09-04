@@ -58,7 +58,7 @@
         <update_guid_history>7fc5a1d0b0ea4a504cabc8b31b9fc158:1883833874</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="domain-data-management Search Profile.Configuration Properties">22e7a6cf87624210a3a80f68cebb350b</sys_audit_delete>
+        <sys_audit_delete display_value="">22e7a6cf87624210a3a80f68cebb350b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-07 07:00:04</sys_created_on>
@@ -76,5 +76,6 @@
         <sys_update_version display_value="ais_search_profile_ais_search_source_m2m_c489c33787bd465041c11f483cbb35aa">bfc5a1d087ea4a5041c11f483cbb3558</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-07 07:00:04</sys_updated_on>
+        <u_number/>
     </sys_metadata_delete>
 </record_update>

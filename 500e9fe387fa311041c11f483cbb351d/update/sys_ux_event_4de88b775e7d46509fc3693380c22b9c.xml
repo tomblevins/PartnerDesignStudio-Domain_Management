@@ -102,6 +102,6 @@
         <sys_update_name>sys_ux_event_4de88b775e7d46509fc3693380c22b9c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-03 10:32:30</sys_updated_on>
+        <u_number/>
     </sys_ux_event>
-    <sys_translated_text action="delete_multiple" query="documentkey=4de88b775e7d46509fc3693380c22b9c"/>
 </record_update>

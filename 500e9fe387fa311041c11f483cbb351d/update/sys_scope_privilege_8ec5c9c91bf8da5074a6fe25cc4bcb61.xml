@@ -18,5 +18,6 @@
         <target_name>sn_cmn_mo_map_overlay_group</target_name>
         <target_scope display_value="Map Overlay">6f5734b3f8b59110f8777e37eaa9c5c7</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

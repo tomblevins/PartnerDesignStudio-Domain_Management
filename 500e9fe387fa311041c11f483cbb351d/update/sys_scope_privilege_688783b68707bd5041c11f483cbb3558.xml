@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 14:59:50</sys_updated_on>
         <target_name>ci_resource_endpoint</target_name>
-        <target_scope display_value="Agent Client Collector Monitoring">deb59787c317030039a3553a81d3aee7</target_scope>
+        <target_scope display_value="">deb59787c317030039a3553a81d3aee7</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

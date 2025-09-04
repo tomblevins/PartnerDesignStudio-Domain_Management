@@ -18,5 +18,6 @@
         <target_name>mtg_meeting</target_name>
         <target_scope display_value="Change Management - CAB Workbench">18351d53eb32120034d1eeea1206fe79</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

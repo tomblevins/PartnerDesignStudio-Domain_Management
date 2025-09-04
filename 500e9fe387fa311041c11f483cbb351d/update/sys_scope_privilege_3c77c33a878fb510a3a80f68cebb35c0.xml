@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 14:59:36</sys_updated_on>
         <target_name>sn_cmp_terraform_tf_provider</target_name>
-        <target_scope display_value="Cloud Provisioning and Governance: Terraform Connector">9b04ffc20b1323002530a387b6673a1d</target_scope>
+        <target_scope display_value="">9b04ffc20b1323002530a387b6673a1d</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

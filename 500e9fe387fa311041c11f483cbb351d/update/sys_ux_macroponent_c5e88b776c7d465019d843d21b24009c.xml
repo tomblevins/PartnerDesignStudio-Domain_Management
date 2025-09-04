@@ -187,10 +187,13 @@
     
 ]</data>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <dispatched_events>4de88b775e7d46509fc3693380c22b9c</dispatched_events>
+        <events/>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
+        <form_factors>{}</form_factors>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -253,6 +256,7 @@
         <root_component_config>{}</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
         <state_properties>[
     
 ]</state_properties>
@@ -268,5 +272,6 @@
         <sys_update_name>sys_ux_macroponent_c5e88b776c7d465019d843d21b24009c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-03 10:32:31</sys_updated_on>
+        <u_number/>
     </sys_ux_macroponent>
 </record_update>

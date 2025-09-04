@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 14:43:10</sys_updated_on>
         <target_name>sn_wfo_add_manager</target_name>
-        <target_scope display_value="Agent Group Management">d2760112d5d50010b696bfde9863db08</target_scope>
+        <target_scope display_value="">d2760112d5d50010b696bfde9863db08</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>

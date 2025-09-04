@@ -16,7 +16,8 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-12-15 14:40:16</sys_updated_on>
         <target_name>chg_ml_prop</target_name>
-        <target_scope display_value="Change Management - Predictive Intelligence Core">c50c03fe5363001034d1ddeeff7b124a</target_scope>
+        <target_scope display_value="">c50c03fe5363001034d1ddeeff7b124a</target_scope>
         <target_type>sys_db_object</target_type>
+        <u_number/>
     </sys_scope_privilege>
 </record_update>
